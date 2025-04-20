@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-labelledby="htitle hdesc" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace">
+  <title id="htitle">PatchSentinel diff review gates</title>
+  <desc id="hdesc">A unified diff enters from the left and passes four measured
+    gates in order: risk score, test-to-code ratio, repetition, and sensitive
+    paths. Its worst result becomes one verdict stamp: pass, warn, or fail.</desc>
+
+  <rect width="900" height="300" fill="#1a1720"/>
+  <rect x="0" y="0" width="6" height="300" fill="#2f9e6b"/>
+
+  <text x="30" y="40" fill="#eae3f0" font-size="20" font-weight="700" letter-spacing="1">PatchSentinel</text>
+  <text x="30" y="60" fill="#9a8fa8" font-size="12">a review desk between a diff and your main branch</text>
+
+  <!-- input diff -->
+  <g transform="translate(30 120)">
+    <rect width="110" height="70" rx="6" fill="#241f2c" stroke="#3a3344"/>
+    <text x="55" y="26" text-anchor="middle" fill="#eae3f0" font-size="12">unified</text>
+    <text x="55" y="44" text-anchor="middle" fill="#eae3f0" font-size="12">diff</text>
+    <text x="20" y="60" fill="#2f9e6b" font-size="13">+</text>
+    <text x="82" y="60" fill="#d1495b" font-size="13">-</text>
+  </g>
+
+  <!-- the four gates -->
+  <g font-size="12" text-anchor="middle">
+    <g transform="translate(190 120)">
+      <rect width="120" height="70" rx="6" fill="#241f2c" stroke="#3a3344"/>
+      <text x="60" y="26" fill="#d9a125" font-size="11">gate 1</text>
+      <text x="60" y="45" fill="#eae3f0">risk score</text>
+      <text x="60" y="61" fill="#9a8fa8" font-size="10">weighted hits</text>
+    </g>
+    <g transform="translate(350 120)">
+      <rect width="120" height="70" rx="6" fill="#241f2c" stroke="#3a3344"/>
+      <text x="60" y="26" fill="#d9a125" font-size="11">gate 2</text>
+      <text x="60" y="45" fill="#eae3f0">test ratio</text>
+      <text x="60" y="61" fill="#9a8fa8" font-size="10">tests vs code</text>
+    </g>
+    <g transform="translate(510 120)">
+      <rect width="120" height="70" rx="6" fill="#241f2c" stroke="#3a3344"/>
+      <text x="60" y="26" fill="#d9a125" font-size="11">gate 3</text>
+      <text x="60" y="45" fill="#eae3f0">repetition</text>
+      <text x="60" y="61" fill="#9a8fa8" font-size="10">duplicate lines</text>
+    </g>
+    <g transform="translate(670 120)">
+      <rect width="120" height="70" rx="6" fill="#241f2c" stroke="#3a3344"/>
+      <text x="60" y="26" fill="#d9a125" font-size="11">gate 4</text>
+      <text x="60" y="45" fill="#eae3f0">sensitive</text>
+      <text x="60" y="61" fill="#9a8fa8" font-size="10">path globs</text>
+    </g>
+  </g>
+
+  <!-- connectors with a single traveling token; motion shows the diff progressing through gates -->
+  <g stroke="#4a4256" stroke-width="2">
+    <line x1="140" y1="155" x2="190" y2="155"/>
+    <line x1="310" y1="155" x2="350" y2="155"/>
+    <line x1="470" y1="155" x2="510" y2="155"/>
+    <line x1="630" y1="155" x2="670" y2="155"/>
+    <line x1="790" y1="155" x2="828" y2="155"/>
+  </g>
+  <circle cx="0" cy="155" r="6" fill="#eae3f0">
+    <animateMotion path="M140 0 H190 M310 0 H350 M470 0 H510 M630 0 H670 M790 0 H828" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="cx" values="140;828" dur="5s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- verdict stamp: worst gate wins -->
+  <g transform="translate(830 120)">
+    <rect width="60" height="70" rx="6" fill="#241f2c" stroke="#3a3344"/>
+    <rect x="8" y="12" width="44" height="14" rx="3" fill="#2f9e6b"/>
+    <text x="30" y="23" text-anchor="middle" fill="#12130f" font-size="10" font-weight="700">PASS</text>
+    <rect x="8" y="30" width="44" height="14" rx="3" fill="#d9a125"/>
+    <text x="30" y="41" text-anchor="middle" fill="#231a08" font-size="10" font-weight="700">WARN</text>
+    <rect x="8" y="48" width="44" height="14" rx="3" fill="#d1495b"/>
+    <text x="30" y="59" text-anchor="middle" fill="#1f0c10" font-size="10" font-weight="700">FAIL</text>
+  </g>
+
+  <text x="30" y="240" fill="#9a8fa8" font-size="11">exit code mirrors the verdict: 0 pass, 1 warn, 2 fail</text>
+  <text x="30" y="262" fill="#6f6580" font-size="10">stdlib-only Go core, zero-dependency TypeScript renderer, no network, no LLM in the loop</text>
+</svg>

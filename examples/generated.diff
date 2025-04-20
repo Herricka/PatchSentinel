@@ -1,0 +1,38 @@
+diff --git a/internal/models/generated.go b/internal/models/generated.go
+new file mode 100644
+--- /dev/null
++++ b/internal/models/generated.go
+@@ -0,0 +1,44 @@
++package models
++
++func (m *Model) GetFieldA() string { return m.fieldA }
++func (m *Model) SetFieldA(v string) { m.fieldA = v }
++func (m *Model) GetFieldB() string { return m.fieldB }
++func (m *Model) SetFieldB(v string) { m.fieldB = v }
++func (m *Model) GetFieldC() string { return m.fieldC }
++func (m *Model) SetFieldC(v string) { m.fieldC = v }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }
++func (m *Model) validate() error { return nil }

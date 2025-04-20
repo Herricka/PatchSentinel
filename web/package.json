@@ -1,0 +1,25 @@
+{
+  "name": "patchsentinel-report",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dependency-free HTML report UI and GitHub-style check formatter for PatchSentinel.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "patchsentinel-report": "dist/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsc -p tsconfig.json && node --test \"dist/**/*.test.js\"",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.14.0"
+  }
+}

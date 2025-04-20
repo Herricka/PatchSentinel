@@ -1,0 +1,37 @@
+diff --git a/pkg/mathutil/mathutil.go b/pkg/mathutil/mathutil.go
+--- a/pkg/mathutil/mathutil.go
++++ b/pkg/mathutil/mathutil.go
+@@ -1,5 +1,17 @@
+ package mathutil
+ 
++// Clamp constrains v to the inclusive range [lo, hi].
++func Clamp(v, lo, hi int) int {
++	if v < lo {
++		return lo
++	}
++	if v > hi {
++		return hi
++	}
++	return v
++}
++
+ // Abs returns the absolute value of x.
+ func Abs(x int) int {
+ 	if x < 0 {
+diff --git a/pkg/mathutil/mathutil_test.go b/pkg/mathutil/mathutil_test.go
+new file mode 100644
+--- /dev/null
++++ b/pkg/mathutil/mathutil_test.go
+@@ -0,0 +1,12 @@
++package mathutil
++
++import "testing"
++
++func TestClamp(t *testing.T) {
++	if Clamp(5, 0, 3) != 3 {
++		t.Fatal("clamp high")
++	}
++	if Clamp(-1, 0, 3) != 0 {
++		t.Fatal("clamp low")
++	}
++}

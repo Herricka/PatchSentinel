@@ -1,0 +1,96 @@
+// Package glob implements a small, dependency-free path matcher supporting the
+// "**" (match across separators) wildcard in addition to the "*" and "?"
+// wildcards understood by path.Match.
+//
+// Matching is done by translating the glob into a regular expression once and
+// caching nothing (patterns are few and compilation is cheap), keeping the
+// implementation simple and deterministic. Paths are compared using forward
+// slashes; callers should normalize separators beforehand.
+package glob
+
+import (
+	"regexp"
+	"strings"
+	"sync"
+)
+
+var (
+	mu    sync.Mutex
+	cache = map[string]*regexp.Regexp{}
+)
+
+// Match reports whether name matches pattern. It always uses '/' as the path
+// separator. An invalid pattern never matches (returns false) rather than
+// panicking, keeping the caller robust against bad policy input.
+func Match(pattern, name string) bool {
+	name = strings.ReplaceAll(name, "\\", "/")
+	re := compile(pattern)
+	if re == nil {
+		return false
+	}
+	return re.MatchString(name)
+}
+
+// MatchAny reports whether name matches at least one pattern.
+func MatchAny(patterns []string, name string) bool {
+	for _, p := range patterns {
+		if Match(p, name) {
+			return true
+		}
+	}
+	return false
+}
+
+func compile(pattern string) *regexp.Regexp {
+	mu.Lock()
+	defer mu.Unlock()
+	if re, ok := cache[pattern]; ok {
+		return re
+	}
+	re := build(pattern)
+	cache[pattern] = re // may be nil; caches the failure too
+	return re
+}
+
+// build translates a glob pattern to an anchored regexp.
+func build(pattern string) *regexp.Regexp {
+	pattern = strings.ReplaceAll(pattern, "\\", "/")
+	var b strings.Builder
+	b.WriteString("^")
+	runes := []rune(pattern)
+	for i := 0; i < len(runes); i++ {
+		c := runes[i]
+		switch c {
+		case '*':
+			// Detect "**".
+			if i+1 < len(runes) && runes[i+1] == '*' {
+				// Consume the second '*'.
+				i++
+				// "**/" or "/**" should also match zero segments.
+				if i+1 < len(runes) && runes[i+1] == '/' {
+					i++
+					// Match any number of full path segments (including none).
+					b.WriteString("(?:.*/)?")
+				} else {
+					b.WriteString(".*")
+				}
+			} else {
+				// Single '*': match within a segment (no separator).
+				b.WriteString("[^/]*")
+			}
+		case '?':
+			b.WriteString("[^/]")
+		case '.', '+', '(', ')', '|', '^', '$', '{', '}', '[', ']':
+			b.WriteByte('\\')
+			b.WriteRune(c)
+		default:
+			b.WriteRune(c)
+		}
+	}
+	b.WriteString("$")
+	re, err := regexp.Compile(b.String())
+	if err != nil {
+		return nil
+	}
+	return re
+}

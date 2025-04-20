@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 380" width="900" height="380" role="img" aria-labelledby="ctitle cdesc" font-family="ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace">
+  <title id="ctitle">PatchSentinel risk score composition and verdict decision</title>
+  <desc id="cdesc">How the risky example reaches a fail verdict. Five weighted risk
+    signals stack to a score of 42, which is above the maximum of 25, and two
+    sensitive files are touched. The worst gate result decides the verdict.</desc>
+
+  <rect width="900" height="380" fill="#1a1720"/>
+  <rect x="0" y="0" width="6" height="380" fill="#d1495b"/>
+
+  <text x="30" y="40" fill="#eae3f0" font-size="18" font-weight="700">Anatomy of a score: examples/risky.diff</text>
+  <text x="30" y="60" fill="#9a8fa8" font-size="12">every unit is weight x match count; nothing hidden</text>
+
+  <!-- stacked bar of weighted signals summing to 42 -->
+  <g transform="translate(30 90)">
+    <text x="0" y="0" fill="#9a8fa8" font-size="11">risk score = 42</text>
+    <!-- scale: 1 point = 9 px, total 42 -> 378 px -->
+    <g>
+      <rect x="0" y="12" width="180" height="30" fill="#d1495b"/>
+      <text x="90" y="32" text-anchor="middle" fill="#1f0c10" font-size="11" font-weight="700">hardcoded-secret 10x2 = 20</text>
+      <rect x="180" y="12" width="72" height="30" fill="#c65a3a"/>
+      <text x="216" y="32" text-anchor="middle" fill="#1c0e08" font-size="11" font-weight="700">eval 8</text>
+      <rect x="252" y="12" width="63" height="30" fill="#c07a2c"/>
+      <text x="283" y="32" text-anchor="middle" fill="#1c1206" font-size="10" font-weight="700">sql 7</text>
+      <rect x="315" y="12" width="45" height="30" fill="#b89a2a"/>
+      <text x="337" y="32" text-anchor="middle" fill="#1c1706" font-size="10" font-weight="700">cors 5</text>
+      <rect x="360" y="12" width="18" height="30" fill="#8a8f3a"/>
+      <text x="369" y="58" text-anchor="middle" fill="#9a8fa8" font-size="9">todo 2</text>
+    </g>
+    <!-- threshold marker at 25 points -> 225 px -->
+    <line x1="225" y1="6" x2="225" y2="52" stroke="#eae3f0" stroke-width="2" stroke-dasharray="4 3"/>
+    <text x="225" y="70" text-anchor="middle" fill="#eae3f0" font-size="10">max 25</text>
+  </g>
+
+  <!-- five gate outcomes -->
+  <g transform="translate(30 190)" font-size="12">
+    <text x="0" y="0" fill="#9a8fa8" font-size="11">gate outcomes</text>
+    <g transform="translate(0 14)">
+      <rect width="20" height="20" rx="3" fill="#d1495b"/><text x="30" y="15" fill="#eae3f0">risk score 42 over max 25</text>
+    </g>
+    <g transform="translate(0 42)">
+      <rect width="20" height="20" rx="3" fill="#d1495b"/><text x="30" y="15" fill="#eae3f0">2 sensitive files changed</text>
+    </g>
+    <g transform="translate(0 70)">
+      <rect width="20" height="20" rx="3" fill="#d9a125"/><text x="30" y="15" fill="#eae3f0">test-to-code ratio 0.00</text>
+    </g>
+    <g transform="translate(0 98)">
+      <rect width="20" height="20" rx="3" fill="#2f9e6b"/><text x="30" y="15" fill="#eae3f0">repetition 0.00 within limit</text>
+    </g>
+    <g transform="translate(0 126)">
+      <rect width="20" height="20" rx="3" fill="#2f9e6b"/><text x="30" y="15" fill="#eae3f0">review time 18 min within limit</text>
+    </g>
+  </g>
+
+  <!-- decision: verdict is worst severity -->
+  <g transform="translate(470 200)">
+    <rect width="400" height="140" rx="8" fill="#241f2c" stroke="#3a3344"/>
+    <text x="200" y="30" text-anchor="middle" fill="#9a8fa8" font-size="11">verdict = worst gate severity</text>
+    <text x="200" y="58" text-anchor="middle" fill="#eae3f0" font-size="13">two error gates present</text>
+    <rect x="150" y="72" width="100" height="34" rx="6" fill="#d1495b"/>
+    <text x="200" y="95" text-anchor="middle" fill="#1f0c10" font-size="16" font-weight="700">FAIL</text>
+    <text x="200" y="126" text-anchor="middle" fill="#9a8fa8" font-size="11">process exit code 2</text>
+  </g>
+
+  <text x="30" y="360" fill="#6f6580" font-size="10">signals are heuristic evidence, not proof of origin; a human still owns the merge</text>
+</svg>

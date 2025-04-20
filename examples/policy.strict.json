@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "thresholds": {
+    "maxRiskScore": 20,
+    "warnRiskScore": 8,
+    "minTestRatio": 0.3,
+    "minProductionLinesForTestCheck": 30,
+    "maxRepetitionRatio": 0.5,
+    "maxReviewMinutes": 60,
+    "sensitivePathIsWarning": true
+  },
+  "reviewCost": {
+    "minutesPerAddedLine": 0.4,
+    "minutesPerRemovedLine": 0.1,
+    "minutesPerFile": 3.0,
+    "sensitiveMultiplier": 2.0
+  }
+}

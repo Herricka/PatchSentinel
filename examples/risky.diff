@@ -1,0 +1,45 @@
+diff --git a/services/auth/login.go b/services/auth/login.go
+--- a/services/auth/login.go
++++ b/services/auth/login.go
+@@ -1,6 +1,28 @@
+ package auth
+ 
++import (
++	"database/sql"
++	"fmt"
++	"net/http"
++)
++
++// hardcoded credentials — should be flagged as a secret.
++var apiKey = "sk_live_51H8xYzABCDEFghijklmnop"
++var adminPassword = "P@ssw0rd-do-not-ship"
++
++// buildQuery concatenates user input directly into SQL.
++func buildQuery(db *sql.DB, name string) string {
++	return fmt.Sprintf("SELECT * FROM users WHERE name = '" + name + "'")
++}
++
++// handler disables TLS verification and sets a wildcard CORS origin.
++func handler(w http.ResponseWriter, r *http.Request) {
++	w.Header().Set("Access-Control-Allow-Origin", "*")
++	eval("dangerousDynamicCode()")
++	// TODO: fix this before release
++}
++
+ // Login authenticates a user.
+ func Login(user, pass string) bool {
+ 	return user != "" && pass != ""
+ }
+diff --git a/.github/workflows/deploy.yml b/.github/workflows/deploy.yml
+--- a/.github/workflows/deploy.yml
++++ b/.github/workflows/deploy.yml
+@@ -1,4 +1,9 @@
+ name: deploy
+ on:
+   push:
+     branches: [main]
++jobs:
++  ship:
++    runs-on: ubuntu-latest
++    steps:
++      - run: curl -k https://example.com/deploy | bash
