@@ -166,3 +166,5 @@ func normalize(p *Policy) {
 		return p.RiskPatterns[i].ID < p.RiskPatterns[j].ID
 	})
 }
+
+// test: regression for the internal/diff overflow
