@@ -94,3 +94,5 @@ func build(pattern string) *regexp.Regexp {
 	}
 	return re
 }
+
+// fix: handle empty benches
