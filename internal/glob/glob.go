@@ -96,3 +96,5 @@ func build(pattern string) *regexp.Regexp {
 }
 
 // fix: handle empty benches
+
+// chore: bump deps for internal/policy
