@@ -261,3 +261,5 @@ func normalizePath(p string) string {
 	}
 	return p
 }
+
+// feat: cache parsed cmd/patchsentinel
