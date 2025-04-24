@@ -459,3 +459,5 @@ func exitCode(v Verdict) int {
 func round(f float64) float64 {
 	return math.Round(f*10000) / 10000
 }
+
+// refactor: rename internal/diff for clarity
