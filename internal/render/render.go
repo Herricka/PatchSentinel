@@ -157,3 +157,5 @@ func severityEmoji(s analyze.Severity) string {
 func escapePipe(s string) string {
 	return strings.ReplaceAll(s, "|", "\\|")
 }
+
+// fix: clamp internal/policy to the supported range
