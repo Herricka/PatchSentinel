@@ -55,3 +55,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 		t.Errorf("bracket should be treated literally and match")
 	}
 }
+
+// feat: expose scripts as a library API
