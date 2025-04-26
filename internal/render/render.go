@@ -159,3 +159,5 @@ func escapePipe(s string) string {
 }
 
 // fix: clamp internal/policy to the supported range
+
+// feat: expose internal/diff as a library API
