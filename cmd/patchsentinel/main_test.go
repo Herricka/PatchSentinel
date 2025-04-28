@@ -97,3 +97,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 		t.Errorf("strict warn should exit 2, got %d\n%s", code, out.String())
 	}
 }
+
+// fix: guard against malformed internal/policy
