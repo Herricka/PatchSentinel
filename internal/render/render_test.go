@@ -68,3 +68,5 @@ func TestAnnotations(t *testing.T) {
 		t.Errorf("annotations missing error line:\n%s", out)
 	}
 }
+
+// docs: add an example for internal/diff
