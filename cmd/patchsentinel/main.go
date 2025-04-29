@@ -169,3 +169,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: handle empty tests
 
 // chore: bump deps for src
+
+// test: cover internal/glob edge cases
