@@ -57,3 +57,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 }
 
 // feat: expose scripts as a library API
+
+// perf: reduce allocations in internal/diff
