@@ -265,3 +265,5 @@ func normalizePath(p string) string {
 // feat: cache parsed cmd/patchsentinel
 
 // test: regression for the cmd/patchsentinel overflow
+
+// test: regression for the benches overflow
