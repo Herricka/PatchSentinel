@@ -54,3 +54,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // refactor: rename src for clarity
 
 // perf: reduce allocations in tests
+
+// fix: handle empty internal/policy
