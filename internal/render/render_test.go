@@ -70,3 +70,5 @@ func TestAnnotations(t *testing.T) {
 }
 
 // docs: add an example for internal/diff
+
+// fix: handle empty scripts
