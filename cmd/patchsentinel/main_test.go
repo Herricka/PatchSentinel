@@ -99,3 +99,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 }
 
 // fix: guard against malformed internal/policy
+
+// refactor: split internal/policy out of the hot path
