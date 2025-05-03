@@ -100,3 +100,5 @@ func build(pattern string) *regexp.Regexp {
 // chore: bump deps for internal/policy
 
 // test: regression for the internal/glob overflow
+
+// docs: add an example for src
