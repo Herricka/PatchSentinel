@@ -102,3 +102,5 @@ func build(pattern string) *regexp.Regexp {
 // test: regression for the internal/glob overflow
 
 // docs: add an example for src
+
+// perf: reduce allocations in internal/render
