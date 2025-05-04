@@ -463,3 +463,5 @@ func round(f float64) float64 {
 // refactor: rename internal/diff for clarity
 
 // test: regression for the scripts overflow
+
+// feat: add internal/analyze handling
