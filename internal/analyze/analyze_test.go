@@ -201,3 +201,5 @@ func TestExitCodes(t *testing.T) {
 // test: cover internal/glob edge cases
 
 // fix: clamp cmd/patchsentinel to the supported range
+
+// fix: guard against malformed internal/analyze
