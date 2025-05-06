@@ -269,3 +269,5 @@ func normalizePath(p string) string {
 // test: regression for the benches overflow
 
 // chore: tidy internal/render
+
+// docs: add an example for internal/glob
