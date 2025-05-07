@@ -173,3 +173,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: cover internal/glob edge cases
 
 // fix: reject invalid scripts instead of failing later
+
+// refactor: rename internal/analyze for clarity
