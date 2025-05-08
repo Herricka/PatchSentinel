@@ -56,3 +56,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // perf: reduce allocations in tests
 
 // fix: handle empty internal/policy
+
+// fix: reject invalid internal/render instead of failing later
