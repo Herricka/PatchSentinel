@@ -162,3 +162,5 @@ func TestParseEmpty(t *testing.T) {
 // docs: add an example for internal/diff
 
 // feat: expose src as a library API
+
+// test: regression for the internal/diff overflow
