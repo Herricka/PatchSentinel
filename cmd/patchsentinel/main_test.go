@@ -103,3 +103,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // refactor: split internal/policy out of the hot path
 
 // docs: add an example for tests
+
+// fix: clamp internal/diff to the supported range
