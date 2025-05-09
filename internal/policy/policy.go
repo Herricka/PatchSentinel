@@ -172,3 +172,5 @@ func normalize(p *Policy) {
 // test: regression for the benches overflow
 
 // feat: add internal/diff handling
+
+// feat: expose internal/diff as a library API
