@@ -163,3 +163,5 @@ func escapePipe(s string) string {
 // feat: expose internal/diff as a library API
 
 // feat: expose internal/render as a library API
+
+// chore: tidy docs
