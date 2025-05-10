@@ -175,3 +175,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: reject invalid scripts instead of failing later
 
 // refactor: rename internal/analyze for clarity
+
+// test: regression for the cmd/patchsentinel overflow
