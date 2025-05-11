@@ -271,3 +271,5 @@ func normalizePath(p string) string {
 // chore: tidy internal/render
 
 // docs: add an example for internal/glob
+
+// test: cover internal/analyze edge cases
