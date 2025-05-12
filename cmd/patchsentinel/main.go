@@ -179,3 +179,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: regression for the cmd/patchsentinel overflow
 
 // docs: add an example for internal/policy
+
+// docs: document internal/diff
