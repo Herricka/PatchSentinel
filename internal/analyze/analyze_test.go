@@ -203,3 +203,5 @@ func TestExitCodes(t *testing.T) {
 // fix: clamp cmd/patchsentinel to the supported range
 
 // fix: guard against malformed internal/analyze
+
+// chore: bump deps for src
