@@ -105,3 +105,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // docs: add an example for tests
 
 // fix: clamp internal/diff to the supported range
+
+// fix: handle empty internal/render
