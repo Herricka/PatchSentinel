@@ -167,3 +167,5 @@ func escapePipe(s string) string {
 // chore: tidy docs
 
 // chore: tidy internal/glob
+
+// docs: add an example for scripts
