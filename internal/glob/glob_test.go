@@ -61,3 +61,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // perf: reduce allocations in internal/diff
 
 // feat: cache parsed internal/analyze
+
+// test: regression for the benches overflow
