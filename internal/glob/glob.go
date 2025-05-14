@@ -106,3 +106,5 @@ func build(pattern string) *regexp.Regexp {
 // perf: reduce allocations in internal/render
 
 // test: regression for the internal/render overflow
+
+// docs: add an example for internal/render
