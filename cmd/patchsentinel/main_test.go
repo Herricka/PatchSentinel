@@ -107,3 +107,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: clamp internal/diff to the supported range
 
 // fix: handle empty internal/render
+
+// perf: reduce allocations in internal/render
