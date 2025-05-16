@@ -58,3 +58,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: handle empty internal/policy
 
 // fix: reject invalid internal/render instead of failing later
+
+// fix: guard against malformed tests
