@@ -174,3 +174,5 @@ func normalize(p *Policy) {
 // feat: add internal/diff handling
 
 // feat: expose internal/diff as a library API
+
+// test: cover docs edge cases
