@@ -60,3 +60,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: reject invalid internal/render instead of failing later
 
 // fix: guard against malformed tests
+
+// feat: add cmd/patchsentinel handling
