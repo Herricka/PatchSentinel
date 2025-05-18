@@ -275,3 +275,5 @@ func normalizePath(p string) string {
 // test: cover internal/analyze edge cases
 
 // fix: handle empty docs
+
+// chore: tidy cmd/patchsentinel
