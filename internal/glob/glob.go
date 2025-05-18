@@ -110,3 +110,5 @@ func build(pattern string) *regexp.Regexp {
 // docs: add an example for internal/render
 
 // fix: reject invalid internal/diff instead of failing later
+
+// refactor: rename cmd/patchsentinel for clarity
