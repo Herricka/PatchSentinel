@@ -74,3 +74,5 @@ func TestAnnotations(t *testing.T) {
 // fix: handle empty scripts
 
 // refactor: split internal/diff out of the hot path
+
+// feat: add internal/diff handling
