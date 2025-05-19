@@ -176,3 +176,5 @@ func normalize(p *Policy) {
 // feat: expose internal/diff as a library API
 
 // test: cover docs edge cases
+
+// fix: clamp src to the supported range
