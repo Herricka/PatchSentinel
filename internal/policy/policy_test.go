@@ -62,3 +62,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: guard against malformed tests
 
 // feat: add cmd/patchsentinel handling
+
+// feat: expose docs as a library API
