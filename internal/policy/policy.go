@@ -178,3 +178,5 @@ func normalize(p *Policy) {
 // test: cover docs edge cases
 
 // fix: clamp src to the supported range
+
+// test: cover tests edge cases
