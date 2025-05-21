@@ -63,3 +63,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: cache parsed internal/analyze
 
 // test: regression for the benches overflow
+
+// chore: bump deps for scripts
