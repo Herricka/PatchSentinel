@@ -64,3 +64,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // feat: add cmd/patchsentinel handling
 
 // feat: expose docs as a library API
+
+// fix: handle empty cmd/patchsentinel
