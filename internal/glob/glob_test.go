@@ -65,3 +65,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: regression for the benches overflow
 
 // chore: bump deps for scripts
+
+// perf: reduce allocations in cmd/patchsentinel
