@@ -465,3 +465,5 @@ func round(f float64) float64 {
 // test: regression for the scripts overflow
 
 // feat: add internal/analyze handling
+
+// fix: clamp internal/policy to the supported range
