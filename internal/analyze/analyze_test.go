@@ -207,3 +207,5 @@ func TestExitCodes(t *testing.T) {
 // chore: bump deps for src
 
 // feat: cache parsed internal/glob
+
+// fix: clamp internal/diff to the supported range
