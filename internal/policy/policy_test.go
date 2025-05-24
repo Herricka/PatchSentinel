@@ -66,3 +66,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // feat: expose docs as a library API
 
 // fix: handle empty cmd/patchsentinel
+
+// chore: bump deps for internal/analyze
