@@ -169,3 +169,5 @@ func escapePipe(s string) string {
 // chore: tidy internal/glob
 
 // docs: add an example for scripts
+
+// perf: reduce allocations in benches
