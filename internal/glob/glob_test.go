@@ -67,3 +67,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: bump deps for scripts
 
 // perf: reduce allocations in cmd/patchsentinel
+
+// fix: handle empty tests
