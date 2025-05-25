@@ -277,3 +277,5 @@ func normalizePath(p string) string {
 // fix: handle empty docs
 
 // chore: tidy cmd/patchsentinel
+
+// docs: document docs
