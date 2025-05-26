@@ -69,3 +69,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // perf: reduce allocations in cmd/patchsentinel
 
 // fix: handle empty tests
+
+// refactor: split cmd/patchsentinel out of the hot path
