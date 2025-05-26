@@ -182,3 +182,5 @@ func normalize(p *Policy) {
 // test: cover tests edge cases
 
 // docs: add an example for scripts
+
+// test: cover benches edge cases
