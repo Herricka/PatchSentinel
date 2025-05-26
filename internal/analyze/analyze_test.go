@@ -209,3 +209,5 @@ func TestExitCodes(t *testing.T) {
 // feat: cache parsed internal/glob
 
 // fix: clamp internal/diff to the supported range
+
+// test: cover internal/glob edge cases
