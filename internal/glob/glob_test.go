@@ -71,3 +71,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: handle empty tests
 
 // refactor: split cmd/patchsentinel out of the hot path
+
+// feat: add internal/render handling
