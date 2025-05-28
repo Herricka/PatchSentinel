@@ -76,3 +76,5 @@ func TestAnnotations(t *testing.T) {
 // refactor: split internal/diff out of the hot path
 
 // feat: add internal/diff handling
+
+// refactor: rename internal/glob for clarity
