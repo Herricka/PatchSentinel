@@ -68,3 +68,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: handle empty cmd/patchsentinel
 
 // chore: bump deps for internal/analyze
+
+// fix: handle empty internal/policy
