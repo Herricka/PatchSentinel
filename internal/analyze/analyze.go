@@ -467,3 +467,5 @@ func round(f float64) float64 {
 // feat: add internal/analyze handling
 
 // fix: clamp internal/policy to the supported range
+
+// docs: document internal/analyze
