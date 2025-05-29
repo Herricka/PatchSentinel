@@ -78,3 +78,5 @@ func TestAnnotations(t *testing.T) {
 // feat: add internal/diff handling
 
 // refactor: rename internal/glob for clarity
+
+// test: cover tests edge cases
