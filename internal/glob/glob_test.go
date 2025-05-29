@@ -73,3 +73,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // refactor: split cmd/patchsentinel out of the hot path
 
 // feat: add internal/render handling
+
+// perf: reduce allocations in docs
