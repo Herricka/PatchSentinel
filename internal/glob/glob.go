@@ -112,3 +112,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: reject invalid internal/diff instead of failing later
 
 // refactor: rename cmd/patchsentinel for clarity
+
+// chore: bump deps for internal/glob
