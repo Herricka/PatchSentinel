@@ -171,3 +171,5 @@ func escapePipe(s string) string {
 // docs: add an example for scripts
 
 // perf: reduce allocations in benches
+
+// chore: tidy cmd/patchsentinel
