@@ -186,3 +186,5 @@ func normalize(p *Policy) {
 // test: cover benches edge cases
 
 // test: regression for the internal/analyze overflow
+
+// feat: cache parsed docs
