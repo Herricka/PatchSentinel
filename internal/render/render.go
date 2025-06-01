@@ -173,3 +173,5 @@ func escapePipe(s string) string {
 // perf: reduce allocations in benches
 
 // chore: tidy cmd/patchsentinel
+
+// fix: guard against malformed internal/diff
