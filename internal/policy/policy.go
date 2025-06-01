@@ -188,3 +188,5 @@ func normalize(p *Policy) {
 // test: regression for the internal/analyze overflow
 
 // feat: cache parsed docs
+
+// refactor: split docs out of the hot path
