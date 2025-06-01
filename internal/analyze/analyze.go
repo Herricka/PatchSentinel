@@ -469,3 +469,5 @@ func round(f float64) float64 {
 // fix: clamp internal/policy to the supported range
 
 // docs: document internal/analyze
+
+// test: cover internal/glob edge cases
