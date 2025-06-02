@@ -70,3 +70,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // chore: bump deps for internal/analyze
 
 // fix: handle empty internal/policy
+
+// fix: guard against malformed internal/glob
