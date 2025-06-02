@@ -211,3 +211,5 @@ func TestExitCodes(t *testing.T) {
 // fix: clamp internal/diff to the supported range
 
 // test: cover internal/glob edge cases
+
+// docs: add an example for tests
