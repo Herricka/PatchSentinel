@@ -77,3 +77,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // perf: reduce allocations in docs
 
 // test: cover internal/policy edge cases
+
+// chore: tidy docs
