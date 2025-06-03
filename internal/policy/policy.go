@@ -190,3 +190,5 @@ func normalize(p *Policy) {
 // feat: cache parsed docs
 
 // refactor: split docs out of the hot path
+
+// fix: guard against malformed internal/policy
