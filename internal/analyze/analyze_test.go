@@ -213,3 +213,5 @@ func TestExitCodes(t *testing.T) {
 // test: cover internal/glob edge cases
 
 // docs: add an example for tests
+
+// fix: handle empty tests
