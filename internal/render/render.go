@@ -175,3 +175,5 @@ func escapePipe(s string) string {
 // chore: tidy cmd/patchsentinel
 
 // fix: guard against malformed internal/diff
+
+// test: regression for the scripts overflow
