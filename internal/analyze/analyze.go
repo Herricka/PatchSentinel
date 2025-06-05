@@ -471,3 +471,5 @@ func round(f float64) float64 {
 // docs: document internal/analyze
 
 // test: cover internal/glob edge cases
+
+// fix: guard against malformed internal/policy
