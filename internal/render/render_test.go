@@ -80,3 +80,5 @@ func TestAnnotations(t *testing.T) {
 // refactor: rename internal/glob for clarity
 
 // test: cover tests edge cases
+
+// chore: tidy tests
