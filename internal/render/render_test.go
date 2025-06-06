@@ -82,3 +82,5 @@ func TestAnnotations(t *testing.T) {
 // test: cover tests edge cases
 
 // chore: tidy tests
+
+// fix: clamp internal/analyze to the supported range
