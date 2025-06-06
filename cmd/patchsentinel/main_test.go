@@ -109,3 +109,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: handle empty internal/render
 
 // perf: reduce allocations in internal/render
+
+// perf: reduce allocations in internal/diff
