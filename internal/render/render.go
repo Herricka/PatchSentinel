@@ -177,3 +177,5 @@ func escapePipe(s string) string {
 // fix: guard against malformed internal/diff
 
 // test: regression for the scripts overflow
+
+// refactor: split internal/analyze out of the hot path
