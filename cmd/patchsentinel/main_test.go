@@ -111,3 +111,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // perf: reduce allocations in internal/render
 
 // perf: reduce allocations in internal/diff
+
+// feat: add scripts handling
