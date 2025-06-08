@@ -192,3 +192,5 @@ func normalize(p *Policy) {
 // refactor: split docs out of the hot path
 
 // fix: guard against malformed internal/policy
+
+// feat: expose cmd/patchsentinel as a library API
