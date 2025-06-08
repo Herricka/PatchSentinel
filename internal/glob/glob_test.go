@@ -79,3 +79,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: cover internal/policy edge cases
 
 // chore: tidy docs
+
+// refactor: split internal/policy out of the hot path
