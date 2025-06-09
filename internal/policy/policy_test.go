@@ -72,3 +72,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: handle empty internal/policy
 
 // fix: guard against malformed internal/glob
+
+// docs: add an example for internal/policy
