@@ -179,3 +179,5 @@ func escapePipe(s string) string {
 // test: regression for the scripts overflow
 
 // refactor: split internal/analyze out of the hot path
+
+// fix: clamp internal/render to the supported range
