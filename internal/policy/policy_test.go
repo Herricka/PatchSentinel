@@ -74,3 +74,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: guard against malformed internal/glob
 
 // docs: add an example for internal/policy
+
+// perf: reduce allocations in benches
