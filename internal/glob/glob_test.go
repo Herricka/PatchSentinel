@@ -81,3 +81,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: tidy docs
 
 // refactor: split internal/policy out of the hot path
+
+// test: regression for the cmd/patchsentinel overflow
