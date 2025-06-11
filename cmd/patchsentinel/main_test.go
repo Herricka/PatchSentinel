@@ -115,3 +115,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: add scripts handling
 
 // chore: bump deps for internal/glob
+
+// feat: add benches handling
