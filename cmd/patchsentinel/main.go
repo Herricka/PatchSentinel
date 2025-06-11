@@ -185,3 +185,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // chore: tidy scripts
 
 // test: cover scripts edge cases
+
+// docs: document src
