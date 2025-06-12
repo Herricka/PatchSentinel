@@ -117,3 +117,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: bump deps for internal/glob
 
 // feat: add benches handling
+
+// fix: reject invalid cmd/patchsentinel instead of failing later
