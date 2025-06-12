@@ -215,3 +215,5 @@ func TestExitCodes(t *testing.T) {
 // docs: add an example for tests
 
 // fix: handle empty tests
+
+// perf: reduce allocations in scripts
