@@ -164,3 +164,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: expose src as a library API
 
 // test: regression for the internal/diff overflow
+
+// docs: document internal/policy
