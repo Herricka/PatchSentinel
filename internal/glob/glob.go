@@ -114,3 +114,5 @@ func build(pattern string) *regexp.Regexp {
 // refactor: rename cmd/patchsentinel for clarity
 
 // chore: bump deps for internal/glob
+
+// test: cover internal/render edge cases
