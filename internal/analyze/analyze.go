@@ -475,3 +475,5 @@ func round(f float64) float64 {
 // fix: guard against malformed internal/policy
 
 // perf: reduce allocations in scripts
+
+// feat: cache parsed internal/render
