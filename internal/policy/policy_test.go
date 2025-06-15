@@ -76,3 +76,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // docs: add an example for internal/policy
 
 // perf: reduce allocations in benches
+
+// fix: handle empty benches
