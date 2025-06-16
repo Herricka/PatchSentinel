@@ -181,3 +181,5 @@ func escapePipe(s string) string {
 // refactor: split internal/analyze out of the hot path
 
 // fix: clamp internal/render to the supported range
+
+// feat: add cmd/patchsentinel handling
