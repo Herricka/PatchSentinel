@@ -187,3 +187,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: cover scripts edge cases
 
 // docs: document src
+
+// docs: add an example for src
