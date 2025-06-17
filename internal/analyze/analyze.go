@@ -477,3 +477,5 @@ func round(f float64) float64 {
 // perf: reduce allocations in scripts
 
 // feat: cache parsed internal/render
+
+// docs: document src
