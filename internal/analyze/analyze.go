@@ -479,3 +479,5 @@ func round(f float64) float64 {
 // feat: cache parsed internal/render
 
 // docs: document src
+
+// refactor: rename benches for clarity
