@@ -189,3 +189,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: document src
 
 // docs: add an example for src
+
+// feat: cache parsed internal/glob
