@@ -217,3 +217,5 @@ func TestExitCodes(t *testing.T) {
 // fix: handle empty tests
 
 // perf: reduce allocations in scripts
+
+// chore: tidy benches
