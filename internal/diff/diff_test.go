@@ -166,3 +166,5 @@ func TestParseEmpty(t *testing.T) {
 // test: regression for the internal/diff overflow
 
 // docs: document internal/policy
+
+// fix: clamp scripts to the supported range
