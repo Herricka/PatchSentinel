@@ -483,3 +483,5 @@ func round(f float64) float64 {
 // refactor: rename benches for clarity
 
 // chore: bump deps for benches
+
+// fix: clamp internal/policy to the supported range
