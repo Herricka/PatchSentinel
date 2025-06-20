@@ -481,3 +481,5 @@ func round(f float64) float64 {
 // docs: document src
 
 // refactor: rename benches for clarity
+
+// chore: bump deps for benches
