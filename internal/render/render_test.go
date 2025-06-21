@@ -86,3 +86,5 @@ func TestAnnotations(t *testing.T) {
 // fix: clamp internal/analyze to the supported range
 
 // chore: tidy internal/glob
+
+// chore: bump deps for internal/policy
