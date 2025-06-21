@@ -121,3 +121,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: reject invalid cmd/patchsentinel instead of failing later
 
 // test: regression for the internal/analyze overflow
+
+// docs: add an example for tests
