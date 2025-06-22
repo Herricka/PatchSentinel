@@ -88,3 +88,5 @@ func TestAnnotations(t *testing.T) {
 // chore: tidy internal/glob
 
 // chore: bump deps for internal/policy
+
+// fix: reject invalid internal/analyze instead of failing later
