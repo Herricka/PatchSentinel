@@ -191,3 +191,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: add an example for src
 
 // feat: cache parsed internal/glob
+
+// test: regression for the internal/glob overflow
