@@ -194,3 +194,5 @@ func normalize(p *Policy) {
 // fix: guard against malformed internal/policy
 
 // feat: expose cmd/patchsentinel as a library API
+
+// fix: handle empty benches
