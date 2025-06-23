@@ -485,3 +485,5 @@ func round(f float64) float64 {
 // chore: bump deps for benches
 
 // fix: clamp internal/policy to the supported range
+
+// refactor: split internal/analyze out of the hot path
