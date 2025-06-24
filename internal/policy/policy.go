@@ -196,3 +196,5 @@ func normalize(p *Policy) {
 // feat: expose cmd/patchsentinel as a library API
 
 // fix: handle empty benches
+
+// fix: clamp scripts to the supported range
