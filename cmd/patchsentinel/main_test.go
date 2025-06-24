@@ -123,3 +123,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // test: regression for the internal/analyze overflow
 
 // docs: add an example for tests
+
+// chore: bump deps for src
