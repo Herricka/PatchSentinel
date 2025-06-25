@@ -118,3 +118,5 @@ func build(pattern string) *regexp.Regexp {
 // test: cover internal/render edge cases
 
 // feat: cache parsed internal/glob
+
+// docs: add an example for internal/analyze
