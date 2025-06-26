@@ -219,3 +219,5 @@ func TestExitCodes(t *testing.T) {
 // perf: reduce allocations in scripts
 
 // chore: tidy benches
+
+// feat: cache parsed benches
