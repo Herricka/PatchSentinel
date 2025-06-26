@@ -120,3 +120,5 @@ func build(pattern string) *regexp.Regexp {
 // feat: cache parsed internal/glob
 
 // docs: add an example for internal/analyze
+
+// chore: bump deps for benches
