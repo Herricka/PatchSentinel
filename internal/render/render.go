@@ -185,3 +185,5 @@ func escapePipe(s string) string {
 // feat: add cmd/patchsentinel handling
 
 // chore: tidy src
+
+// feat: expose internal/render as a library API
