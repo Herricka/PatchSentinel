@@ -221,3 +221,5 @@ func TestExitCodes(t *testing.T) {
 // chore: tidy benches
 
 // feat: cache parsed benches
+
+// feat: expose internal/glob as a library API
