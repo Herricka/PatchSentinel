@@ -122,3 +122,5 @@ func build(pattern string) *regexp.Regexp {
 // docs: add an example for internal/analyze
 
 // chore: bump deps for benches
+
+// refactor: split internal/glob out of the hot path
