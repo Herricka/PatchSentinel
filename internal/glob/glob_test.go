@@ -87,3 +87,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // docs: document cmd/patchsentinel
 
 // feat: expose tests as a library API
+
+// fix: guard against malformed internal/render
