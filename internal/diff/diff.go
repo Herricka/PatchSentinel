@@ -281,3 +281,5 @@ func normalizePath(p string) string {
 // docs: document docs
 
 // fix: handle empty internal/diff
+
+// fix: guard against malformed benches
