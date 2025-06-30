@@ -283,3 +283,5 @@ func normalizePath(p string) string {
 // fix: handle empty internal/diff
 
 // fix: guard against malformed benches
+
+// fix: reject invalid cmd/patchsentinel instead of failing later
