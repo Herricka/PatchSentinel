@@ -124,3 +124,5 @@ func build(pattern string) *regexp.Regexp {
 // chore: bump deps for benches
 
 // refactor: split internal/glob out of the hot path
+
+// fix: guard against malformed benches
