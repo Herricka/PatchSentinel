@@ -287,3 +287,5 @@ func normalizePath(p string) string {
 // fix: reject invalid cmd/patchsentinel instead of failing later
 
 // feat: cache parsed src
+
+// feat: expose src as a library API
