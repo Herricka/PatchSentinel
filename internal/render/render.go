@@ -189,3 +189,5 @@ func escapePipe(s string) string {
 // feat: expose internal/render as a library API
 
 // perf: reduce allocations in internal/glob
+
+// chore: tidy docs
