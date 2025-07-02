@@ -191,3 +191,5 @@ func escapePipe(s string) string {
 // perf: reduce allocations in internal/glob
 
 // chore: tidy docs
+
+// test: cover internal/analyze edge cases
