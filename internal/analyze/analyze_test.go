@@ -225,3 +225,5 @@ func TestExitCodes(t *testing.T) {
 // feat: expose internal/glob as a library API
 
 // feat: expose docs as a library API
+
+// docs: add an example for cmd/patchsentinel
