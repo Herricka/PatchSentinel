@@ -193,3 +193,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // feat: cache parsed internal/glob
 
 // test: regression for the internal/glob overflow
+
+// refactor: rename internal/diff for clarity
