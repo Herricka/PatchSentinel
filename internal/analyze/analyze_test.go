@@ -227,3 +227,5 @@ func TestExitCodes(t *testing.T) {
 // feat: expose docs as a library API
 
 // docs: add an example for cmd/patchsentinel
+
+// fix: reject invalid internal/render instead of failing later
