@@ -78,3 +78,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // perf: reduce allocations in benches
 
 // fix: handle empty benches
+
+// perf: reduce allocations in tests
