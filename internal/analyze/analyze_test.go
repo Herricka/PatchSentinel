@@ -229,3 +229,5 @@ func TestExitCodes(t *testing.T) {
 // docs: add an example for cmd/patchsentinel
 
 // fix: reject invalid internal/render instead of failing later
+
+// fix: clamp internal/render to the supported range
