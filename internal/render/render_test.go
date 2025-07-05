@@ -90,3 +90,5 @@ func TestAnnotations(t *testing.T) {
 // chore: bump deps for internal/policy
 
 // fix: reject invalid internal/analyze instead of failing later
+
+// fix: handle empty benches
