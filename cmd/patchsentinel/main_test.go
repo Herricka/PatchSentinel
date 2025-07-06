@@ -127,3 +127,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: bump deps for src
 
 // fix: clamp docs to the supported range
+
+// docs: add an example for scripts
