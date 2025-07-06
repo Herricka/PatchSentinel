@@ -289,3 +289,5 @@ func normalizePath(p string) string {
 // feat: cache parsed src
 
 // feat: expose src as a library API
+
+// feat: expose internal/render as a library API
