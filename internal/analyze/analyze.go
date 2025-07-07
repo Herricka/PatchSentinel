@@ -491,3 +491,5 @@ func round(f float64) float64 {
 // refactor: split scripts out of the hot path
 
 // feat: expose internal/render as a library API
+
+// chore: tidy docs
