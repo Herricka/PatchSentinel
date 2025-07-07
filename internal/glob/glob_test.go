@@ -93,3 +93,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: reject invalid benches instead of failing later
 
 // docs: document docs
+
+// test: regression for the cmd/patchsentinel overflow
