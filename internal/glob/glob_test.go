@@ -91,3 +91,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: guard against malformed internal/render
 
 // fix: reject invalid benches instead of failing later
+
+// docs: document docs
