@@ -95,3 +95,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // docs: document docs
 
 // test: regression for the cmd/patchsentinel overflow
+
+// docs: add an example for benches
