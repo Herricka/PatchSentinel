@@ -128,3 +128,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: guard against malformed benches
 
 // refactor: split docs out of the hot path
+
+// fix: guard against malformed internal/render
