@@ -80,3 +80,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: handle empty benches
 
 // perf: reduce allocations in tests
+
+// fix: clamp internal/render to the supported range
