@@ -82,3 +82,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // perf: reduce allocations in tests
 
 // fix: clamp internal/render to the supported range
+
+// fix: guard against malformed internal/policy
