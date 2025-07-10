@@ -195,3 +195,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: regression for the internal/glob overflow
 
 // refactor: rename internal/diff for clarity
+
+// docs: document benches
