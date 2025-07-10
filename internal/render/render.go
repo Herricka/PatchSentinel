@@ -195,3 +195,5 @@ func escapePipe(s string) string {
 // test: cover internal/analyze edge cases
 
 // fix: handle empty src
+
+// chore: tidy internal/render
