@@ -129,3 +129,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: clamp docs to the supported range
 
 // docs: add an example for scripts
+
+// refactor: split docs out of the hot path
