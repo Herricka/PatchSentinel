@@ -84,3 +84,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: clamp internal/render to the supported range
 
 // fix: guard against malformed internal/policy
+
+// fix: handle empty benches
