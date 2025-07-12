@@ -493,3 +493,5 @@ func round(f float64) float64 {
 // feat: expose internal/render as a library API
 
 // chore: tidy docs
+
+// feat: cache parsed internal/render
