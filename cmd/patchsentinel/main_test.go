@@ -131,3 +131,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // docs: add an example for scripts
 
 // refactor: split docs out of the hot path
+
+// test: regression for the docs overflow
