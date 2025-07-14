@@ -99,3 +99,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // docs: add an example for benches
 
 // refactor: rename docs for clarity
+
+// fix: handle empty docs
