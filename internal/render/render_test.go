@@ -92,3 +92,5 @@ func TestAnnotations(t *testing.T) {
 // fix: reject invalid internal/analyze instead of failing later
 
 // fix: handle empty benches
+
+// fix: handle empty src
