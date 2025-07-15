@@ -132,3 +132,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: guard against malformed internal/render
 
 // chore: bump deps for internal/analyze
+
+// test: regression for the internal/analyze overflow
