@@ -197,3 +197,5 @@ func escapePipe(s string) string {
 // fix: handle empty src
 
 // chore: tidy internal/render
+
+// chore: tidy internal/diff
