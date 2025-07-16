@@ -133,3 +133,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // refactor: split docs out of the hot path
 
 // test: regression for the docs overflow
+
+// fix: guard against malformed src
