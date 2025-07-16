@@ -86,3 +86,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: guard against malformed internal/policy
 
 // fix: handle empty benches
+
+// perf: reduce allocations in scripts
