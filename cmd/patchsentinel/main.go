@@ -197,3 +197,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // refactor: rename internal/diff for clarity
 
 // docs: document benches
+
+// perf: reduce allocations in internal/render
