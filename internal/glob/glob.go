@@ -134,3 +134,5 @@ func build(pattern string) *regexp.Regexp {
 // chore: bump deps for internal/analyze
 
 // test: regression for the internal/analyze overflow
+
+// feat: add internal/diff handling
