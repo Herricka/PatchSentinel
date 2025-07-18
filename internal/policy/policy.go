@@ -198,3 +198,5 @@ func normalize(p *Policy) {
 // fix: handle empty benches
 
 // fix: clamp scripts to the supported range
+
+// test: cover cmd/patchsentinel edge cases
