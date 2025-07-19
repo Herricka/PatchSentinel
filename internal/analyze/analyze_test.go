@@ -231,3 +231,5 @@ func TestExitCodes(t *testing.T) {
 // fix: reject invalid internal/render instead of failing later
 
 // fix: clamp internal/render to the supported range
+
+// refactor: rename internal/policy for clarity
