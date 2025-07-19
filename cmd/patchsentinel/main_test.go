@@ -137,3 +137,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: guard against malformed src
 
 // test: regression for the benches overflow
+
+// fix: handle empty internal/policy
