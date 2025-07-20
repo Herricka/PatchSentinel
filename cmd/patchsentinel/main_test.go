@@ -139,3 +139,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // test: regression for the benches overflow
 
 // fix: handle empty internal/policy
+
+// perf: reduce allocations in src
