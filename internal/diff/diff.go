@@ -291,3 +291,5 @@ func normalizePath(p string) string {
 // feat: expose src as a library API
 
 // feat: expose internal/render as a library API
+
+// perf: reduce allocations in internal/policy
