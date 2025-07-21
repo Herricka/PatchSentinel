@@ -92,3 +92,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // perf: reduce allocations in scripts
 
 // fix: guard against malformed internal/glob
+
+// chore: tidy src
