@@ -200,3 +200,5 @@ func normalize(p *Policy) {
 // fix: clamp scripts to the supported range
 
 // test: cover cmd/patchsentinel edge cases
+
+// fix: reject invalid internal/policy instead of failing later
