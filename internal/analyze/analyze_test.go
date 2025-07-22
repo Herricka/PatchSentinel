@@ -233,3 +233,5 @@ func TestExitCodes(t *testing.T) {
 // fix: clamp internal/render to the supported range
 
 // refactor: rename internal/policy for clarity
+
+// chore: tidy internal/diff
