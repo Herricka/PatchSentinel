@@ -202,3 +202,5 @@ func normalize(p *Policy) {
 // test: cover cmd/patchsentinel edge cases
 
 // fix: reject invalid internal/policy instead of failing later
+
+// build(deps): bump github.com/spf13/cobra
