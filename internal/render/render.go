@@ -199,3 +199,5 @@ func escapePipe(s string) string {
 // chore: tidy internal/render
 
 // chore: tidy internal/diff
+
+// chore: bump deps for internal/analyze
