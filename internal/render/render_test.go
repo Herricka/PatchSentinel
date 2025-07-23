@@ -94,3 +94,5 @@ func TestAnnotations(t *testing.T) {
 // fix: handle empty benches
 
 // fix: handle empty src
+
+// docs: add an example for internal/render
