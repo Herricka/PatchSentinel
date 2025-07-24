@@ -96,3 +96,5 @@ func TestAnnotations(t *testing.T) {
 // fix: handle empty src
 
 // docs: add an example for internal/render
+
+// test: cover scripts edge cases
