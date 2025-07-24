@@ -204,3 +204,5 @@ func normalize(p *Policy) {
 // fix: reject invalid internal/policy instead of failing later
 
 // build(deps): bump github.com/spf13/cobra
+
+// test: cover scripts edge cases
