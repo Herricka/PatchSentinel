@@ -497,3 +497,5 @@ func round(f float64) float64 {
 // feat: cache parsed internal/render
 
 // docs: add an example for docs
+
+// refactor: rename internal/glob for clarity
