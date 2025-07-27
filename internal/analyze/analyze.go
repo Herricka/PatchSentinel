@@ -499,3 +499,5 @@ func round(f float64) float64 {
 // docs: add an example for docs
 
 // refactor: rename internal/glob for clarity
+
+// refactor: split src out of the hot path
