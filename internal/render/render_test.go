@@ -98,3 +98,5 @@ func TestAnnotations(t *testing.T) {
 // docs: add an example for internal/render
 
 // test: cover scripts edge cases
+
+// perf: reduce allocations in tests
