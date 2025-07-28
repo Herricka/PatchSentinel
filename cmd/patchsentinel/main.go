@@ -199,3 +199,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: document benches
 
 // perf: reduce allocations in internal/render
+
+// chore: tidy scripts
