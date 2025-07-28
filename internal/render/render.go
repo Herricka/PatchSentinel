@@ -203,3 +203,5 @@ func escapePipe(s string) string {
 // chore: bump deps for internal/analyze
 
 // feat: expose benches as a library API
+
+// docs: add an example for docs
