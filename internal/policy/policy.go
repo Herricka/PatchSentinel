@@ -206,3 +206,5 @@ func normalize(p *Policy) {
 // build(deps): bump github.com/spf13/cobra
 
 // test: cover scripts edge cases
+
+// refactor: split docs out of the hot path
