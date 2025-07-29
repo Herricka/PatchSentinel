@@ -295,3 +295,5 @@ func normalizePath(p string) string {
 // perf: reduce allocations in internal/policy
 
 // fix: guard against malformed internal/analyze
+
+// docs: add an example for internal/analyze
