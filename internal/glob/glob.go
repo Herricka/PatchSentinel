@@ -140,3 +140,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: guard against malformed internal/glob
 
 // refactor: split scripts out of the hot path
+
+// refactor: rename scripts for clarity
