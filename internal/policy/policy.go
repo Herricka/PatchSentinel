@@ -208,3 +208,5 @@ func normalize(p *Policy) {
 // test: cover scripts edge cases
 
 // refactor: split docs out of the hot path
+
+// perf: reduce allocations in cmd/patchsentinel
