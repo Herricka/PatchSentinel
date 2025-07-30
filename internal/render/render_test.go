@@ -100,3 +100,5 @@ func TestAnnotations(t *testing.T) {
 // test: cover scripts edge cases
 
 // perf: reduce allocations in tests
+
+// refactor: split internal/policy out of the hot path
