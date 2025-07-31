@@ -210,3 +210,5 @@ func normalize(p *Policy) {
 // refactor: split docs out of the hot path
 
 // perf: reduce allocations in cmd/patchsentinel
+
+// refactor: rename benches for clarity
