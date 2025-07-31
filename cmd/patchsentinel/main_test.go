@@ -143,3 +143,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // perf: reduce allocations in src
 
 // feat: cache parsed internal/diff
+
+// chore: tidy docs
