@@ -501,3 +501,5 @@ func round(f float64) float64 {
 // refactor: rename internal/glob for clarity
 
 // refactor: split src out of the hot path
+
+// test: cover benches edge cases
