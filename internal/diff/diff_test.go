@@ -168,3 +168,5 @@ func TestParseEmpty(t *testing.T) {
 // docs: document internal/policy
 
 // fix: clamp scripts to the supported range
+
+// refactor: rename src for clarity
