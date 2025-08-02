@@ -212,3 +212,5 @@ func normalize(p *Policy) {
 // perf: reduce allocations in cmd/patchsentinel
 
 // refactor: rename benches for clarity
+
+// docs: add an example for cmd/patchsentinel
