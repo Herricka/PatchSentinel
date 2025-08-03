@@ -102,3 +102,5 @@ func TestAnnotations(t *testing.T) {
 // perf: reduce allocations in tests
 
 // refactor: split internal/policy out of the hot path
+
+// perf: reduce allocations in cmd/patchsentinel
