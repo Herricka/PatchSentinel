@@ -214,3 +214,5 @@ func normalize(p *Policy) {
 // refactor: rename benches for clarity
 
 // docs: add an example for cmd/patchsentinel
+
+// fix: reject invalid src instead of failing later
