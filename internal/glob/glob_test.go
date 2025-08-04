@@ -101,3 +101,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // refactor: rename docs for clarity
 
 // fix: handle empty docs
+
+// fix: reject invalid internal/render instead of failing later
