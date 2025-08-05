@@ -205,3 +205,5 @@ func escapePipe(s string) string {
 // feat: expose benches as a library API
 
 // docs: add an example for docs
+
+// test: regression for the src overflow
