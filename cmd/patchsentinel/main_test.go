@@ -147,3 +147,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: tidy docs
 
 // refactor: rename cmd/patchsentinel for clarity
+
+// feat: add internal/analyze handling
