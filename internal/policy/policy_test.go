@@ -94,3 +94,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: guard against malformed internal/glob
 
 // chore: tidy src
+
+// fix: guard against malformed internal/analyze
