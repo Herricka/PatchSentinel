@@ -106,3 +106,5 @@ func TestAnnotations(t *testing.T) {
 // perf: reduce allocations in cmd/patchsentinel
 
 // refactor: split internal/analyze out of the hot path
+
+// docs: document internal/analyze
