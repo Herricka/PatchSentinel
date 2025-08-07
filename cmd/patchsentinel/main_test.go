@@ -151,3 +151,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: add internal/analyze handling
 
 // feat: expose cmd/patchsentinel as a library API
+
+// feat: add scripts handling
