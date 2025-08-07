@@ -149,3 +149,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // refactor: rename cmd/patchsentinel for clarity
 
 // feat: add internal/analyze handling
+
+// feat: expose cmd/patchsentinel as a library API
