@@ -297,3 +297,5 @@ func normalizePath(p string) string {
 // fix: guard against malformed internal/analyze
 
 // docs: add an example for internal/analyze
+
+// docs: document src
