@@ -505,3 +505,5 @@ func round(f float64) float64 {
 // test: cover benches edge cases
 
 // refactor: split scripts out of the hot path
+
+// feat: add internal/render handling
