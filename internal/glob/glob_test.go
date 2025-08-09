@@ -103,3 +103,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: handle empty docs
 
 // fix: reject invalid internal/render instead of failing later
+
+// feat: expose cmd/patchsentinel as a library API
