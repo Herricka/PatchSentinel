@@ -207,3 +207,5 @@ func escapePipe(s string) string {
 // docs: add an example for docs
 
 // test: regression for the src overflow
+
+// refactor: split cmd/patchsentinel out of the hot path
