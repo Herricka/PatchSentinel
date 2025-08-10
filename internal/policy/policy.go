@@ -216,3 +216,5 @@ func normalize(p *Policy) {
 // docs: add an example for cmd/patchsentinel
 
 // fix: reject invalid src instead of failing later
+
+// test: cover internal/diff edge cases
