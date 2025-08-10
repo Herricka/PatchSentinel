@@ -201,3 +201,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // perf: reduce allocations in internal/render
 
 // chore: tidy scripts
+
+// chore: bump deps for internal/diff
