@@ -235,3 +235,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: rename internal/policy for clarity
 
 // chore: tidy internal/diff
+
+// docs: add an example for benches
