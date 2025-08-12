@@ -155,3 +155,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: add scripts handling
 
 // refactor: rename src for clarity
+
+// fix: clamp internal/diff to the supported range
