@@ -170,3 +170,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: clamp scripts to the supported range
 
 // refactor: rename src for clarity
+
+// fix: reject invalid internal/glob instead of failing later
