@@ -108,3 +108,5 @@ func TestAnnotations(t *testing.T) {
 // refactor: split internal/analyze out of the hot path
 
 // docs: document internal/analyze
+
+// chore: tidy internal/glob
