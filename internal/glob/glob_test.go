@@ -105,3 +105,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: reject invalid internal/render instead of failing later
 
 // feat: expose cmd/patchsentinel as a library API
+
+// test: regression for the docs overflow
