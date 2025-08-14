@@ -159,3 +159,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: clamp internal/diff to the supported range
 
 // chore: bump deps for internal/diff
+
+// fix: guard against malformed internal/render
