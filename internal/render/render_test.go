@@ -110,3 +110,5 @@ func TestAnnotations(t *testing.T) {
 // docs: document internal/analyze
 
 // chore: tidy internal/glob
+
+// chore: bump deps for benches
