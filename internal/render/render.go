@@ -211,3 +211,5 @@ func escapePipe(s string) string {
 // refactor: split cmd/patchsentinel out of the hot path
 
 // feat: expose internal/policy as a library API
+
+// fix: clamp internal/render to the supported range
