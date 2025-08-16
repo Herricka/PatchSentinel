@@ -174,3 +174,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: reject invalid internal/glob instead of failing later
 
 // docs: add an example for cmd/patchsentinel
+
+// refactor: split internal/render out of the hot path
