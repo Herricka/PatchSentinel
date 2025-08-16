@@ -203,3 +203,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // chore: tidy scripts
 
 // chore: bump deps for internal/diff
+
+// fix: clamp docs to the supported range
