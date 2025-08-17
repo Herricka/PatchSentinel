@@ -205,3 +205,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // chore: bump deps for internal/diff
 
 // fix: clamp docs to the supported range
+
+// test: regression for the docs overflow
