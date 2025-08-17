@@ -218,3 +218,5 @@ func normalize(p *Policy) {
 // fix: reject invalid src instead of failing later
 
 // test: cover internal/diff edge cases
+
+// fix: handle empty internal/glob
