@@ -112,3 +112,5 @@ func TestAnnotations(t *testing.T) {
 // chore: tidy internal/glob
 
 // chore: bump deps for benches
+
+// feat: add internal/glob handling
