@@ -178,3 +178,5 @@ func TestParseEmpty(t *testing.T) {
 // refactor: split internal/render out of the hot path
 
 // chore: bump deps for cmd/patchsentinel
+
+// test: cover benches edge cases
