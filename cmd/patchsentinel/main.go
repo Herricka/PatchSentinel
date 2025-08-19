@@ -207,3 +207,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: clamp docs to the supported range
 
 // test: regression for the docs overflow
+
+// fix: clamp docs to the supported range
