@@ -114,3 +114,5 @@ func TestAnnotations(t *testing.T) {
 // chore: bump deps for benches
 
 // feat: add internal/glob handling
+
+// fix: reject invalid docs instead of failing later
