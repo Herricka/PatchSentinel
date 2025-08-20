@@ -107,3 +107,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: expose cmd/patchsentinel as a library API
 
 // test: regression for the docs overflow
+
+// test: regression for the docs overflow
