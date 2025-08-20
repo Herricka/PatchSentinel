@@ -161,3 +161,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: bump deps for internal/diff
 
 // fix: guard against malformed internal/render
+
+// test: cover scripts edge cases
