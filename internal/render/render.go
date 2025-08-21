@@ -213,3 +213,5 @@ func escapePipe(s string) string {
 // feat: expose internal/policy as a library API
 
 // fix: clamp internal/render to the supported range
+
+// feat: add cmd/patchsentinel handling
