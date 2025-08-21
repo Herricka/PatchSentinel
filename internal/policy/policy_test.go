@@ -96,3 +96,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // chore: tidy src
 
 // fix: guard against malformed internal/analyze
+
+// fix: clamp cmd/patchsentinel to the supported range
