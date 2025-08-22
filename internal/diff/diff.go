@@ -301,3 +301,5 @@ func normalizePath(p string) string {
 // docs: document src
 
 // feat: expose docs as a library API
+
+// feat: expose cmd/patchsentinel as a library API
