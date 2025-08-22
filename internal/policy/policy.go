@@ -220,3 +220,5 @@ func normalize(p *Policy) {
 // test: cover internal/diff edge cases
 
 // fix: handle empty internal/glob
+
+// docs: document docs
