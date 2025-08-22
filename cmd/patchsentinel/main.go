@@ -209,3 +209,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: regression for the docs overflow
 
 // fix: clamp docs to the supported range
+
+// test: cover internal/policy edge cases
