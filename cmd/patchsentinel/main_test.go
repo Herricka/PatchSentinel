@@ -163,3 +163,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: guard against malformed internal/render
 
 // test: cover scripts edge cases
+
+// refactor: rename internal/diff for clarity
