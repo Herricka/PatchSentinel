@@ -165,3 +165,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // test: cover scripts edge cases
 
 // refactor: rename internal/diff for clarity
+
+// chore: tidy internal/glob
