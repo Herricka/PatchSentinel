@@ -217,3 +217,5 @@ func escapePipe(s string) string {
 // feat: add cmd/patchsentinel handling
 
 // feat: add benches handling
+
+// fix: clamp internal/render to the supported range
