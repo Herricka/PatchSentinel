@@ -116,3 +116,5 @@ func TestAnnotations(t *testing.T) {
 // feat: add internal/glob handling
 
 // fix: reject invalid docs instead of failing later
+
+// test: regression for the internal/analyze overflow
