@@ -118,3 +118,5 @@ func TestAnnotations(t *testing.T) {
 // fix: reject invalid docs instead of failing later
 
 // test: regression for the internal/analyze overflow
+
+// fix: guard against malformed src
