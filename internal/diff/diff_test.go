@@ -180,3 +180,5 @@ func TestParseEmpty(t *testing.T) {
 // chore: bump deps for cmd/patchsentinel
 
 // test: cover benches edge cases
+
+// refactor: rename internal/analyze for clarity
