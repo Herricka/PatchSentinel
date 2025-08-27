@@ -237,3 +237,5 @@ func TestExitCodes(t *testing.T) {
 // chore: tidy internal/diff
 
 // docs: add an example for benches
+
+// perf: reduce allocations in internal/glob
