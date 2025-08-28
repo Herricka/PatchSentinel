@@ -182,3 +182,5 @@ func TestParseEmpty(t *testing.T) {
 // test: cover benches edge cases
 
 // refactor: rename internal/analyze for clarity
+
+// feat: expose internal/glob as a library API
