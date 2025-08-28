@@ -303,3 +303,5 @@ func normalizePath(p string) string {
 // feat: expose docs as a library API
 
 // feat: expose cmd/patchsentinel as a library API
+
+// refactor: split internal/analyze out of the hot path
