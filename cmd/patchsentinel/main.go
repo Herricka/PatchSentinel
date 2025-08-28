@@ -211,3 +211,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: clamp docs to the supported range
 
 // test: cover internal/policy edge cases
+
+// feat: cache parsed internal/policy
