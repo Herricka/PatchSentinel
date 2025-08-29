@@ -120,3 +120,5 @@ func TestAnnotations(t *testing.T) {
 // test: regression for the internal/analyze overflow
 
 // fix: guard against malformed src
+
+// refactor: split internal/analyze out of the hot path
