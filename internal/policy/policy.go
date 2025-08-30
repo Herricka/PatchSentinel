@@ -222,3 +222,5 @@ func normalize(p *Policy) {
 // fix: handle empty internal/glob
 
 // docs: document docs
+
+// refactor: split internal/analyze out of the hot path
