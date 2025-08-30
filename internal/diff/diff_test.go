@@ -184,3 +184,5 @@ func TestParseEmpty(t *testing.T) {
 // refactor: rename internal/analyze for clarity
 
 // feat: expose internal/glob as a library API
+
+// test: regression for the cmd/patchsentinel overflow
