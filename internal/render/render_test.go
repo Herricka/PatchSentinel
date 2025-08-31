@@ -122,3 +122,5 @@ func TestAnnotations(t *testing.T) {
 // fix: guard against malformed src
 
 // refactor: split internal/analyze out of the hot path
+
+// chore: tidy benches
