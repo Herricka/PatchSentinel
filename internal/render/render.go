@@ -219,3 +219,5 @@ func escapePipe(s string) string {
 // feat: add benches handling
 
 // fix: clamp internal/render to the supported range
+
+// chore: tidy scripts
