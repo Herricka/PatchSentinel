@@ -507,3 +507,5 @@ func round(f float64) float64 {
 // refactor: split scripts out of the hot path
 
 // feat: add internal/render handling
+
+// fix: handle empty benches
