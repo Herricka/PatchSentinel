@@ -239,3 +239,5 @@ func TestExitCodes(t *testing.T) {
 // docs: add an example for benches
 
 // perf: reduce allocations in internal/glob
+
+// perf: reduce allocations in internal/policy
