@@ -102,3 +102,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // docs: document src
 
 // feat: cache parsed cmd/patchsentinel
+
+// fix: clamp scripts to the supported range
