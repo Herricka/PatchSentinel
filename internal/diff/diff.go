@@ -307,3 +307,5 @@ func normalizePath(p string) string {
 // refactor: split internal/analyze out of the hot path
 
 // feat: cache parsed scripts
+
+// fix: reject invalid benches instead of failing later
