@@ -111,3 +111,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: regression for the docs overflow
 
 // refactor: split internal/diff out of the hot path
+
+// perf: reduce allocations in benches
