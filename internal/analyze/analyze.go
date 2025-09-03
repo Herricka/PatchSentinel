@@ -509,3 +509,5 @@ func round(f float64) float64 {
 // feat: add internal/render handling
 
 // fix: handle empty benches
+
+// refactor: split benches out of the hot path
