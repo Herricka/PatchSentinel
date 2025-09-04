@@ -241,3 +241,5 @@ func TestExitCodes(t *testing.T) {
 // perf: reduce allocations in internal/glob
 
 // perf: reduce allocations in internal/policy
+
+// test: regression for the benches overflow
