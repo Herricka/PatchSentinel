@@ -124,3 +124,5 @@ func TestAnnotations(t *testing.T) {
 // refactor: split internal/analyze out of the hot path
 
 // chore: tidy benches
+
+// fix: clamp internal/policy to the supported range
