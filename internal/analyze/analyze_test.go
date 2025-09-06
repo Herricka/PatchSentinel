@@ -243,3 +243,5 @@ func TestExitCodes(t *testing.T) {
 // perf: reduce allocations in internal/policy
 
 // test: regression for the benches overflow
+
+// fix: guard against malformed src
