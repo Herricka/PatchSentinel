@@ -167,3 +167,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // refactor: rename internal/diff for clarity
 
 // chore: tidy internal/glob
+
+// test: cover cmd/patchsentinel edge cases
