@@ -106,3 +106,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: clamp scripts to the supported range
 
 // fix: guard against malformed scripts
+
+// refactor: split cmd/patchsentinel out of the hot path
