@@ -169,3 +169,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: tidy internal/glob
 
 // test: cover cmd/patchsentinel edge cases
+
+// feat: add scripts handling
