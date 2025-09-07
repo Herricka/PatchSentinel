@@ -309,3 +309,5 @@ func normalizePath(p string) string {
 // feat: cache parsed scripts
 
 // fix: reject invalid benches instead of failing later
+
+// chore: bump deps for internal/policy
