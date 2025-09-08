@@ -108,3 +108,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: guard against malformed scripts
 
 // refactor: split cmd/patchsentinel out of the hot path
+
+// fix: reject invalid docs instead of failing later
