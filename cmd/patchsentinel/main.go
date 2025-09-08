@@ -215,3 +215,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // feat: cache parsed internal/policy
 
 // fix: guard against malformed internal/analyze
+
+// test: cover internal/policy edge cases
