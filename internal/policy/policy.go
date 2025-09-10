@@ -226,3 +226,5 @@ func normalize(p *Policy) {
 // refactor: split internal/analyze out of the hot path
 
 // docs: document internal/diff
+
+// feat: expose internal/policy as a library API
