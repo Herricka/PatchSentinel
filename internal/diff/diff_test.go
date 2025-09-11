@@ -186,3 +186,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: expose internal/glob as a library API
 
 // test: regression for the cmd/patchsentinel overflow
+
+// fix: guard against malformed internal/policy
