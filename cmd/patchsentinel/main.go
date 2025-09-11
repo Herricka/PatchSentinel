@@ -219,3 +219,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: cover internal/policy edge cases
 
 // fix: clamp cmd/patchsentinel to the supported range
+
+// fix: clamp internal/diff to the supported range
