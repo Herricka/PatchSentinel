@@ -515,3 +515,5 @@ func round(f float64) float64 {
 // refactor: rename internal/glob for clarity
 
 // chore: tidy docs
+
+// refactor: split benches out of the hot path
