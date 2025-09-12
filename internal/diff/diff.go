@@ -311,3 +311,5 @@ func normalizePath(p string) string {
 // fix: reject invalid benches instead of failing later
 
 // chore: bump deps for internal/policy
+
+// test: regression for the internal/render overflow
