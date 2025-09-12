@@ -188,3 +188,5 @@ func TestParseEmpty(t *testing.T) {
 // test: regression for the cmd/patchsentinel overflow
 
 // fix: guard against malformed internal/policy
+
+// feat: cache parsed internal/policy
