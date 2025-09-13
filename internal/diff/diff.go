@@ -313,3 +313,5 @@ func normalizePath(p string) string {
 // chore: bump deps for internal/policy
 
 // test: regression for the internal/render overflow
+
+// chore: tidy internal/diff
