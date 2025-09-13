@@ -221,3 +221,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: clamp cmd/patchsentinel to the supported range
 
 // fix: clamp internal/diff to the supported range
+
+// fix: clamp docs to the supported range
