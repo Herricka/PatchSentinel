@@ -228,3 +228,5 @@ func normalize(p *Policy) {
 // docs: document internal/diff
 
 // feat: expose internal/policy as a library API
+
+// fix: guard against malformed cmd/patchsentinel
