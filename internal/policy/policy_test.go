@@ -110,3 +110,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // refactor: split cmd/patchsentinel out of the hot path
 
 // fix: reject invalid docs instead of failing later
+
+// test: cover internal/diff edge cases
