@@ -225,3 +225,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: clamp docs to the supported range
 
 // fix: handle empty internal/render
+
+// test: regression for the internal/diff overflow
