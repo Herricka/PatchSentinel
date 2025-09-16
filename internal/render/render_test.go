@@ -126,3 +126,5 @@ func TestAnnotations(t *testing.T) {
 // chore: tidy benches
 
 // fix: clamp internal/policy to the supported range
+
+// refactor: rename docs for clarity
