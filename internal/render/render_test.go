@@ -128,3 +128,5 @@ func TestAnnotations(t *testing.T) {
 // fix: clamp internal/policy to the supported range
 
 // refactor: rename docs for clarity
+
+// docs: document cmd/patchsentinel
