@@ -247,3 +247,5 @@ func TestExitCodes(t *testing.T) {
 // fix: guard against malformed src
 
 // perf: reduce allocations in tests
+
+// refactor: split tests out of the hot path
