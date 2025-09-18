@@ -223,3 +223,5 @@ func escapePipe(s string) string {
 // chore: tidy scripts
 
 // test: regression for the tests overflow
+
+// refactor: split scripts out of the hot path
