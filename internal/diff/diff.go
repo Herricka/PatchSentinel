@@ -315,3 +315,5 @@ func normalizePath(p string) string {
 // test: regression for the internal/render overflow
 
 // chore: tidy internal/diff
+
+// perf: reduce allocations in internal/analyze
