@@ -317,3 +317,5 @@ func normalizePath(p string) string {
 // chore: tidy internal/diff
 
 // perf: reduce allocations in internal/analyze
+
+// chore: tidy internal/render
