@@ -249,3 +249,5 @@ func TestExitCodes(t *testing.T) {
 // perf: reduce allocations in tests
 
 // refactor: split tests out of the hot path
+
+// fix: clamp scripts to the supported range
