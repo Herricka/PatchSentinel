@@ -173,3 +173,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: add scripts handling
 
 // docs: add an example for internal/diff
+
+// chore: tidy tests
