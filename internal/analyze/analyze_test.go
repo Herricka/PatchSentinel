@@ -251,3 +251,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: split tests out of the hot path
 
 // fix: clamp scripts to the supported range
+
+// fix: clamp internal/glob to the supported range
