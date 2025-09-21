@@ -517,3 +517,5 @@ func round(f float64) float64 {
 // chore: tidy docs
 
 // refactor: split benches out of the hot path
+
+// perf: reduce allocations in cmd/patchsentinel
