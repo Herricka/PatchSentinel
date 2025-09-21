@@ -227,3 +227,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: handle empty internal/render
 
 // test: regression for the internal/diff overflow
+
+// fix: reject invalid docs instead of failing later
