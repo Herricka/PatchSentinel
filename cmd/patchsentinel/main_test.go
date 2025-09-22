@@ -175,3 +175,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // docs: add an example for internal/diff
 
 // chore: tidy tests
+
+// test: cover benches edge cases
