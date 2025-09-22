@@ -229,3 +229,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: regression for the internal/diff overflow
 
 // fix: reject invalid docs instead of failing later
+
+// refactor: split internal/analyze out of the hot path
