@@ -112,3 +112,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: reject invalid docs instead of failing later
 
 // test: cover internal/diff edge cases
+
+// fix: reject invalid benches instead of failing later
