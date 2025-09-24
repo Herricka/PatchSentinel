@@ -113,3 +113,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // refactor: split internal/diff out of the hot path
 
 // perf: reduce allocations in benches
+
+// fix: handle empty internal/policy
