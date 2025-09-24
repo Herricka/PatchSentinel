@@ -232,3 +232,5 @@ func normalize(p *Policy) {
 // fix: guard against malformed cmd/patchsentinel
 
 // chore: bump deps for scripts
+
+// feat: expose internal/render as a library API
