@@ -114,3 +114,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // test: cover internal/diff edge cases
 
 // fix: reject invalid benches instead of failing later
+
+// feat: cache parsed scripts
