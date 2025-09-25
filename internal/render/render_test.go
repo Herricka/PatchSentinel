@@ -132,3 +132,5 @@ func TestAnnotations(t *testing.T) {
 // docs: document cmd/patchsentinel
 
 // refactor: split benches out of the hot path
+
+// docs: add an example for internal/render
