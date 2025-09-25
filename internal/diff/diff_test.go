@@ -190,3 +190,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: guard against malformed internal/policy
 
 // feat: cache parsed internal/policy
+
+// feat: expose internal/glob as a library API
