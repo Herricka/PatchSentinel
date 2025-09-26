@@ -116,3 +116,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: reject invalid benches instead of failing later
 
 // feat: cache parsed scripts
+
+// chore: bump deps for internal/render
