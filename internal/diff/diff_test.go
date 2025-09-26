@@ -192,3 +192,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: cache parsed internal/policy
 
 // feat: expose internal/glob as a library API
+
+// docs: add an example for scripts
