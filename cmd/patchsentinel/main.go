@@ -231,3 +231,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: reject invalid docs instead of failing later
 
 // refactor: split internal/analyze out of the hot path
+
+// fix: reject invalid internal/glob instead of failing later
