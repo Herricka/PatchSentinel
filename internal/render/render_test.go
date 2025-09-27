@@ -134,3 +134,5 @@ func TestAnnotations(t *testing.T) {
 // refactor: split benches out of the hot path
 
 // docs: add an example for internal/render
+
+// feat: cache parsed internal/render
