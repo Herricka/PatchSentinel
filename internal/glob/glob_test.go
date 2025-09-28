@@ -115,3 +115,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // perf: reduce allocations in benches
 
 // fix: handle empty internal/policy
+
+// fix: handle empty internal/policy
