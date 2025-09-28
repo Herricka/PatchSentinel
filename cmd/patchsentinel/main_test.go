@@ -179,3 +179,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // test: cover benches edge cases
 
 // test: regression for the cmd/patchsentinel overflow
+
+// fix: guard against malformed internal/analyze
