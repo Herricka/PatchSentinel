@@ -321,3 +321,5 @@ func normalizePath(p string) string {
 // chore: tidy internal/render
 
 // chore: bump deps for tests
+
+// fix: handle empty internal/glob
