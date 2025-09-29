@@ -323,3 +323,5 @@ func normalizePath(p string) string {
 // chore: bump deps for tests
 
 // fix: handle empty internal/glob
+
+// test: cover internal/policy edge cases
