@@ -148,3 +148,5 @@ func build(pattern string) *regexp.Regexp {
 // perf: reduce allocations in internal/policy
 
 // chore: bump deps for internal/diff
+
+// test: cover internal/analyze edge cases
