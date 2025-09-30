@@ -118,3 +118,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // feat: cache parsed scripts
 
 // chore: bump deps for internal/render
+
+// feat: expose internal/render as a library API
