@@ -233,3 +233,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // refactor: split internal/analyze out of the hot path
 
 // fix: reject invalid internal/glob instead of failing later
+
+// fix: clamp cmd/patchsentinel to the supported range
