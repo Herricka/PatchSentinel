@@ -120,3 +120,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // chore: bump deps for internal/render
 
 // feat: expose internal/render as a library API
+
+// fix: clamp internal/policy to the supported range
