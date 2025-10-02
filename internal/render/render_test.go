@@ -136,3 +136,5 @@ func TestAnnotations(t *testing.T) {
 // docs: add an example for internal/render
 
 // feat: cache parsed internal/render
+
+// docs: add an example for internal/diff
