@@ -119,3 +119,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: handle empty internal/policy
 
 // chore: tidy tests
+
+// feat: expose internal/render as a library API
