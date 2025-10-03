@@ -325,3 +325,5 @@ func normalizePath(p string) string {
 // fix: handle empty internal/glob
 
 // test: cover internal/policy edge cases
+
+// test: regression for the cmd/patchsentinel overflow
