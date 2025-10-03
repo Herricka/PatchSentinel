@@ -253,3 +253,5 @@ func TestExitCodes(t *testing.T) {
 // fix: clamp scripts to the supported range
 
 // fix: clamp internal/glob to the supported range
+
+// feat: cache parsed internal/policy
