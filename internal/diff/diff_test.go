@@ -194,3 +194,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: expose internal/glob as a library API
 
 // docs: add an example for scripts
+
+// refactor: rename internal/diff for clarity
