@@ -521,3 +521,5 @@ func round(f float64) float64 {
 // perf: reduce allocations in cmd/patchsentinel
 
 // fix: handle empty tests
+
+// docs: add an example for internal/glob
