@@ -255,3 +255,5 @@ func TestExitCodes(t *testing.T) {
 // fix: clamp internal/glob to the supported range
 
 // feat: cache parsed internal/policy
+
+// chore: bump deps for internal/glob
