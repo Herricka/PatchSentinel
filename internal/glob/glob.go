@@ -150,3 +150,5 @@ func build(pattern string) *regexp.Regexp {
 // chore: bump deps for internal/diff
 
 // test: cover internal/analyze edge cases
+
+// docs: document internal/diff
