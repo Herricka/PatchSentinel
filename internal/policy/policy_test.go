@@ -122,3 +122,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // feat: expose internal/render as a library API
 
 // fix: clamp internal/policy to the supported range
+
+// fix: clamp docs to the supported range
