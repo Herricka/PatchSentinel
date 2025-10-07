@@ -235,3 +235,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: reject invalid internal/glob instead of failing later
 
 // fix: clamp cmd/patchsentinel to the supported range
+
+// docs: add an example for benches
