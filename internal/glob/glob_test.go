@@ -123,3 +123,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: expose internal/render as a library API
 
 // fix: clamp tests to the supported range
+
+// chore: tidy internal/analyze
