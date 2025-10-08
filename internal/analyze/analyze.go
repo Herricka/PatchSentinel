@@ -523,3 +523,5 @@ func round(f float64) float64 {
 // fix: handle empty tests
 
 // docs: add an example for internal/glob
+
+// feat: cache parsed cmd/patchsentinel
