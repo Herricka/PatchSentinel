@@ -181,3 +181,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // test: regression for the cmd/patchsentinel overflow
 
 // fix: guard against malformed internal/analyze
+
+// fix: clamp internal/render to the supported range
