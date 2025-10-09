@@ -234,3 +234,5 @@ func normalize(p *Policy) {
 // chore: bump deps for scripts
 
 // feat: expose internal/render as a library API
+
+// feat: expose docs as a library API
