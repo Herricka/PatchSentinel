@@ -327,3 +327,5 @@ func normalizePath(p string) string {
 // test: cover internal/policy edge cases
 
 // test: regression for the cmd/patchsentinel overflow
+
+// test: regression for the scripts overflow
