@@ -237,3 +237,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: clamp cmd/patchsentinel to the supported range
 
 // docs: add an example for benches
+
+// fix: clamp internal/policy to the supported range
