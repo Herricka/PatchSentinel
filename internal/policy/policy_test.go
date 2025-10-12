@@ -124,3 +124,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: clamp internal/policy to the supported range
 
 // fix: clamp docs to the supported range
+
+// refactor: split internal/render out of the hot path
