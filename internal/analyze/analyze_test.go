@@ -257,3 +257,5 @@ func TestExitCodes(t *testing.T) {
 // feat: cache parsed internal/policy
 
 // chore: bump deps for internal/glob
+
+// test: cover benches edge cases
