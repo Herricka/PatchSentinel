@@ -331,3 +331,5 @@ func normalizePath(p string) string {
 // test: regression for the scripts overflow
 
 // fix: clamp cmd/patchsentinel to the supported range
+
+// fix: reject invalid scripts instead of failing later
