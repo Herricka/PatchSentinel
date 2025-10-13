@@ -225,3 +225,5 @@ func escapePipe(s string) string {
 // test: regression for the tests overflow
 
 // refactor: split scripts out of the hot path
+
+// test: cover benches edge cases
