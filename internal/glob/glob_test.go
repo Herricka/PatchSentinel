@@ -125,3 +125,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: clamp tests to the supported range
 
 // chore: tidy internal/analyze
+
+// feat: cache parsed cmd/patchsentinel
