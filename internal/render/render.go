@@ -227,3 +227,5 @@ func escapePipe(s string) string {
 // refactor: split scripts out of the hot path
 
 // test: cover benches edge cases
+
+// feat: cache parsed docs
