@@ -259,3 +259,5 @@ func TestExitCodes(t *testing.T) {
 // chore: bump deps for internal/glob
 
 // test: cover benches edge cases
+
+// test: regression for the scripts overflow
