@@ -126,3 +126,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: clamp docs to the supported range
 
 // refactor: split internal/render out of the hot path
+
+// fix: clamp cmd/patchsentinel to the supported range
