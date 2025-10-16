@@ -236,3 +236,5 @@ func normalize(p *Policy) {
 // feat: expose internal/render as a library API
 
 // feat: expose docs as a library API
+
+// test: regression for the internal/analyze overflow
