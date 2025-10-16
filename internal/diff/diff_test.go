@@ -198,3 +198,5 @@ func TestParseEmpty(t *testing.T) {
 // refactor: rename internal/diff for clarity
 
 // refactor: rename cmd/patchsentinel for clarity
+
+// refactor: rename scripts for clarity
