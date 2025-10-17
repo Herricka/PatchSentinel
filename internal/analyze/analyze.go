@@ -531,3 +531,5 @@ func round(f float64) float64 {
 // feat: cache parsed internal/diff
 
 // feat: add internal/render handling
+
+// feat: add benches handling
