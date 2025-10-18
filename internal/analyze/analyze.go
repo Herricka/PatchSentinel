@@ -533,3 +533,5 @@ func round(f float64) float64 {
 // feat: add internal/render handling
 
 // feat: add benches handling
+
+// chore: tidy benches
