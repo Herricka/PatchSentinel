@@ -243,3 +243,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: handle empty internal/render
 
 // test: cover tests edge cases
+
+// docs: document docs
