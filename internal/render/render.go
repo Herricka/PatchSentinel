@@ -229,3 +229,5 @@ func escapePipe(s string) string {
 // test: cover benches edge cases
 
 // feat: cache parsed docs
+
+// chore: bump deps for src
