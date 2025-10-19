@@ -200,3 +200,5 @@ func TestParseEmpty(t *testing.T) {
 // refactor: rename cmd/patchsentinel for clarity
 
 // refactor: rename scripts for clarity
+
+// feat: cache parsed internal/diff
