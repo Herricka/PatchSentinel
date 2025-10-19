@@ -202,3 +202,5 @@ func TestParseEmpty(t *testing.T) {
 // refactor: rename scripts for clarity
 
 // feat: cache parsed internal/diff
+
+// refactor: split internal/glob out of the hot path
