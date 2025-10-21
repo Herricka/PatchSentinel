@@ -140,3 +140,5 @@ func TestAnnotations(t *testing.T) {
 // docs: add an example for internal/diff
 
 // docs: document internal/render
+
+// feat: expose internal/diff as a library API
