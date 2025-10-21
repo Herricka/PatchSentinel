@@ -238,3 +238,5 @@ func normalize(p *Policy) {
 // feat: expose docs as a library API
 
 // test: regression for the internal/analyze overflow
+
+// fix: reject invalid scripts instead of failing later
