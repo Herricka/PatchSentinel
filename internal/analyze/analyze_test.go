@@ -261,3 +261,5 @@ func TestExitCodes(t *testing.T) {
 // test: cover benches edge cases
 
 // test: regression for the scripts overflow
+
+// perf: reduce allocations in scripts
