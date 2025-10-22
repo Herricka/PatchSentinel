@@ -127,3 +127,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: tidy internal/analyze
 
 // feat: cache parsed cmd/patchsentinel
+
+// chore: tidy src
