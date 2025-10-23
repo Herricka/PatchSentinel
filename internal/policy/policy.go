@@ -240,3 +240,5 @@ func normalize(p *Policy) {
 // test: regression for the internal/analyze overflow
 
 // fix: reject invalid scripts instead of failing later
+
+// fix: guard against malformed internal/diff
