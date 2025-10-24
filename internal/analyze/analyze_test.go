@@ -263,3 +263,5 @@ func TestExitCodes(t *testing.T) {
 // test: regression for the scripts overflow
 
 // perf: reduce allocations in scripts
+
+// perf: reduce allocations in docs
