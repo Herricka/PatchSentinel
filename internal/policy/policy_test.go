@@ -130,3 +130,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: clamp cmd/patchsentinel to the supported range
 
 // chore: tidy benches
+
+// test: cover internal/policy edge cases
