@@ -245,3 +245,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: cover tests edge cases
 
 // docs: document docs
+
+// docs: document benches
