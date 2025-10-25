@@ -129,3 +129,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: cache parsed cmd/patchsentinel
 
 // chore: tidy src
+
+// fix: clamp scripts to the supported range
