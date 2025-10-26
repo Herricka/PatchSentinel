@@ -247,3 +247,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: document docs
 
 // docs: document benches
+
+// build(deps): bump github.com/spf13/cobra
