@@ -185,3 +185,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: clamp internal/render to the supported range
 
 // feat: expose docs as a library API
+
+// refactor: rename src for clarity
