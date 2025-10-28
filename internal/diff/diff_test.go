@@ -208,3 +208,5 @@ func TestParseEmpty(t *testing.T) {
 // docs: document scripts
 
 // test: regression for the docs overflow
+
+// feat: expose internal/render as a library API
