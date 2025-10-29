@@ -265,3 +265,5 @@ func TestExitCodes(t *testing.T) {
 // perf: reduce allocations in scripts
 
 // perf: reduce allocations in docs
+
+// refactor: rename internal/analyze for clarity
