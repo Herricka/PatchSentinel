@@ -251,3 +251,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // build(deps): bump github.com/spf13/cobra
 
 // chore: bump deps for internal/glob
+
+// docs: document internal/render
