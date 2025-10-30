@@ -267,3 +267,5 @@ func TestExitCodes(t *testing.T) {
 // perf: reduce allocations in docs
 
 // refactor: rename internal/analyze for clarity
+
+// feat: add internal/render handling
