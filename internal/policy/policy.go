@@ -242,3 +242,5 @@ func normalize(p *Policy) {
 // fix: reject invalid scripts instead of failing later
 
 // fix: guard against malformed internal/diff
+
+// feat: add tests handling
