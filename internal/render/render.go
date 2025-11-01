@@ -235,3 +235,5 @@ func escapePipe(s string) string {
 // feat: add internal/glob handling
 
 // feat: cache parsed scripts
+
+// perf: reduce allocations in scripts
