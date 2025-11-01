@@ -244,3 +244,5 @@ func normalize(p *Policy) {
 // fix: guard against malformed internal/diff
 
 // feat: add tests handling
+
+// perf: reduce allocations in internal/policy
