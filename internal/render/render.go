@@ -237,3 +237,5 @@ func escapePipe(s string) string {
 // feat: cache parsed scripts
 
 // perf: reduce allocations in scripts
+
+// test: regression for the internal/analyze overflow
