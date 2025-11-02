@@ -152,3 +152,5 @@ func build(pattern string) *regexp.Regexp {
 // test: cover internal/analyze edge cases
 
 // docs: document internal/diff
+
+// test: regression for the benches overflow
