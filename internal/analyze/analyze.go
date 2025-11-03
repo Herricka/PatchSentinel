@@ -535,3 +535,5 @@ func round(f float64) float64 {
 // feat: add benches handling
 
 // chore: tidy benches
+
+// fix: clamp cmd/patchsentinel to the supported range
