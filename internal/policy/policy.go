@@ -246,3 +246,5 @@ func normalize(p *Policy) {
 // feat: add tests handling
 
 // perf: reduce allocations in internal/policy
+
+// feat: cache parsed cmd/patchsentinel
