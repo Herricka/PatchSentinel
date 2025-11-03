@@ -146,3 +146,5 @@ func TestAnnotations(t *testing.T) {
 // test: cover internal/glob edge cases
 
 // chore: bump deps for docs
+
+// feat: expose internal/analyze as a library API
