@@ -269,3 +269,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: rename internal/analyze for clarity
 
 // feat: add internal/render handling
+
+// docs: add an example for docs
