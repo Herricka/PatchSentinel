@@ -255,3 +255,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: document internal/render
 
 // docs: document scripts
+
+// chore: bump deps for scripts
