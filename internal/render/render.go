@@ -239,3 +239,5 @@ func escapePipe(s string) string {
 // perf: reduce allocations in scripts
 
 // test: regression for the internal/analyze overflow
+
+// fix: reject invalid internal/analyze instead of failing later
