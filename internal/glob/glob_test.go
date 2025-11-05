@@ -131,3 +131,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: tidy src
 
 // fix: clamp scripts to the supported range
+
+// chore: bump deps for internal/glob
