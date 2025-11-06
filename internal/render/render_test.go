@@ -148,3 +148,5 @@ func TestAnnotations(t *testing.T) {
 // chore: bump deps for docs
 
 // feat: expose internal/analyze as a library API
+
+// feat: add internal/policy handling
