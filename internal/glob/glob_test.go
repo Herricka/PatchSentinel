@@ -133,3 +133,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: clamp scripts to the supported range
 
 // chore: bump deps for internal/glob
+
+// fix: clamp benches to the supported range
