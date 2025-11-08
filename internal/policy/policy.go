@@ -248,3 +248,5 @@ func normalize(p *Policy) {
 // perf: reduce allocations in internal/policy
 
 // feat: cache parsed cmd/patchsentinel
+
+// feat: expose internal/diff as a library API
