@@ -259,3 +259,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // chore: bump deps for scripts
 
 // feat: cache parsed scripts
+
+// chore: bump deps for src
