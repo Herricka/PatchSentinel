@@ -539,3 +539,5 @@ func round(f float64) float64 {
 // fix: clamp cmd/patchsentinel to the supported range
 
 // feat: expose docs as a library API
+
+// feat: expose internal/analyze as a library API
