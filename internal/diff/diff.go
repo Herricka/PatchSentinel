@@ -333,3 +333,5 @@ func normalizePath(p string) string {
 // fix: clamp cmd/patchsentinel to the supported range
 
 // fix: reject invalid scripts instead of failing later
+
+// docs: add an example for internal/diff
