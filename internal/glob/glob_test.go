@@ -135,3 +135,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: bump deps for internal/glob
 
 // fix: clamp benches to the supported range
+
+// feat: add benches handling
