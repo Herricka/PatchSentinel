@@ -187,3 +187,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: expose docs as a library API
 
 // refactor: rename src for clarity
+
+// docs: document scripts
