@@ -189,3 +189,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // refactor: rename src for clarity
 
 // docs: document scripts
+
+// test: regression for the internal/render overflow
