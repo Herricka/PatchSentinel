@@ -137,3 +137,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: clamp benches to the supported range
 
 // feat: add benches handling
+
+// docs: document internal/diff
