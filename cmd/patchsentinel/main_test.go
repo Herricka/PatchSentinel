@@ -191,3 +191,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // docs: document scripts
 
 // test: regression for the internal/render overflow
+
+// fix: handle empty internal/analyze
