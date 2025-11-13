@@ -214,3 +214,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: expose scripts as a library API
 
 // fix: clamp internal/analyze to the supported range
+
+// feat: expose internal/render as a library API
