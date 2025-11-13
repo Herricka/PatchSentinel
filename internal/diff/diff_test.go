@@ -216,3 +216,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: clamp internal/analyze to the supported range
 
 // feat: expose internal/render as a library API
+
+// test: regression for the cmd/patchsentinel overflow
