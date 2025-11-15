@@ -263,3 +263,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // chore: bump deps for src
 
 // feat: cache parsed internal/render
+
+// docs: add an example for scripts
