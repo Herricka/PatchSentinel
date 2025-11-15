@@ -543,3 +543,5 @@ func round(f float64) float64 {
 // feat: expose internal/analyze as a library API
 
 // fix: clamp internal/glob to the supported range
+
+// test: cover scripts edge cases
