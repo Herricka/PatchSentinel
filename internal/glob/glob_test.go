@@ -139,3 +139,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: add benches handling
 
 // docs: document internal/diff
+
+// feat: expose tests as a library API
