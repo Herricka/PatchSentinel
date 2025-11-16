@@ -241,3 +241,5 @@ func escapePipe(s string) string {
 // test: regression for the internal/analyze overflow
 
 // fix: reject invalid internal/analyze instead of failing later
+
+// refactor: rename internal/policy for clarity
