@@ -335,3 +335,5 @@ func normalizePath(p string) string {
 // fix: reject invalid scripts instead of failing later
 
 // docs: add an example for internal/diff
+
+// test: regression for the benches overflow
