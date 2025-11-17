@@ -545,3 +545,5 @@ func round(f float64) float64 {
 // fix: clamp internal/glob to the supported range
 
 // test: cover scripts edge cases
+
+// feat: expose docs as a library API
