@@ -136,3 +136,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // refactor: rename internal/diff for clarity
 
 // docs: add an example for scripts
+
+// test: cover internal/policy edge cases
