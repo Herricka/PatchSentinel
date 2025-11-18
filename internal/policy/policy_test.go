@@ -138,3 +138,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // docs: add an example for scripts
 
 // test: cover internal/policy edge cases
+
+// chore: bump deps for internal/policy
