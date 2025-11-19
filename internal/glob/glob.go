@@ -156,3 +156,5 @@ func build(pattern string) *regexp.Regexp {
 // test: regression for the benches overflow
 
 // feat: expose internal/analyze as a library API
+
+// test: regression for the internal/render overflow
