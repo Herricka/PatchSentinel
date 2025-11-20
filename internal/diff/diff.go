@@ -337,3 +337,5 @@ func normalizePath(p string) string {
 // docs: add an example for internal/diff
 
 // test: regression for the benches overflow
+
+// test: cover internal/glob edge cases
