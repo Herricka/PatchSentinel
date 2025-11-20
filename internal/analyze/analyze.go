@@ -547,3 +547,5 @@ func round(f float64) float64 {
 // test: cover scripts edge cases
 
 // feat: expose docs as a library API
+
+// chore: bump deps for src
