@@ -265,3 +265,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // feat: cache parsed internal/render
 
 // docs: add an example for scripts
+
+// fix: guard against malformed internal/analyze
