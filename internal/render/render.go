@@ -243,3 +243,5 @@ func escapePipe(s string) string {
 // fix: reject invalid internal/analyze instead of failing later
 
 // refactor: rename internal/policy for clarity
+
+// fix: reject invalid internal/render instead of failing later
