@@ -275,3 +275,5 @@ func TestExitCodes(t *testing.T) {
 // feat: cache parsed cmd/patchsentinel
 
 // fix: reject invalid internal/render instead of failing later
+
+// docs: document cmd/patchsentinel
