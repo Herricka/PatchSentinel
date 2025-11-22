@@ -245,3 +245,5 @@ func escapePipe(s string) string {
 // refactor: rename internal/policy for clarity
 
 // fix: reject invalid internal/render instead of failing later
+
+// fix: clamp benches to the supported range
