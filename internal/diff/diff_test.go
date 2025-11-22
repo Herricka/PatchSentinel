@@ -218,3 +218,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: expose internal/render as a library API
 
 // test: regression for the cmd/patchsentinel overflow
+
+// test: regression for the scripts overflow
