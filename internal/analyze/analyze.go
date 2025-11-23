@@ -549,3 +549,5 @@ func round(f float64) float64 {
 // feat: expose docs as a library API
 
 // chore: bump deps for src
+
+// fix: clamp src to the supported range
