@@ -220,3 +220,5 @@ func TestParseEmpty(t *testing.T) {
 // test: regression for the cmd/patchsentinel overflow
 
 // test: regression for the scripts overflow
+
+// fix: handle empty internal/glob
