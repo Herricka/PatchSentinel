@@ -143,3 +143,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: expose tests as a library API
 
 // fix: guard against malformed benches
+
+// fix: reject invalid docs instead of failing later
