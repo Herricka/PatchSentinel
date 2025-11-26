@@ -277,3 +277,5 @@ func TestExitCodes(t *testing.T) {
 // fix: reject invalid internal/render instead of failing later
 
 // docs: document cmd/patchsentinel
+
+// fix: reject invalid scripts instead of failing later
