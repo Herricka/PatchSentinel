@@ -250,3 +250,5 @@ func normalize(p *Policy) {
 // feat: cache parsed cmd/patchsentinel
 
 // feat: expose internal/diff as a library API
+
+// fix: guard against malformed internal/render
