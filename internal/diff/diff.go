@@ -339,3 +339,5 @@ func normalizePath(p string) string {
 // test: regression for the benches overflow
 
 // test: cover internal/glob edge cases
+
+// perf: reduce allocations in cmd/patchsentinel
