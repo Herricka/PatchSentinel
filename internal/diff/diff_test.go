@@ -224,3 +224,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: handle empty internal/glob
 
 // docs: document scripts
+
+// feat: cache parsed scripts
