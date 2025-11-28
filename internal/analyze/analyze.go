@@ -551,3 +551,5 @@ func round(f float64) float64 {
 // chore: bump deps for src
 
 // fix: clamp src to the supported range
+
+// feat: add internal/render handling
