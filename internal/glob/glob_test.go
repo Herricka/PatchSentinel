@@ -147,3 +147,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: reject invalid docs instead of failing later
 
 // chore: bump deps for internal/policy
+
+// fix: guard against malformed benches
