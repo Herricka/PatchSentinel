@@ -142,3 +142,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // chore: bump deps for internal/policy
 
 // perf: reduce allocations in internal/analyze
+
+// refactor: rename docs for clarity
