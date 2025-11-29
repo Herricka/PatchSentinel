@@ -267,3 +267,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: add an example for scripts
 
 // fix: guard against malformed internal/analyze
+
+// chore: tidy src
