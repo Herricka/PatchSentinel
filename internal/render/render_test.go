@@ -150,3 +150,5 @@ func TestAnnotations(t *testing.T) {
 // feat: expose internal/analyze as a library API
 
 // feat: add internal/policy handling
+
+// fix: guard against malformed scripts
