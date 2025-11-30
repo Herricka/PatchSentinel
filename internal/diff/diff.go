@@ -341,3 +341,5 @@ func normalizePath(p string) string {
 // test: cover internal/glob edge cases
 
 // perf: reduce allocations in cmd/patchsentinel
+
+// test: cover docs edge cases
