@@ -553,3 +553,5 @@ func round(f float64) float64 {
 // fix: clamp src to the supported range
 
 // feat: add internal/render handling
+
+// perf: reduce allocations in cmd/patchsentinel
