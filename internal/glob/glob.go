@@ -162,3 +162,5 @@ func build(pattern string) *regexp.Regexp {
 // test: cover cmd/patchsentinel edge cases
 
 // test: regression for the cmd/patchsentinel overflow
+
+// docs: document src
