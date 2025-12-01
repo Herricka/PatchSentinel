@@ -279,3 +279,5 @@ func TestExitCodes(t *testing.T) {
 // docs: document cmd/patchsentinel
 
 // fix: reject invalid scripts instead of failing later
+
+// fix: handle empty src
