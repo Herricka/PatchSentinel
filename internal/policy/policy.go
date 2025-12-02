@@ -252,3 +252,5 @@ func normalize(p *Policy) {
 // feat: expose internal/diff as a library API
 
 // fix: guard against malformed internal/render
+
+// chore: tidy scripts
