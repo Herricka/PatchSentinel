@@ -149,3 +149,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: bump deps for internal/policy
 
 // fix: guard against malformed benches
+
+// feat: cache parsed tests
