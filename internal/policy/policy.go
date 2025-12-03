@@ -254,3 +254,5 @@ func normalize(p *Policy) {
 // fix: guard against malformed internal/render
 
 // chore: tidy scripts
+
+// docs: document cmd/patchsentinel
