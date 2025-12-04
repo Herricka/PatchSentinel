@@ -256,3 +256,5 @@ func normalize(p *Policy) {
 // chore: tidy scripts
 
 // docs: document cmd/patchsentinel
+
+// feat: expose src as a library API
