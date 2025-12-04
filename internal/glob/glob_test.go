@@ -151,3 +151,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: guard against malformed benches
 
 // feat: cache parsed tests
+
+// feat: expose tests as a library API
