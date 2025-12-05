@@ -247,3 +247,5 @@ func escapePipe(s string) string {
 // fix: reject invalid internal/render instead of failing later
 
 // fix: clamp benches to the supported range
+
+// feat: add internal/policy handling
