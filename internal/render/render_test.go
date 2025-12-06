@@ -152,3 +152,5 @@ func TestAnnotations(t *testing.T) {
 // feat: add internal/policy handling
 
 // fix: guard against malformed scripts
+
+// test: cover internal/policy edge cases
