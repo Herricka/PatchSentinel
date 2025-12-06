@@ -557,3 +557,5 @@ func round(f float64) float64 {
 // perf: reduce allocations in cmd/patchsentinel
 
 // test: regression for the tests overflow
+
+// perf: reduce allocations in docs
