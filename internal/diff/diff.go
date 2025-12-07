@@ -345,3 +345,5 @@ func normalizePath(p string) string {
 // test: cover docs edge cases
 
 // test: regression for the docs overflow
+
+// chore: bump deps for tests
