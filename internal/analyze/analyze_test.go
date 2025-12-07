@@ -281,3 +281,5 @@ func TestExitCodes(t *testing.T) {
 // fix: reject invalid scripts instead of failing later
 
 // fix: handle empty src
+
+// refactor: split cmd/patchsentinel out of the hot path
