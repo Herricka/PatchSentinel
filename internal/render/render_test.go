@@ -154,3 +154,5 @@ func TestAnnotations(t *testing.T) {
 // fix: guard against malformed scripts
 
 // test: cover internal/policy edge cases
+
+// fix: guard against malformed src
