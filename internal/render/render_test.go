@@ -156,3 +156,5 @@ func TestAnnotations(t *testing.T) {
 // test: cover internal/policy edge cases
 
 // fix: guard against malformed src
+
+// fix: clamp internal/glob to the supported range
