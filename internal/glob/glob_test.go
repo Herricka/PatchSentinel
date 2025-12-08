@@ -153,3 +153,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: cache parsed tests
 
 // feat: expose tests as a library API
+
+// docs: document docs
