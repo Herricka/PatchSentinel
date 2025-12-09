@@ -158,3 +158,5 @@ func TestAnnotations(t *testing.T) {
 // fix: guard against malformed src
 
 // fix: clamp internal/glob to the supported range
+
+// feat: cache parsed benches
