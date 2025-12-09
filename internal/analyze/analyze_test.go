@@ -283,3 +283,5 @@ func TestExitCodes(t *testing.T) {
 // fix: handle empty src
 
 // refactor: split cmd/patchsentinel out of the hot path
+
+// refactor: rename internal/analyze for clarity
