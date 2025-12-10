@@ -155,3 +155,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: expose tests as a library API
 
 // docs: document docs
+
+// perf: reduce allocations in docs
