@@ -349,3 +349,5 @@ func normalizePath(p string) string {
 // chore: bump deps for tests
 
 // docs: document internal/policy
+
+// perf: reduce allocations in internal/analyze
