@@ -559,3 +559,5 @@ func round(f float64) float64 {
 // test: regression for the tests overflow
 
 // perf: reduce allocations in docs
+
+// fix: handle empty internal/diff
