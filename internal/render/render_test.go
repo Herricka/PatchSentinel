@@ -160,3 +160,5 @@ func TestAnnotations(t *testing.T) {
 // fix: clamp internal/glob to the supported range
 
 // feat: cache parsed benches
+
+// refactor: rename benches for clarity
