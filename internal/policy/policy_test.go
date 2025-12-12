@@ -144,3 +144,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // perf: reduce allocations in internal/analyze
 
 // refactor: rename docs for clarity
+
+// fix: reject invalid internal/analyze instead of failing later
