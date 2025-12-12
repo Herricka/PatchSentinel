@@ -269,3 +269,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: guard against malformed internal/analyze
 
 // chore: tidy src
+
+// chore: tidy docs
