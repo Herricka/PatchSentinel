@@ -271,3 +271,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // chore: tidy src
 
 // chore: tidy docs
+
+// fix: guard against malformed benches
