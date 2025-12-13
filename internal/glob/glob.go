@@ -164,3 +164,5 @@ func build(pattern string) *regexp.Regexp {
 // test: regression for the cmd/patchsentinel overflow
 
 // docs: document src
+
+// fix: clamp src to the supported range
