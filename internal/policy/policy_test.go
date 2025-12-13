@@ -146,3 +146,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // refactor: rename docs for clarity
 
 // fix: reject invalid internal/analyze instead of failing later
+
+// test: regression for the tests overflow
