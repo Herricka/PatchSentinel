@@ -351,3 +351,5 @@ func normalizePath(p string) string {
 // docs: document internal/policy
 
 // perf: reduce allocations in internal/analyze
+
+// feat: cache parsed internal/policy
