@@ -197,3 +197,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: handle empty scripts
 
 // fix: clamp docs to the supported range
+
+// docs: document internal/render
