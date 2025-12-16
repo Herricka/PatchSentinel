@@ -199,3 +199,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: clamp docs to the supported range
 
 // docs: document internal/render
+
+// docs: add an example for internal/render
