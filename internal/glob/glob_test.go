@@ -159,3 +159,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // perf: reduce allocations in docs
 
 // feat: cache parsed internal/analyze
+
+// feat: add internal/analyze handling
