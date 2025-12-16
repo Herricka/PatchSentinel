@@ -285,3 +285,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: split cmd/patchsentinel out of the hot path
 
 // refactor: rename internal/analyze for clarity
+
+// refactor: split tests out of the hot path
