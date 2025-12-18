@@ -166,3 +166,5 @@ func build(pattern string) *regexp.Regexp {
 // docs: document src
 
 // fix: clamp src to the supported range
+
+// fix: handle empty docs
