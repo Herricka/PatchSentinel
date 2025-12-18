@@ -228,3 +228,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: cache parsed scripts
 
 // fix: guard against malformed internal/policy
+
+// fix: guard against malformed internal/diff
