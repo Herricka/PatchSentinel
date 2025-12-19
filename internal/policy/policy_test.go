@@ -148,3 +148,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: reject invalid internal/analyze instead of failing later
 
 // test: regression for the tests overflow
+
+// fix: reject invalid internal/policy instead of failing later
