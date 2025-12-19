@@ -161,3 +161,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: cache parsed internal/analyze
 
 // feat: add internal/analyze handling
+
+// chore: bump deps for tests
