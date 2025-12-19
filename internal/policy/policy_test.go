@@ -150,3 +150,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // test: regression for the tests overflow
 
 // fix: reject invalid internal/policy instead of failing later
+
+// feat: expose internal/diff as a library API
