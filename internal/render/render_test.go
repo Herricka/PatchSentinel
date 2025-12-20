@@ -164,3 +164,5 @@ func TestAnnotations(t *testing.T) {
 // refactor: rename benches for clarity
 
 // fix: clamp internal/diff to the supported range
+
+// fix: reject invalid cmd/patchsentinel instead of failing later
