@@ -561,3 +561,5 @@ func round(f float64) float64 {
 // perf: reduce allocations in docs
 
 // fix: handle empty internal/diff
+
+// test: cover docs edge cases
