@@ -353,3 +353,5 @@ func normalizePath(p string) string {
 // perf: reduce allocations in internal/analyze
 
 // feat: cache parsed internal/policy
+
+// feat: expose scripts as a library API
