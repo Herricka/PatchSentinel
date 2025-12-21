@@ -163,3 +163,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: add internal/analyze handling
 
 // chore: bump deps for tests
+
+// feat: add internal/diff handling
