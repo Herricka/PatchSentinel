@@ -168,3 +168,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: clamp src to the supported range
 
 // fix: handle empty docs
+
+// feat: expose benches as a library API
