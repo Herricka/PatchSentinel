@@ -168,3 +168,5 @@ func TestAnnotations(t *testing.T) {
 // fix: reject invalid cmd/patchsentinel instead of failing later
 
 // docs: add an example for tests
+
+// fix: reject invalid benches instead of failing later
