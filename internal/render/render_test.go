@@ -166,3 +166,5 @@ func TestAnnotations(t *testing.T) {
 // fix: clamp internal/diff to the supported range
 
 // fix: reject invalid cmd/patchsentinel instead of failing later
+
+// docs: add an example for tests
