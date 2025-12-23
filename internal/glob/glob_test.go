@@ -165,3 +165,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: bump deps for tests
 
 // feat: add internal/diff handling
+
+// fix: reject invalid src instead of failing later
