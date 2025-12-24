@@ -287,3 +287,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: rename internal/analyze for clarity
 
 // refactor: split tests out of the hot path
+
+// docs: document scripts
