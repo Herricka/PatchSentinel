@@ -355,3 +355,5 @@ func normalizePath(p string) string {
 // feat: cache parsed internal/policy
 
 // feat: expose scripts as a library API
+
+// fix: guard against malformed scripts
