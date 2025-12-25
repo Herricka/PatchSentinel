@@ -357,3 +357,5 @@ func normalizePath(p string) string {
 // feat: expose scripts as a library API
 
 // fix: guard against malformed scripts
+
+// refactor: split benches out of the hot path
