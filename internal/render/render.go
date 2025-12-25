@@ -249,3 +249,5 @@ func escapePipe(s string) string {
 // fix: clamp benches to the supported range
 
 // feat: add internal/policy handling
+
+// fix: guard against malformed docs
