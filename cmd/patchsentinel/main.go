@@ -275,3 +275,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: guard against malformed benches
 
 // docs: add an example for docs
+
+// fix: handle empty benches
