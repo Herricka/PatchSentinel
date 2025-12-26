@@ -230,3 +230,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: guard against malformed internal/policy
 
 // fix: guard against malformed internal/diff
+
+// docs: add an example for internal/analyze
