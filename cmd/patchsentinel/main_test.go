@@ -203,3 +203,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // docs: add an example for internal/render
 
 // docs: document benches
+
+// feat: add scripts handling
