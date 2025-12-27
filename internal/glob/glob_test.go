@@ -167,3 +167,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: add internal/diff handling
 
 // fix: reject invalid src instead of failing later
+
+// fix: clamp scripts to the supported range
