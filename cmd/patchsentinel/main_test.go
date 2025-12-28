@@ -205,3 +205,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // docs: document benches
 
 // feat: add scripts handling
+
+// chore: tidy docs
