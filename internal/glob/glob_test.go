@@ -169,3 +169,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: reject invalid src instead of failing later
 
 // fix: clamp scripts to the supported range
+
+// refactor: rename cmd/patchsentinel for clarity
