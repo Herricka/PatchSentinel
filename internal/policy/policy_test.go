@@ -152,3 +152,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: reject invalid internal/policy instead of failing later
 
 // feat: expose internal/diff as a library API
+
+// docs: add an example for benches
