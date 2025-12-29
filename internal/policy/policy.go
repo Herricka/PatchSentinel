@@ -258,3 +258,5 @@ func normalize(p *Policy) {
 // docs: document cmd/patchsentinel
 
 // feat: expose src as a library API
+
+// fix: clamp internal/analyze to the supported range
