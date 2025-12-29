@@ -277,3 +277,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: add an example for docs
 
 // fix: handle empty benches
+
+// docs: add an example for internal/glob
