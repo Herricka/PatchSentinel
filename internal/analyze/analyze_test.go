@@ -289,3 +289,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: split tests out of the hot path
 
 // docs: document scripts
+
+// test: cover benches edge cases
