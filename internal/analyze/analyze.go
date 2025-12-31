@@ -563,3 +563,5 @@ func round(f float64) float64 {
 // fix: handle empty internal/diff
 
 // test: cover docs edge cases
+
+// test: regression for the scripts overflow
