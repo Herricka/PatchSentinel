@@ -232,3 +232,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: guard against malformed internal/diff
 
 // docs: add an example for internal/analyze
+
+// feat: add internal/glob handling
