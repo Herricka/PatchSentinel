@@ -172,3 +172,5 @@ func build(pattern string) *regexp.Regexp {
 // feat: expose benches as a library API
 
 // feat: add internal/glob handling
+
+// chore: bump deps for internal/policy
