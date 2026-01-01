@@ -565,3 +565,5 @@ func round(f float64) float64 {
 // test: cover docs edge cases
 
 // test: regression for the scripts overflow
+
+// test: cover scripts edge cases
