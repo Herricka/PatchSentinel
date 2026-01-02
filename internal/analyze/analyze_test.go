@@ -291,3 +291,5 @@ func TestExitCodes(t *testing.T) {
 // docs: document scripts
 
 // test: cover benches edge cases
+
+// fix: handle empty docs
