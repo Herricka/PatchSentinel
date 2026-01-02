@@ -293,3 +293,5 @@ func TestExitCodes(t *testing.T) {
 // test: cover benches edge cases
 
 // fix: handle empty docs
+
+// refactor: split internal/policy out of the hot path
