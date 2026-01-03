@@ -171,3 +171,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: clamp scripts to the supported range
 
 // refactor: rename cmd/patchsentinel for clarity
+
+// chore: tidy internal/policy
