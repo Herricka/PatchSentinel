@@ -283,3 +283,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // feat: add internal/analyze handling
 
 // fix: handle empty internal/glob
+
+// refactor: rename internal/analyze for clarity
