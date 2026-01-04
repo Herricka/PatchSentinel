@@ -359,3 +359,5 @@ func normalizePath(p string) string {
 // fix: guard against malformed scripts
 
 // refactor: split benches out of the hot path
+
+// perf: reduce allocations in internal/diff
