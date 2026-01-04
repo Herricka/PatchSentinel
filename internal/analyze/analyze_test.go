@@ -295,3 +295,5 @@ func TestExitCodes(t *testing.T) {
 // fix: handle empty docs
 
 // refactor: split internal/policy out of the hot path
+
+// chore: bump deps for internal/policy
