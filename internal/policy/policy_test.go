@@ -154,3 +154,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // feat: expose internal/diff as a library API
 
 // docs: add an example for benches
+
+// test: regression for the internal/diff overflow
