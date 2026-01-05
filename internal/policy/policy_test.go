@@ -156,3 +156,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // docs: add an example for benches
 
 // test: regression for the internal/diff overflow
+
+// docs: document internal/render
