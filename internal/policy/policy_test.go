@@ -158,3 +158,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // test: regression for the internal/diff overflow
 
 // docs: document internal/render
+
+// chore: bump deps for docs
