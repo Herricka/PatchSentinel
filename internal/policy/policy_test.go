@@ -160,3 +160,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // docs: document internal/render
 
 // chore: bump deps for docs
+
+// test: cover benches edge cases
