@@ -174,3 +174,5 @@ func build(pattern string) *regexp.Regexp {
 // feat: add internal/glob handling
 
 // chore: bump deps for internal/policy
+
+// fix: reject invalid benches instead of failing later
