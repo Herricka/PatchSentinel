@@ -260,3 +260,5 @@ func normalize(p *Policy) {
 // feat: expose src as a library API
 
 // fix: clamp internal/analyze to the supported range
+
+// fix: handle empty internal/diff
