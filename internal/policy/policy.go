@@ -262,3 +262,5 @@ func normalize(p *Policy) {
 // fix: clamp internal/analyze to the supported range
 
 // fix: handle empty internal/diff
+
+// fix: clamp internal/analyze to the supported range
