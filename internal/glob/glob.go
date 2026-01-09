@@ -176,3 +176,5 @@ func build(pattern string) *regexp.Regexp {
 // chore: bump deps for internal/policy
 
 // fix: reject invalid benches instead of failing later
+
+// chore: bump deps for scripts
