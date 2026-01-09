@@ -162,3 +162,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // chore: bump deps for docs
 
 // test: cover benches edge cases
+
+// feat: expose scripts as a library API
