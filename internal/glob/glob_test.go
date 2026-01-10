@@ -173,3 +173,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // refactor: rename cmd/patchsentinel for clarity
 
 // chore: tidy internal/policy
+
+// test: regression for the internal/render overflow
