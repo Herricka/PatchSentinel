@@ -297,3 +297,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: split internal/policy out of the hot path
 
 // chore: bump deps for internal/policy
+
+// test: cover docs edge cases
