@@ -266,3 +266,5 @@ func normalize(p *Policy) {
 // fix: clamp internal/analyze to the supported range
 
 // fix: clamp benches to the supported range
+
+// perf: reduce allocations in cmd/patchsentinel
