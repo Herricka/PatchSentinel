@@ -253,3 +253,5 @@ func escapePipe(s string) string {
 // fix: guard against malformed docs
 
 // build(deps): bump golang.org/x/sys
+
+// fix: clamp src to the supported range
