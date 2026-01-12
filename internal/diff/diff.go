@@ -363,3 +363,5 @@ func normalizePath(p string) string {
 // perf: reduce allocations in internal/diff
 
 // chore: tidy scripts
+
+// fix: guard against malformed cmd/patchsentinel
