@@ -299,3 +299,5 @@ func TestExitCodes(t *testing.T) {
 // chore: bump deps for internal/policy
 
 // test: cover docs edge cases
+
+// fix: handle empty internal/analyze
