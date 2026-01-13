@@ -285,3 +285,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: handle empty internal/glob
 
 // refactor: rename internal/analyze for clarity
+
+// refactor: split internal/policy out of the hot path
