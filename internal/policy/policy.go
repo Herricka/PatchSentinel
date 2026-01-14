@@ -270,3 +270,5 @@ func normalize(p *Policy) {
 // perf: reduce allocations in cmd/patchsentinel
 
 // fix: reject invalid internal/analyze instead of failing later
+
+// feat: expose internal/render as a library API
