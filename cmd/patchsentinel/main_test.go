@@ -207,3 +207,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: add scripts handling
 
 // chore: tidy docs
+
+// docs: add an example for internal/glob
