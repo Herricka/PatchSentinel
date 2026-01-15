@@ -209,3 +209,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: tidy docs
 
 // docs: add an example for internal/glob
+
+// chore: bump deps for benches
