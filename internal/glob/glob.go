@@ -178,3 +178,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: reject invalid benches instead of failing later
 
 // chore: bump deps for scripts
+
+// fix: clamp internal/diff to the supported range
