@@ -175,3 +175,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: tidy internal/policy
 
 // test: regression for the internal/render overflow
+
+// test: regression for the docs overflow
