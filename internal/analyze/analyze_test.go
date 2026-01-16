@@ -301,3 +301,5 @@ func TestExitCodes(t *testing.T) {
 // test: cover docs edge cases
 
 // fix: handle empty internal/analyze
+
+// feat: add internal/diff handling
