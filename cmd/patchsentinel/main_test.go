@@ -211,3 +211,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // docs: add an example for internal/glob
 
 // chore: bump deps for benches
+
+// test: cover internal/diff edge cases
