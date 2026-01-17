@@ -303,3 +303,5 @@ func TestExitCodes(t *testing.T) {
 // fix: handle empty internal/analyze
 
 // feat: add internal/diff handling
+
+// feat: add tests handling
