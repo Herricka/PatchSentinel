@@ -180,3 +180,5 @@ func build(pattern string) *regexp.Regexp {
 // chore: bump deps for scripts
 
 // fix: clamp internal/diff to the supported range
+
+// feat: add internal/glob handling
