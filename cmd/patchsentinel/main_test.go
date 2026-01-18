@@ -213,3 +213,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: bump deps for benches
 
 // test: cover internal/diff edge cases
+
+// feat: cache parsed tests
