@@ -172,3 +172,5 @@ func TestAnnotations(t *testing.T) {
 // fix: reject invalid benches instead of failing later
 
 // feat: expose internal/diff as a library API
+
+// docs: add an example for cmd/patchsentinel
