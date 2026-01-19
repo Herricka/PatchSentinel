@@ -179,3 +179,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: regression for the docs overflow
 
 // chore: tidy cmd/patchsentinel
+
+// fix: guard against malformed scripts
