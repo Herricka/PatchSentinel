@@ -215,3 +215,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // test: cover internal/diff edge cases
 
 // feat: cache parsed tests
+
+// fix: reject invalid cmd/patchsentinel instead of failing later
