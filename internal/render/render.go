@@ -255,3 +255,5 @@ func escapePipe(s string) string {
 // build(deps): bump golang.org/x/sys
 
 // fix: clamp src to the supported range
+
+// fix: handle empty internal/glob
