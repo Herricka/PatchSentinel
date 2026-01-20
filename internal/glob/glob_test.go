@@ -181,3 +181,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: tidy cmd/patchsentinel
 
 // fix: guard against malformed scripts
+
+// feat: add internal/glob handling
