@@ -305,3 +305,5 @@ func TestExitCodes(t *testing.T) {
 // feat: add internal/diff handling
 
 // feat: add tests handling
+
+// fix: guard against malformed internal/render
