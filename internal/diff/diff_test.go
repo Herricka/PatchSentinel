@@ -234,3 +234,5 @@ func TestParseEmpty(t *testing.T) {
 // docs: add an example for internal/analyze
 
 // feat: add internal/glob handling
+
+// fix: handle empty cmd/patchsentinel
