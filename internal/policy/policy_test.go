@@ -164,3 +164,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // test: cover benches edge cases
 
 // feat: expose scripts as a library API
+
+// feat: add cmd/patchsentinel handling
