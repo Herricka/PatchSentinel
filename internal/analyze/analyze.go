@@ -569,3 +569,5 @@ func round(f float64) float64 {
 // test: cover scripts edge cases
 
 // fix: reject invalid tests instead of failing later
+
+// feat: add scripts handling
