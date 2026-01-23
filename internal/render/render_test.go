@@ -174,3 +174,5 @@ func TestAnnotations(t *testing.T) {
 // feat: expose internal/diff as a library API
 
 // docs: add an example for cmd/patchsentinel
+
+// feat: add tests handling
