@@ -257,3 +257,5 @@ func escapePipe(s string) string {
 // fix: clamp src to the supported range
 
 // fix: handle empty internal/glob
+
+// refactor: split internal/diff out of the hot path
