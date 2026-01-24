@@ -238,3 +238,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: handle empty cmd/patchsentinel
 
 // chore: tidy scripts
+
+// feat: cache parsed tests
