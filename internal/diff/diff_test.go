@@ -240,3 +240,5 @@ func TestParseEmpty(t *testing.T) {
 // chore: tidy scripts
 
 // feat: cache parsed tests
+
+// fix: clamp src to the supported range
