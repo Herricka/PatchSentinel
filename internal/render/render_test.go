@@ -176,3 +176,5 @@ func TestAnnotations(t *testing.T) {
 // docs: add an example for cmd/patchsentinel
 
 // feat: add tests handling
+
+// refactor: split internal/diff out of the hot path
