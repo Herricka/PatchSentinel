@@ -307,3 +307,5 @@ func TestExitCodes(t *testing.T) {
 // feat: add tests handling
 
 // fix: guard against malformed internal/render
+
+// feat: cache parsed internal/glob
