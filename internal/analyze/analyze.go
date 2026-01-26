@@ -571,3 +571,5 @@ func round(f float64) float64 {
 // fix: reject invalid tests instead of failing later
 
 // feat: add scripts handling
+
+// feat: cache parsed internal/diff
