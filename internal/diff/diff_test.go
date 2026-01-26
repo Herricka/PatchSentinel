@@ -242,3 +242,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: cache parsed tests
 
 // fix: clamp src to the supported range
+
+// fix: guard against malformed internal/glob
