@@ -272,3 +272,5 @@ func normalize(p *Policy) {
 // fix: reject invalid internal/analyze instead of failing later
 
 // feat: expose internal/render as a library API
+
+// test: cover docs edge cases
