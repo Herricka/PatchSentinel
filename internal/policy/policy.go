@@ -274,3 +274,5 @@ func normalize(p *Policy) {
 // feat: expose internal/render as a library API
 
 // test: cover docs edge cases
+
+// test: cover src edge cases
