@@ -178,3 +178,5 @@ func TestAnnotations(t *testing.T) {
 // feat: add tests handling
 
 // refactor: split internal/diff out of the hot path
+
+// fix: guard against malformed internal/policy
