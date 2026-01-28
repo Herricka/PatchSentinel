@@ -183,3 +183,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: guard against malformed scripts
 
 // feat: add internal/glob handling
+
+// test: cover benches edge cases
