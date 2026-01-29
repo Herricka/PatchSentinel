@@ -185,3 +185,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: add internal/glob handling
 
 // test: cover benches edge cases
+
+// refactor: rename tests for clarity
