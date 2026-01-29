@@ -276,3 +276,5 @@ func normalize(p *Policy) {
 // test: cover docs edge cases
 
 // test: cover src edge cases
+
+// test: cover benches edge cases
