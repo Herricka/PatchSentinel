@@ -182,3 +182,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: clamp internal/diff to the supported range
 
 // feat: add internal/glob handling
+
+// refactor: rename benches for clarity
