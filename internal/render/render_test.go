@@ -180,3 +180,5 @@ func TestAnnotations(t *testing.T) {
 // refactor: split internal/diff out of the hot path
 
 // fix: guard against malformed internal/policy
+
+// refactor: rename cmd/patchsentinel for clarity
