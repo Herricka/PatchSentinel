@@ -219,3 +219,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: reject invalid cmd/patchsentinel instead of failing later
 
 // fix: guard against malformed src
+
+// docs: document docs
