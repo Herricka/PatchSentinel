@@ -187,3 +187,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: cover benches edge cases
 
 // refactor: rename tests for clarity
+
+// fix: reject invalid internal/analyze instead of failing later
