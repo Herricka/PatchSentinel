@@ -166,3 +166,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // feat: expose scripts as a library API
 
 // feat: add cmd/patchsentinel handling
+
+// refactor: rename internal/analyze for clarity
