@@ -259,3 +259,5 @@ func escapePipe(s string) string {
 // fix: handle empty internal/glob
 
 // refactor: split internal/diff out of the hot path
+
+// feat: cache parsed internal/diff
