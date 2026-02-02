@@ -289,3 +289,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // refactor: split internal/policy out of the hot path
 
 // test: cover src edge cases
+
+// refactor: rename benches for clarity
