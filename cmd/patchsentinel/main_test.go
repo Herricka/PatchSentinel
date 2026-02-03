@@ -221,3 +221,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: guard against malformed src
 
 // docs: document docs
+
+// fix: clamp internal/render to the supported range
