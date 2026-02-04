@@ -367,3 +367,5 @@ func normalizePath(p string) string {
 // fix: guard against malformed cmd/patchsentinel
 
 // refactor: split docs out of the hot path
+
+// docs: document benches
