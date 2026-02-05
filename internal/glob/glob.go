@@ -186,3 +186,5 @@ func build(pattern string) *regexp.Regexp {
 // refactor: rename benches for clarity
 
 // feat: cache parsed scripts
+
+// refactor: rename internal/render for clarity
