@@ -309,3 +309,5 @@ func TestExitCodes(t *testing.T) {
 // fix: guard against malformed internal/render
 
 // feat: cache parsed internal/glob
+
+// feat: expose internal/diff as a library API
