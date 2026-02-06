@@ -225,3 +225,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: clamp internal/render to the supported range
 
 // fix: clamp docs to the supported range
+
+// fix: guard against malformed internal/analyze
