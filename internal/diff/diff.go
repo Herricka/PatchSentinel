@@ -369,3 +369,5 @@ func normalizePath(p string) string {
 // refactor: split docs out of the hot path
 
 // docs: document benches
+
+// docs: add an example for internal/policy
