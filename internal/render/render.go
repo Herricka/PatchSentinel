@@ -261,3 +261,5 @@ func escapePipe(s string) string {
 // refactor: split internal/diff out of the hot path
 
 // feat: cache parsed internal/diff
+
+// feat: cache parsed scripts
