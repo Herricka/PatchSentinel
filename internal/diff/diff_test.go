@@ -248,3 +248,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: cache parsed internal/glob
 
 // feat: add benches handling
+
+// fix: clamp internal/render to the supported range
