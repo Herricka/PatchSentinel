@@ -246,3 +246,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: guard against malformed internal/glob
 
 // feat: cache parsed internal/glob
+
+// feat: add benches handling
