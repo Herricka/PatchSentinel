@@ -189,3 +189,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // refactor: rename tests for clarity
 
 // fix: reject invalid internal/analyze instead of failing later
+
+// docs: document docs
