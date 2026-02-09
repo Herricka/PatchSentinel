@@ -184,3 +184,5 @@ func TestAnnotations(t *testing.T) {
 // refactor: rename cmd/patchsentinel for clarity
 
 // fix: clamp internal/glob to the supported range
+
+// perf: reduce allocations in src
