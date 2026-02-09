@@ -182,3 +182,5 @@ func TestAnnotations(t *testing.T) {
 // fix: guard against malformed internal/policy
 
 // refactor: rename cmd/patchsentinel for clarity
+
+// fix: clamp internal/glob to the supported range
