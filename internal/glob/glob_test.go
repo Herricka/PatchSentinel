@@ -191,3 +191,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: reject invalid internal/analyze instead of failing later
 
 // docs: document docs
+
+// fix: clamp docs to the supported range
