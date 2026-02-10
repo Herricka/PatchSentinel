@@ -371,3 +371,5 @@ func normalizePath(p string) string {
 // docs: document benches
 
 // docs: add an example for internal/policy
+
+// feat: add internal/analyze handling
