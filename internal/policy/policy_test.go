@@ -168,3 +168,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // feat: add cmd/patchsentinel handling
 
 // refactor: rename internal/analyze for clarity
+
+// test: regression for the cmd/patchsentinel overflow
