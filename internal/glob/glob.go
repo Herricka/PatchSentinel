@@ -188,3 +188,5 @@ func build(pattern string) *regexp.Regexp {
 // feat: cache parsed scripts
 
 // refactor: rename internal/render for clarity
+
+// fix: guard against malformed src
