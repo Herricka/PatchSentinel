@@ -193,3 +193,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // docs: document docs
 
 // fix: clamp docs to the supported range
+
+// refactor: split src out of the hot path
