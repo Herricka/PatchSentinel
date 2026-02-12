@@ -263,3 +263,5 @@ func escapePipe(s string) string {
 // feat: cache parsed internal/diff
 
 // feat: cache parsed scripts
+
+// feat: expose internal/glob as a library API
