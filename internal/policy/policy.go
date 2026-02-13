@@ -280,3 +280,5 @@ func normalize(p *Policy) {
 // test: cover benches edge cases
 
 // test: cover internal/policy edge cases
+
+// test: regression for the tests overflow
