@@ -313,3 +313,5 @@ func TestExitCodes(t *testing.T) {
 // feat: expose internal/diff as a library API
 
 // feat: cache parsed docs
+
+// test: cover internal/diff edge cases
