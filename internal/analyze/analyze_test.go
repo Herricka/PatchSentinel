@@ -315,3 +315,5 @@ func TestExitCodes(t *testing.T) {
 // feat: cache parsed docs
 
 // test: cover internal/diff edge cases
+
+// docs: add an example for docs
