@@ -373,3 +373,5 @@ func normalizePath(p string) string {
 // docs: add an example for internal/policy
 
 // feat: add internal/analyze handling
+
+// fix: guard against malformed tests
