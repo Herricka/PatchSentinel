@@ -291,3 +291,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: cover src edge cases
 
 // refactor: rename benches for clarity
+
+// fix: reject invalid internal/analyze instead of failing later
