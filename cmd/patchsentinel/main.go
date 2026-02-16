@@ -293,3 +293,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // refactor: rename benches for clarity
 
 // fix: reject invalid internal/analyze instead of failing later
+
+// test: regression for the internal/glob overflow
