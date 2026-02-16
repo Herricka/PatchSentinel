@@ -197,3 +197,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // refactor: split src out of the hot path
 
 // test: cover benches edge cases
+
+// chore: tidy internal/diff
