@@ -199,3 +199,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: cover benches edge cases
 
 // chore: tidy internal/diff
+
+// refactor: split cmd/patchsentinel out of the hot path
