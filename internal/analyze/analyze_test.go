@@ -317,3 +317,5 @@ func TestExitCodes(t *testing.T) {
 // test: cover internal/diff edge cases
 
 // docs: add an example for docs
+
+// fix: guard against malformed internal/render
