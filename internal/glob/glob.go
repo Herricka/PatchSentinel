@@ -190,3 +190,5 @@ func build(pattern string) *regexp.Regexp {
 // refactor: rename internal/render for clarity
 
 // fix: guard against malformed src
+
+// test: cover internal/diff edge cases
