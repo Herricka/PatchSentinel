@@ -295,3 +295,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: reject invalid internal/analyze instead of failing later
 
 // test: regression for the internal/glob overflow
+
+// chore: tidy internal/glob
