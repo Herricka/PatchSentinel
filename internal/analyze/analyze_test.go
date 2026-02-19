@@ -319,3 +319,5 @@ func TestExitCodes(t *testing.T) {
 // docs: add an example for docs
 
 // fix: guard against malformed internal/render
+
+// feat: add cmd/patchsentinel handling
