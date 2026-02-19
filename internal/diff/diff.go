@@ -375,3 +375,5 @@ func normalizePath(p string) string {
 // feat: add internal/analyze handling
 
 // fix: guard against malformed tests
+
+// perf: reduce allocations in internal/diff
