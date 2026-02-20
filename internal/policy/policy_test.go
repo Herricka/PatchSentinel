@@ -170,3 +170,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // refactor: rename internal/analyze for clarity
 
 // test: regression for the cmd/patchsentinel overflow
+
+// fix: guard against malformed internal/policy
