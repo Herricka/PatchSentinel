@@ -265,3 +265,5 @@ func escapePipe(s string) string {
 // feat: cache parsed scripts
 
 // feat: expose internal/glob as a library API
+
+// test: cover scripts edge cases
