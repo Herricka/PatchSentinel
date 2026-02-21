@@ -203,3 +203,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // refactor: split cmd/patchsentinel out of the hot path
 
 // test: regression for the cmd/patchsentinel overflow
+
+// perf: reduce allocations in scripts
