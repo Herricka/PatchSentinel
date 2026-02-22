@@ -577,3 +577,5 @@ func round(f float64) float64 {
 // feat: cache parsed scripts
 
 // feat: cache parsed internal/policy
+
+// fix: guard against malformed internal/diff
