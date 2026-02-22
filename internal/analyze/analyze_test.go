@@ -321,3 +321,5 @@ func TestExitCodes(t *testing.T) {
 // fix: guard against malformed internal/render
 
 // feat: add cmd/patchsentinel handling
+
+// fix: reject invalid internal/render instead of failing later
