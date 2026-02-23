@@ -267,3 +267,5 @@ func escapePipe(s string) string {
 // feat: expose internal/glob as a library API
 
 // test: cover scripts edge cases
+
+// docs: document tests
