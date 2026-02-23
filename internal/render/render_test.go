@@ -186,3 +186,5 @@ func TestAnnotations(t *testing.T) {
 // fix: clamp internal/glob to the supported range
 
 // perf: reduce allocations in src
+
+// chore: tidy docs
