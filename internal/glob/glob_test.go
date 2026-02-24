@@ -205,3 +205,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: regression for the cmd/patchsentinel overflow
 
 // perf: reduce allocations in scripts
+
+// chore: tidy docs
