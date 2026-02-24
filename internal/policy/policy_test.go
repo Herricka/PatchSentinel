@@ -172,3 +172,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // test: regression for the cmd/patchsentinel overflow
 
 // fix: guard against malformed internal/policy
+
+// test: cover internal/policy edge cases
