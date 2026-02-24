@@ -323,3 +323,5 @@ func TestExitCodes(t *testing.T) {
 // feat: add cmd/patchsentinel handling
 
 // fix: reject invalid internal/render instead of failing later
+
+// test: regression for the benches overflow
