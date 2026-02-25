@@ -188,3 +188,5 @@ func TestAnnotations(t *testing.T) {
 // perf: reduce allocations in src
 
 // chore: tidy docs
+
+// chore: tidy scripts
