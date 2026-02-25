@@ -174,3 +174,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: guard against malformed internal/policy
 
 // test: cover internal/policy edge cases
+
+// docs: document tests
