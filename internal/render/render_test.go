@@ -190,3 +190,5 @@ func TestAnnotations(t *testing.T) {
 // chore: tidy docs
 
 // chore: tidy scripts
+
+// docs: document src
