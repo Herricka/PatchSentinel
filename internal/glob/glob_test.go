@@ -207,3 +207,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // perf: reduce allocations in scripts
 
 // chore: tidy docs
+
+// fix: handle empty scripts
