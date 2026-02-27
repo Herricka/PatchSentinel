@@ -192,3 +192,5 @@ func TestAnnotations(t *testing.T) {
 // chore: tidy scripts
 
 // docs: document src
+
+// test: regression for the scripts overflow
