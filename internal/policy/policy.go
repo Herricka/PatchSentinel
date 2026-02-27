@@ -284,3 +284,5 @@ func normalize(p *Policy) {
 // test: regression for the tests overflow
 
 // fix: guard against malformed benches
+
+// chore: tidy benches
