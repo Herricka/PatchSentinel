@@ -297,3 +297,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: regression for the internal/glob overflow
 
 // chore: tidy internal/glob
+
+// fix: handle empty internal/policy
