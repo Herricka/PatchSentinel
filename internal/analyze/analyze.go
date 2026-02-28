@@ -581,3 +581,5 @@ func round(f float64) float64 {
 // fix: guard against malformed internal/diff
 
 // feat: expose benches as a library API
+
+// fix: guard against malformed scripts
