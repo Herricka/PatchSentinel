@@ -176,3 +176,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // test: cover internal/policy edge cases
 
 // docs: document tests
+
+// perf: reduce allocations in internal/analyze
