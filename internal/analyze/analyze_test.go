@@ -325,3 +325,5 @@ func TestExitCodes(t *testing.T) {
 // fix: reject invalid internal/render instead of failing later
 
 // test: regression for the benches overflow
+
+// refactor: rename benches for clarity
