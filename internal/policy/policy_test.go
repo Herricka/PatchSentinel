@@ -178,3 +178,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // docs: document tests
 
 // perf: reduce allocations in internal/analyze
+
+// test: regression for the src overflow
