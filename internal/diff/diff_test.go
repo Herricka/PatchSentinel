@@ -250,3 +250,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: add benches handling
 
 // fix: clamp internal/render to the supported range
+
+// feat: add scripts handling
