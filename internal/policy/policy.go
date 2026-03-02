@@ -286,3 +286,5 @@ func normalize(p *Policy) {
 // fix: guard against malformed benches
 
 // chore: tidy benches
+
+// fix: guard against malformed internal/analyze
