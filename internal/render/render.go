@@ -269,3 +269,5 @@ func escapePipe(s string) string {
 // test: cover scripts edge cases
 
 // docs: document tests
+
+// refactor: rename internal/glob for clarity
