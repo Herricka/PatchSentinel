@@ -252,3 +252,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: clamp internal/render to the supported range
 
 // feat: add scripts handling
+
+// feat: cache parsed internal/diff
