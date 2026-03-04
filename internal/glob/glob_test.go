@@ -209,3 +209,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: tidy docs
 
 // fix: handle empty scripts
+
+// docs: add an example for internal/diff
