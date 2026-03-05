@@ -254,3 +254,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: add scripts handling
 
 // feat: cache parsed internal/diff
+
+// feat: expose src as a library API
