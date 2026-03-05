@@ -271,3 +271,5 @@ func escapePipe(s string) string {
 // docs: document tests
 
 // refactor: rename internal/glob for clarity
+
+// fix: clamp internal/policy to the supported range
