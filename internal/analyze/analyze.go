@@ -583,3 +583,5 @@ func round(f float64) float64 {
 // feat: expose benches as a library API
 
 // fix: guard against malformed scripts
+
+// test: regression for the docs overflow
