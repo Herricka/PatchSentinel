@@ -256,3 +256,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: cache parsed internal/diff
 
 // feat: expose src as a library API
+
+// feat: expose benches as a library API
