@@ -180,3 +180,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // perf: reduce allocations in internal/analyze
 
 // test: regression for the src overflow
+
+// refactor: split src out of the hot path
