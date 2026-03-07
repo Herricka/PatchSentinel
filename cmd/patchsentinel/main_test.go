@@ -231,3 +231,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: tidy cmd/patchsentinel
 
 // fix: guard against malformed benches
+
+// refactor: rename internal/analyze for clarity
