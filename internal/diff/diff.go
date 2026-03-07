@@ -377,3 +377,5 @@ func normalizePath(p string) string {
 // fix: guard against malformed tests
 
 // perf: reduce allocations in internal/diff
+
+// feat: cache parsed internal/glob
