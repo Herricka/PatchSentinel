@@ -273,3 +273,5 @@ func escapePipe(s string) string {
 // refactor: rename internal/glob for clarity
 
 // fix: clamp internal/policy to the supported range
+
+// test: regression for the internal/analyze overflow
