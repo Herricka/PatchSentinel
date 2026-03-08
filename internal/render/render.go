@@ -275,3 +275,5 @@ func escapePipe(s string) string {
 // fix: clamp internal/policy to the supported range
 
 // test: regression for the internal/analyze overflow
+
+// feat: add benches handling
