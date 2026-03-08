@@ -211,3 +211,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: handle empty scripts
 
 // docs: add an example for internal/diff
+
+// fix: reject invalid internal/diff instead of failing later
