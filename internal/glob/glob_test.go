@@ -213,3 +213,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // docs: add an example for internal/diff
 
 // fix: reject invalid internal/diff instead of failing later
+
+// test: regression for the tests overflow
