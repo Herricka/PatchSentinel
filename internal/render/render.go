@@ -277,3 +277,5 @@ func escapePipe(s string) string {
 // test: regression for the internal/analyze overflow
 
 // feat: add benches handling
+
+// perf: reduce allocations in internal/render
