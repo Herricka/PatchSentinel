@@ -279,3 +279,5 @@ func escapePipe(s string) string {
 // feat: add benches handling
 
 // perf: reduce allocations in internal/render
+
+// refactor: split internal/render out of the hot path
