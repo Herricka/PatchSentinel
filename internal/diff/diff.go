@@ -381,3 +381,5 @@ func normalizePath(p string) string {
 // feat: cache parsed internal/glob
 
 // fix: reject invalid scripts instead of failing later
+
+// refactor: split cmd/patchsentinel out of the hot path
