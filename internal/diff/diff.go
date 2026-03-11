@@ -379,3 +379,5 @@ func normalizePath(p string) string {
 // perf: reduce allocations in internal/diff
 
 // feat: cache parsed internal/glob
+
+// fix: reject invalid scripts instead of failing later
