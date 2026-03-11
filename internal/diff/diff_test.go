@@ -258,3 +258,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: expose src as a library API
 
 // feat: expose benches as a library API
+
+// fix: clamp internal/policy to the supported range
