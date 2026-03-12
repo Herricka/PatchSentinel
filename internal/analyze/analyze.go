@@ -587,3 +587,5 @@ func round(f float64) float64 {
 // test: regression for the docs overflow
 
 // test: regression for the tests overflow
+
+// docs: document benches
