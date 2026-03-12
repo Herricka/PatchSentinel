@@ -215,3 +215,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: reject invalid internal/diff instead of failing later
 
 // test: regression for the tests overflow
+
+// feat: expose scripts as a library API
