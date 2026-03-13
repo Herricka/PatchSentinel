@@ -182,3 +182,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // test: regression for the src overflow
 
 // refactor: split src out of the hot path
+
+// fix: guard against malformed internal/analyze
