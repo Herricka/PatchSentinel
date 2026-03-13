@@ -196,3 +196,5 @@ func TestAnnotations(t *testing.T) {
 // test: regression for the scripts overflow
 
 // chore: tidy cmd/patchsentinel
+
+// chore: bump deps for internal/policy
