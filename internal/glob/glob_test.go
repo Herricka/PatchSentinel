@@ -217,3 +217,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: regression for the tests overflow
 
 // feat: expose scripts as a library API
+
+// test: regression for the internal/analyze overflow
