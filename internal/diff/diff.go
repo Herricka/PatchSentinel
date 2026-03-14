@@ -383,3 +383,5 @@ func normalizePath(p string) string {
 // fix: reject invalid scripts instead of failing later
 
 // refactor: split cmd/patchsentinel out of the hot path
+
+// refactor: rename internal/policy for clarity
