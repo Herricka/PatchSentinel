@@ -219,3 +219,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: expose scripts as a library API
 
 // test: regression for the internal/analyze overflow
+
+// refactor: rename src for clarity
