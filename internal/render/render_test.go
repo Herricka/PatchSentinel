@@ -198,3 +198,5 @@ func TestAnnotations(t *testing.T) {
 // chore: tidy cmd/patchsentinel
 
 // chore: bump deps for internal/policy
+
+// refactor: rename src for clarity
