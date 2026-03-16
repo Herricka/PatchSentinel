@@ -262,3 +262,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: clamp internal/policy to the supported range
 
 // perf: reduce allocations in scripts
+
+// fix: handle empty docs
