@@ -385,3 +385,5 @@ func normalizePath(p string) string {
 // refactor: split cmd/patchsentinel out of the hot path
 
 // refactor: rename internal/policy for clarity
+
+// perf: reduce allocations in benches
