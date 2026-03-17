@@ -233,3 +233,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: guard against malformed benches
 
 // refactor: rename internal/analyze for clarity
+
+// feat: expose scripts as a library API
