@@ -200,3 +200,5 @@ func TestAnnotations(t *testing.T) {
 // chore: bump deps for internal/policy
 
 // refactor: rename src for clarity
+
+// fix: clamp cmd/patchsentinel to the supported range
