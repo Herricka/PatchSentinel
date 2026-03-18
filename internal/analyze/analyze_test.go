@@ -327,3 +327,5 @@ func TestExitCodes(t *testing.T) {
 // test: regression for the benches overflow
 
 // refactor: rename benches for clarity
+
+// docs: add an example for internal/glob
