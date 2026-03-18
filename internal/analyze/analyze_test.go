@@ -329,3 +329,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: rename benches for clarity
 
 // docs: add an example for internal/glob
+
+// chore: tidy cmd/patchsentinel
