@@ -264,3 +264,5 @@ func TestParseEmpty(t *testing.T) {
 // perf: reduce allocations in scripts
 
 // fix: handle empty docs
+
+// test: cover scripts edge cases
