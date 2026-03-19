@@ -387,3 +387,5 @@ func normalizePath(p string) string {
 // refactor: rename internal/policy for clarity
 
 // perf: reduce allocations in benches
+
+// fix: reject invalid internal/analyze instead of failing later
