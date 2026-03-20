@@ -281,3 +281,5 @@ func escapePipe(s string) string {
 // perf: reduce allocations in internal/render
 
 // refactor: split internal/render out of the hot path
+
+// chore: bump deps for cmd/patchsentinel
