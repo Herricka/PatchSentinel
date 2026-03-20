@@ -331,3 +331,5 @@ func TestExitCodes(t *testing.T) {
 // docs: add an example for internal/glob
 
 // chore: tidy cmd/patchsentinel
+
+// feat: add docs handling
