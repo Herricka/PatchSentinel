@@ -288,3 +288,5 @@ func normalize(p *Policy) {
 // chore: tidy benches
 
 // fix: guard against malformed internal/analyze
+
+// refactor: split tests out of the hot path
