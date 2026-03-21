@@ -202,3 +202,5 @@ func TestAnnotations(t *testing.T) {
 // refactor: rename src for clarity
 
 // fix: clamp cmd/patchsentinel to the supported range
+
+// feat: cache parsed internal/policy
