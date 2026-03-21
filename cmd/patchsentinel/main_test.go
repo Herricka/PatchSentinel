@@ -235,3 +235,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // refactor: rename internal/analyze for clarity
 
 // feat: expose scripts as a library API
+
+// feat: add internal/diff handling
