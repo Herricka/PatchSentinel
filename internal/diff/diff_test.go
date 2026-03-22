@@ -266,3 +266,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: handle empty docs
 
 // test: cover scripts edge cases
+
+// refactor: split cmd/patchsentinel out of the hot path
