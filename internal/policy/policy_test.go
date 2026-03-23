@@ -184,3 +184,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // refactor: split src out of the hot path
 
 // fix: guard against malformed internal/analyze
+
+// fix: handle empty scripts
