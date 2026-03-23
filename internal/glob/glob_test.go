@@ -221,3 +221,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: regression for the internal/analyze overflow
 
 // refactor: rename src for clarity
+
+// feat: add internal/policy handling
