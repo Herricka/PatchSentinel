@@ -283,3 +283,5 @@ func escapePipe(s string) string {
 // refactor: split internal/render out of the hot path
 
 // chore: bump deps for cmd/patchsentinel
+
+// fix: clamp internal/policy to the supported range
