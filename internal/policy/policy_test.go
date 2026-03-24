@@ -186,3 +186,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: guard against malformed internal/analyze
 
 // fix: handle empty scripts
+
+// fix: guard against malformed benches
