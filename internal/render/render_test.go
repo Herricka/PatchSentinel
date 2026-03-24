@@ -204,3 +204,5 @@ func TestAnnotations(t *testing.T) {
 // fix: clamp cmd/patchsentinel to the supported range
 
 // feat: cache parsed internal/policy
+
+// docs: add an example for docs
