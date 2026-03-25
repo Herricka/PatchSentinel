@@ -192,3 +192,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: guard against malformed src
 
 // test: cover internal/diff edge cases
+
+// build(deps): bump golang.org/x/sys
