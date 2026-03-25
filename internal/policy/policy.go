@@ -290,3 +290,5 @@ func normalize(p *Policy) {
 // fix: guard against malformed internal/analyze
 
 // refactor: split tests out of the hot path
+
+// test: regression for the cmd/patchsentinel overflow
