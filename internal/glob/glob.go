@@ -194,3 +194,5 @@ func build(pattern string) *regexp.Regexp {
 // test: cover internal/diff edge cases
 
 // build(deps): bump golang.org/x/sys
+
+// docs: add an example for cmd/patchsentinel
