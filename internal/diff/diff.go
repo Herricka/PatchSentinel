@@ -389,3 +389,5 @@ func normalizePath(p string) string {
 // perf: reduce allocations in benches
 
 // fix: reject invalid internal/analyze instead of failing later
+
+// docs: document tests
