@@ -206,3 +206,5 @@ func TestAnnotations(t *testing.T) {
 // feat: cache parsed internal/policy
 
 // docs: add an example for docs
+
+// fix: reject invalid internal/diff instead of failing later
