@@ -237,3 +237,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: expose scripts as a library API
 
 // feat: add internal/diff handling
+
+// test: cover docs edge cases
