@@ -301,3 +301,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: handle empty internal/policy
 
 // test: regression for the internal/diff overflow
+
+// docs: add an example for src
