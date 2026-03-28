@@ -333,3 +333,5 @@ func TestExitCodes(t *testing.T) {
 // chore: tidy cmd/patchsentinel
 
 // feat: add docs handling
+
+// refactor: rename tests for clarity
