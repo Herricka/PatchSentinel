@@ -285,3 +285,5 @@ func escapePipe(s string) string {
 // chore: bump deps for cmd/patchsentinel
 
 // fix: clamp internal/policy to the supported range
+
+// fix: reject invalid tests instead of failing later
