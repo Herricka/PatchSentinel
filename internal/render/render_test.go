@@ -210,3 +210,5 @@ func TestAnnotations(t *testing.T) {
 // fix: reject invalid internal/diff instead of failing later
 
 // feat: cache parsed tests
+
+// fix: guard against malformed internal/render
