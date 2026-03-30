@@ -198,3 +198,5 @@ func build(pattern string) *regexp.Regexp {
 // docs: add an example for cmd/patchsentinel
 
 // fix: handle empty internal/render
+
+// docs: document docs
