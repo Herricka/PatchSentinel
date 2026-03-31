@@ -190,3 +190,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: guard against malformed benches
 
 // docs: add an example for tests
+
+// feat: cache parsed internal/analyze
