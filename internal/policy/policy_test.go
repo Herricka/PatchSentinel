@@ -188,3 +188,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: handle empty scripts
 
 // fix: guard against malformed benches
+
+// docs: add an example for tests
