@@ -268,3 +268,5 @@ func TestParseEmpty(t *testing.T) {
 // test: cover scripts edge cases
 
 // refactor: split cmd/patchsentinel out of the hot path
+
+// test: cover cmd/patchsentinel edge cases
