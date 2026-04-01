@@ -200,3 +200,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: handle empty internal/render
 
 // docs: document docs
+
+// feat: expose tests as a library API
