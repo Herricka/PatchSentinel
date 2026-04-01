@@ -270,3 +270,5 @@ func TestParseEmpty(t *testing.T) {
 // refactor: split cmd/patchsentinel out of the hot path
 
 // test: cover cmd/patchsentinel edge cases
+
+// feat: add internal/analyze handling
