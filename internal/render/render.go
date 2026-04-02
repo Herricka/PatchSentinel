@@ -287,3 +287,5 @@ func escapePipe(s string) string {
 // fix: clamp internal/policy to the supported range
 
 // fix: reject invalid tests instead of failing later
+
+// feat: expose internal/policy as a library API
