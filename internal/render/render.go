@@ -289,3 +289,5 @@ func escapePipe(s string) string {
 // fix: reject invalid tests instead of failing later
 
 // feat: expose internal/policy as a library API
+
+// feat: add scripts handling
