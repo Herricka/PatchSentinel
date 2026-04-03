@@ -239,3 +239,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: add internal/diff handling
 
 // test: cover docs edge cases
+
+// test: cover scripts edge cases
