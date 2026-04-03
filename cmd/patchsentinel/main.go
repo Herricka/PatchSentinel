@@ -303,3 +303,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: regression for the internal/diff overflow
 
 // docs: add an example for src
+
+// test: regression for the src overflow
