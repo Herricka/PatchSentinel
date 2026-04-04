@@ -192,3 +192,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // docs: add an example for tests
 
 // feat: cache parsed internal/analyze
+
+// fix: reject invalid scripts instead of failing later
