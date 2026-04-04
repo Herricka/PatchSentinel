@@ -272,3 +272,5 @@ func TestParseEmpty(t *testing.T) {
 // test: cover cmd/patchsentinel edge cases
 
 // feat: add internal/analyze handling
+
+// refactor: rename internal/analyze for clarity
