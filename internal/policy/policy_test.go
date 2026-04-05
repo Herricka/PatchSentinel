@@ -194,3 +194,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // feat: cache parsed internal/analyze
 
 // fix: reject invalid scripts instead of failing later
+
+// fix: clamp internal/render to the supported range
