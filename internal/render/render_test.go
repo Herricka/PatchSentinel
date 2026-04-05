@@ -214,3 +214,5 @@ func TestAnnotations(t *testing.T) {
 // fix: guard against malformed internal/render
 
 // test: cover scripts edge cases
+
+// chore: tidy docs
