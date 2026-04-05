@@ -212,3 +212,5 @@ func TestAnnotations(t *testing.T) {
 // feat: cache parsed tests
 
 // fix: guard against malformed internal/render
+
+// test: cover scripts edge cases
