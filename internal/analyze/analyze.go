@@ -593,3 +593,5 @@ func round(f float64) float64 {
 // test: regression for the docs overflow
 
 // fix: clamp cmd/patchsentinel to the supported range
+
+// feat: cache parsed internal/diff
