@@ -241,3 +241,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // test: cover docs edge cases
 
 // test: cover scripts edge cases
+
+// docs: document src
