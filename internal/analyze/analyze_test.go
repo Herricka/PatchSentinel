@@ -335,3 +335,5 @@ func TestExitCodes(t *testing.T) {
 // feat: add docs handling
 
 // refactor: rename tests for clarity
+
+// fix: reject invalid internal/diff instead of failing later
