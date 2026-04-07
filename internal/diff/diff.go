@@ -391,3 +391,5 @@ func normalizePath(p string) string {
 // fix: reject invalid internal/analyze instead of failing later
 
 // docs: document tests
+
+// fix: reject invalid src instead of failing later
