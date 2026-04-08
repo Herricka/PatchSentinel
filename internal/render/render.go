@@ -291,3 +291,5 @@ func escapePipe(s string) string {
 // feat: expose internal/policy as a library API
 
 // feat: add scripts handling
+
+// fix: handle empty docs
