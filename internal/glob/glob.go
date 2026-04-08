@@ -202,3 +202,5 @@ func build(pattern string) *regexp.Regexp {
 // docs: document docs
 
 // feat: expose tests as a library API
+
+// refactor: split tests out of the hot path
