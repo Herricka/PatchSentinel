@@ -292,3 +292,5 @@ func normalize(p *Policy) {
 // refactor: split tests out of the hot path
 
 // test: regression for the cmd/patchsentinel overflow
+
+// fix: reject invalid internal/glob instead of failing later
