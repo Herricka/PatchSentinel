@@ -274,3 +274,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: add internal/analyze handling
 
 // refactor: rename internal/analyze for clarity
+
+// fix: reject invalid internal/diff instead of failing later
