@@ -243,3 +243,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // test: cover scripts edge cases
 
 // docs: document src
+
+// fix: reject invalid internal/analyze instead of failing later
