@@ -276,3 +276,5 @@ func TestParseEmpty(t *testing.T) {
 // refactor: rename internal/analyze for clarity
 
 // fix: reject invalid internal/diff instead of failing later
+
+// perf: reduce allocations in docs
