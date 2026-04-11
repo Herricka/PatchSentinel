@@ -196,3 +196,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: reject invalid scripts instead of failing later
 
 // fix: clamp internal/render to the supported range
+
+// test: regression for the benches overflow
