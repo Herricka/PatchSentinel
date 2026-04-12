@@ -339,3 +339,5 @@ func TestExitCodes(t *testing.T) {
 // fix: reject invalid internal/diff instead of failing later
 
 // docs: document internal/diff
+
+// feat: cache parsed internal/analyze
