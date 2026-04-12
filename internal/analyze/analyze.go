@@ -595,3 +595,5 @@ func round(f float64) float64 {
 // fix: clamp cmd/patchsentinel to the supported range
 
 // feat: cache parsed internal/diff
+
+// fix: reject invalid scripts instead of failing later
