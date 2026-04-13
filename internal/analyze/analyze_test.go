@@ -341,3 +341,5 @@ func TestExitCodes(t *testing.T) {
 // docs: document internal/diff
 
 // feat: cache parsed internal/analyze
+
+// feat: expose benches as a library API
