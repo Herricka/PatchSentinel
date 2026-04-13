@@ -278,3 +278,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: reject invalid internal/diff instead of failing later
 
 // perf: reduce allocations in docs
+
+// feat: expose internal/policy as a library API
