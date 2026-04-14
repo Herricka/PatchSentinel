@@ -597,3 +597,5 @@ func round(f float64) float64 {
 // feat: cache parsed internal/diff
 
 // fix: reject invalid scripts instead of failing later
+
+// test: cover src edge cases
