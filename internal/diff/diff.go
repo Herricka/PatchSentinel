@@ -395,3 +395,5 @@ func normalizePath(p string) string {
 // fix: reject invalid src instead of failing later
 
 // chore: bump deps for cmd/patchsentinel
+
+// fix: reject invalid benches instead of failing later
