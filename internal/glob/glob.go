@@ -206,3 +206,5 @@ func build(pattern string) *regexp.Regexp {
 // refactor: split tests out of the hot path
 
 // refactor: rename tests for clarity
+
+// chore: bump deps for cmd/patchsentinel
