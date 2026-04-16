@@ -397,3 +397,5 @@ func normalizePath(p string) string {
 // chore: bump deps for cmd/patchsentinel
 
 // fix: reject invalid benches instead of failing later
+
+// test: cover internal/glob edge cases
