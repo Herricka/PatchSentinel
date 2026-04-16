@@ -599,3 +599,5 @@ func round(f float64) float64 {
 // fix: reject invalid scripts instead of failing later
 
 // test: cover src edge cases
+
+// feat: expose docs as a library API
