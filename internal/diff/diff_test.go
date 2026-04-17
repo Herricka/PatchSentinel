@@ -280,3 +280,5 @@ func TestParseEmpty(t *testing.T) {
 // perf: reduce allocations in docs
 
 // feat: expose internal/policy as a library API
+
+// fix: guard against malformed src
