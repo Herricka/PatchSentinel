@@ -293,3 +293,5 @@ func escapePipe(s string) string {
 // feat: add scripts handling
 
 // fix: handle empty docs
+
+// fix: guard against malformed scripts
