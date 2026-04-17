@@ -305,3 +305,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: add an example for src
 
 // test: regression for the src overflow
+
+// chore: tidy internal/glob
