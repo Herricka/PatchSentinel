@@ -294,3 +294,5 @@ func normalize(p *Policy) {
 // test: regression for the cmd/patchsentinel overflow
 
 // fix: reject invalid internal/glob instead of failing later
+
+// refactor: rename internal/glob for clarity
