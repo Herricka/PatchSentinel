@@ -307,3 +307,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: regression for the src overflow
 
 // chore: tidy internal/glob
+
+// fix: guard against malformed benches
