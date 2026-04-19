@@ -601,3 +601,5 @@ func round(f float64) float64 {
 // test: cover src edge cases
 
 // feat: expose docs as a library API
+
+// chore: bump deps for cmd/patchsentinel
