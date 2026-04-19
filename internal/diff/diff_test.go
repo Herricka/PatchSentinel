@@ -282,3 +282,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: expose internal/policy as a library API
 
 // fix: guard against malformed src
+
+// docs: add an example for scripts
