@@ -603,3 +603,5 @@ func round(f float64) float64 {
 // feat: expose docs as a library API
 
 // chore: bump deps for cmd/patchsentinel
+
+// fix: handle empty benches
