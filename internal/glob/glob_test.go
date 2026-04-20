@@ -227,3 +227,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: regression for the internal/diff overflow
 
 // chore: tidy internal/analyze
+
+// chore: tidy benches
