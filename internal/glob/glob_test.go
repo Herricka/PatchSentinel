@@ -225,3 +225,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // feat: add internal/policy handling
 
 // test: regression for the internal/diff overflow
+
+// chore: tidy internal/analyze
