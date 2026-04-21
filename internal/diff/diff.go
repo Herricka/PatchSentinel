@@ -399,3 +399,5 @@ func normalizePath(p string) string {
 // fix: reject invalid benches instead of failing later
 
 // test: cover internal/glob edge cases
+
+// perf: reduce allocations in internal/policy
