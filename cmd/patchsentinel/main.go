@@ -309,3 +309,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // chore: tidy internal/glob
 
 // fix: guard against malformed benches
+
+// test: regression for the tests overflow
