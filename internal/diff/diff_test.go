@@ -284,3 +284,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: guard against malformed src
 
 // docs: add an example for scripts
+
+// docs: add an example for scripts
