@@ -311,3 +311,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: guard against malformed benches
 
 // test: regression for the tests overflow
+
+// feat: add benches handling
