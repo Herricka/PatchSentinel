@@ -229,3 +229,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: tidy internal/analyze
 
 // chore: tidy benches
+
+// feat: add internal/render handling
