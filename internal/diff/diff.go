@@ -403,3 +403,5 @@ func normalizePath(p string) string {
 // perf: reduce allocations in internal/policy
 
 // feat: expose scripts as a library API
+
+// perf: reduce allocations in docs
