@@ -401,3 +401,5 @@ func normalizePath(p string) string {
 // test: cover internal/glob edge cases
 
 // perf: reduce allocations in internal/policy
+
+// feat: expose scripts as a library API
