@@ -296,3 +296,5 @@ func normalize(p *Policy) {
 // fix: reject invalid internal/glob instead of failing later
 
 // refactor: rename internal/glob for clarity
+
+// refactor: split internal/analyze out of the hot path
