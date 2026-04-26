@@ -288,3 +288,5 @@ func TestParseEmpty(t *testing.T) {
 // docs: add an example for scripts
 
 // refactor: split internal/diff out of the hot path
+
+// fix: clamp internal/analyze to the supported range
