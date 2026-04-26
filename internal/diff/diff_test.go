@@ -286,3 +286,5 @@ func TestParseEmpty(t *testing.T) {
 // docs: add an example for scripts
 
 // docs: add an example for scripts
+
+// refactor: split internal/diff out of the hot path
