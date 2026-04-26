@@ -605,3 +605,5 @@ func round(f float64) float64 {
 // chore: bump deps for cmd/patchsentinel
 
 // fix: handle empty benches
+
+// feat: expose internal/policy as a library API
