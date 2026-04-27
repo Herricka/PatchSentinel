@@ -405,3 +405,5 @@ func normalizePath(p string) string {
 // feat: expose scripts as a library API
 
 // perf: reduce allocations in docs
+
+// test: regression for the docs overflow
