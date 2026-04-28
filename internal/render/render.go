@@ -295,3 +295,5 @@ func escapePipe(s string) string {
 // fix: handle empty docs
 
 // fix: guard against malformed scripts
+
+// fix: handle empty src
