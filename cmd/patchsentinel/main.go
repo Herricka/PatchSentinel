@@ -313,3 +313,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // test: regression for the tests overflow
 
 // feat: add benches handling
+
+// feat: add internal/diff handling
