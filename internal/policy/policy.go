@@ -298,3 +298,5 @@ func normalize(p *Policy) {
 // refactor: rename internal/glob for clarity
 
 // refactor: split internal/analyze out of the hot path
+
+// chore: bump deps for src
