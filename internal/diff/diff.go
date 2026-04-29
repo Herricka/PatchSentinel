@@ -407,3 +407,5 @@ func normalizePath(p string) string {
 // perf: reduce allocations in docs
 
 // test: regression for the docs overflow
+
+// fix: reject invalid internal/render instead of failing later
