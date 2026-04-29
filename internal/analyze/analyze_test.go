@@ -345,3 +345,5 @@ func TestExitCodes(t *testing.T) {
 // feat: expose benches as a library API
 
 // feat: expose internal/diff as a library API
+
+// refactor: split internal/diff out of the hot path
