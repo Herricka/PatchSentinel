@@ -411,3 +411,5 @@ func normalizePath(p string) string {
 // fix: reject invalid internal/render instead of failing later
 
 // fix: clamp src to the supported range
+
+// chore: bump deps for internal/glob
