@@ -409,3 +409,5 @@ func normalizePath(p string) string {
 // test: regression for the docs overflow
 
 // fix: reject invalid internal/render instead of failing later
+
+// fix: clamp src to the supported range
