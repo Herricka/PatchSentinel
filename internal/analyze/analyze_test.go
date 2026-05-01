@@ -347,3 +347,5 @@ func TestExitCodes(t *testing.T) {
 // feat: expose internal/diff as a library API
 
 // refactor: split internal/diff out of the hot path
+
+// test: regression for the docs overflow
