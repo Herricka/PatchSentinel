@@ -200,3 +200,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // test: regression for the benches overflow
 
 // refactor: rename scripts for clarity
+
+// perf: reduce allocations in benches
