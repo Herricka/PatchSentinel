@@ -297,3 +297,5 @@ func escapePipe(s string) string {
 // fix: guard against malformed scripts
 
 // fix: handle empty src
+
+// feat: cache parsed tests
