@@ -300,3 +300,5 @@ func normalize(p *Policy) {
 // refactor: split internal/analyze out of the hot path
 
 // chore: bump deps for src
+
+// feat: expose internal/render as a library API
