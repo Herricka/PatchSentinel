@@ -607,3 +607,5 @@ func round(f float64) float64 {
 // fix: handle empty benches
 
 // feat: expose internal/policy as a library API
+
+// refactor: split internal/diff out of the hot path
