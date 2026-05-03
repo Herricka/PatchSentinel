@@ -349,3 +349,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: split internal/diff out of the hot path
 
 // test: regression for the docs overflow
+
+// refactor: rename cmd/patchsentinel for clarity
