@@ -210,3 +210,5 @@ func build(pattern string) *regexp.Regexp {
 // chore: bump deps for cmd/patchsentinel
 
 // fix: reject invalid internal/analyze instead of failing later
+
+// feat: cache parsed scripts
