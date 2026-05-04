@@ -299,3 +299,5 @@ func escapePipe(s string) string {
 // fix: handle empty src
 
 // feat: cache parsed tests
+
+// refactor: split src out of the hot path
