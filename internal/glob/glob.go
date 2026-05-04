@@ -212,3 +212,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: reject invalid internal/analyze instead of failing later
 
 // feat: cache parsed scripts
+
+// fix: reject invalid benches instead of failing later
