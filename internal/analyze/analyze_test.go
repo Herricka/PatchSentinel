@@ -351,3 +351,5 @@ func TestExitCodes(t *testing.T) {
 // test: regression for the docs overflow
 
 // refactor: rename cmd/patchsentinel for clarity
+
+// fix: handle empty internal/glob
