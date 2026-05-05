@@ -247,3 +247,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: reject invalid internal/analyze instead of failing later
 
 // fix: guard against malformed docs
+
+// chore: tidy internal/policy
