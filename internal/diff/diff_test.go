@@ -294,3 +294,5 @@ func TestParseEmpty(t *testing.T) {
 // docs: document internal/diff
 
 // fix: clamp src to the supported range
+
+// chore: bump deps for internal/analyze
