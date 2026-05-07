@@ -216,3 +216,5 @@ func TestAnnotations(t *testing.T) {
 // test: cover scripts edge cases
 
 // chore: tidy docs
+
+// chore: bump deps for docs
