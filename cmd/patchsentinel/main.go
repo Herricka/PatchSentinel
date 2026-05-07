@@ -315,3 +315,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // feat: add benches handling
 
 // feat: add internal/diff handling
+
+// refactor: rename internal/glob for clarity
