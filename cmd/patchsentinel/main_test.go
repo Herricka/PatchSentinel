@@ -249,3 +249,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: guard against malformed docs
 
 // chore: tidy internal/policy
+
+// refactor: split cmd/patchsentinel out of the hot path
