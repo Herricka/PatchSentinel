@@ -296,3 +296,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: clamp src to the supported range
 
 // chore: bump deps for internal/analyze
+
+// test: cover internal/glob edge cases
