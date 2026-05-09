@@ -218,3 +218,5 @@ func TestAnnotations(t *testing.T) {
 // chore: tidy docs
 
 // chore: bump deps for docs
+
+// chore: tidy cmd/patchsentinel
