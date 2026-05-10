@@ -204,3 +204,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // perf: reduce allocations in benches
 
 // perf: reduce allocations in benches
+
+// test: cover benches edge cases
