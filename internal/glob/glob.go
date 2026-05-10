@@ -214,3 +214,5 @@ func build(pattern string) *regexp.Regexp {
 // feat: cache parsed scripts
 
 // fix: reject invalid benches instead of failing later
+
+// refactor: split internal/render out of the hot path
