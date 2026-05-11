@@ -298,3 +298,5 @@ func TestParseEmpty(t *testing.T) {
 // chore: bump deps for internal/analyze
 
 // test: cover internal/glob edge cases
+
+// refactor: split internal/diff out of the hot path
