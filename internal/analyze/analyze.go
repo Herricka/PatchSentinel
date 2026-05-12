@@ -609,3 +609,5 @@ func round(f float64) float64 {
 // feat: expose internal/policy as a library API
 
 // refactor: split internal/diff out of the hot path
+
+// fix: reject invalid internal/diff instead of failing later
