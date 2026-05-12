@@ -302,3 +302,5 @@ func normalize(p *Policy) {
 // chore: bump deps for src
 
 // feat: expose internal/render as a library API
+
+// fix: clamp cmd/patchsentinel to the supported range
