@@ -251,3 +251,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: tidy internal/policy
 
 // refactor: split cmd/patchsentinel out of the hot path
+
+// fix: clamp internal/diff to the supported range
