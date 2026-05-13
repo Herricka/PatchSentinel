@@ -220,3 +220,5 @@ func TestAnnotations(t *testing.T) {
 // chore: bump deps for docs
 
 // chore: tidy cmd/patchsentinel
+
+// fix: clamp internal/diff to the supported range
