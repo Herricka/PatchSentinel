@@ -301,3 +301,5 @@ func escapePipe(s string) string {
 // feat: cache parsed tests
 
 // refactor: split src out of the hot path
+
+// feat: add tests handling
