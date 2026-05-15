@@ -353,3 +353,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: rename cmd/patchsentinel for clarity
 
 // fix: handle empty internal/glob
+
+// fix: reject invalid internal/render instead of failing later
