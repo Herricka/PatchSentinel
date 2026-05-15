@@ -300,3 +300,5 @@ func TestParseEmpty(t *testing.T) {
 // test: cover internal/glob edge cases
 
 // refactor: split internal/diff out of the hot path
+
+// feat: add internal/render handling
