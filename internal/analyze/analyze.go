@@ -613,3 +613,5 @@ func round(f float64) float64 {
 // fix: reject invalid internal/diff instead of failing later
 
 // feat: add internal/glob handling
+
+// refactor: rename internal/policy for clarity
