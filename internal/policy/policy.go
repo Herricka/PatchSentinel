@@ -304,3 +304,5 @@ func normalize(p *Policy) {
 // feat: expose internal/render as a library API
 
 // fix: clamp cmd/patchsentinel to the supported range
+
+// test: cover tests edge cases
