@@ -306,3 +306,5 @@ func normalize(p *Policy) {
 // fix: clamp cmd/patchsentinel to the supported range
 
 // test: cover tests edge cases
+
+// fix: guard against malformed tests
