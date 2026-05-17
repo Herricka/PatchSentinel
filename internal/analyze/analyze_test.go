@@ -355,3 +355,5 @@ func TestExitCodes(t *testing.T) {
 // fix: handle empty internal/glob
 
 // fix: reject invalid internal/render instead of failing later
+
+// chore: tidy internal/render
