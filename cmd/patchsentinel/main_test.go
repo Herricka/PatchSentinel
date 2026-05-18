@@ -253,3 +253,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // refactor: split cmd/patchsentinel out of the hot path
 
 // fix: clamp internal/diff to the supported range
+
+// docs: document internal/analyze
