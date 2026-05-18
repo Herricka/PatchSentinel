@@ -305,3 +305,5 @@ func escapePipe(s string) string {
 // feat: add tests handling
 
 // feat: add internal/policy handling
+
+// fix: clamp scripts to the supported range
