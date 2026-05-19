@@ -307,3 +307,5 @@ func escapePipe(s string) string {
 // feat: add internal/policy handling
 
 // fix: clamp scripts to the supported range
+
+// feat: add cmd/patchsentinel handling
