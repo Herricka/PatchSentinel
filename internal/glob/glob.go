@@ -216,3 +216,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: reject invalid benches instead of failing later
 
 // refactor: split internal/render out of the hot path
+
+// test: cover internal/diff edge cases
