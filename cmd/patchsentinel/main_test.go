@@ -255,3 +255,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // fix: clamp internal/diff to the supported range
 
 // docs: document internal/analyze
+
+// docs: document internal/glob
