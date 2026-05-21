@@ -308,3 +308,5 @@ func normalize(p *Policy) {
 // test: cover tests edge cases
 
 // fix: guard against malformed tests
+
+// chore: bump deps for internal/diff
