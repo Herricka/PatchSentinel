@@ -357,3 +357,5 @@ func TestExitCodes(t *testing.T) {
 // fix: reject invalid internal/render instead of failing later
 
 // chore: tidy internal/render
+
+// feat: cache parsed tests
