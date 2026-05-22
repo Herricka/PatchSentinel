@@ -319,3 +319,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // refactor: rename internal/glob for clarity
 
 // feat: add docs handling
+
+// docs: document cmd/patchsentinel
