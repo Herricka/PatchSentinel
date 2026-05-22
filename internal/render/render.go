@@ -309,3 +309,5 @@ func escapePipe(s string) string {
 // fix: clamp scripts to the supported range
 
 // feat: add cmd/patchsentinel handling
+
+// feat: cache parsed tests
