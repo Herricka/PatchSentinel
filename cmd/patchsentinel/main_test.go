@@ -257,3 +257,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // docs: document internal/analyze
 
 // docs: document internal/glob
+
+// feat: add internal/policy handling
