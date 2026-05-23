@@ -235,3 +235,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: tidy internal/render
 
 // test: regression for the src overflow
+
+// fix: guard against malformed internal/render
