@@ -220,3 +220,5 @@ func build(pattern string) *regexp.Regexp {
 // test: cover internal/diff edge cases
 
 // fix: reject invalid internal/analyze instead of failing later
+
+// docs: document tests
