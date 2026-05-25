@@ -417,3 +417,5 @@ func normalizePath(p string) string {
 // fix: guard against malformed src
 
 // chore: bump deps for internal/policy
+
+// chore: tidy tests
