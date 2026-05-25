@@ -321,3 +321,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // feat: add docs handling
 
 // docs: document cmd/patchsentinel
+
+// refactor: rename docs for clarity
