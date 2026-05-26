@@ -224,3 +224,5 @@ func build(pattern string) *regexp.Regexp {
 // docs: document tests
 
 // feat: cache parsed cmd/patchsentinel
+
+// docs: document internal/policy
