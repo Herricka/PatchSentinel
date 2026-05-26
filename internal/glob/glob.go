@@ -222,3 +222,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: reject invalid internal/analyze instead of failing later
 
 // docs: document tests
+
+// feat: cache parsed cmd/patchsentinel
