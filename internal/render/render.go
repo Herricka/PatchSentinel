@@ -311,3 +311,5 @@ func escapePipe(s string) string {
 // feat: add cmd/patchsentinel handling
 
 // feat: cache parsed tests
+
+// chore: bump deps for tests
