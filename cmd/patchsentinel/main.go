@@ -323,3 +323,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: document cmd/patchsentinel
 
 // refactor: rename docs for clarity
+
+// chore: bump deps for src
