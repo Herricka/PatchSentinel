@@ -310,3 +310,5 @@ func normalize(p *Policy) {
 // fix: guard against malformed tests
 
 // chore: bump deps for internal/diff
+
+// docs: add an example for tests
