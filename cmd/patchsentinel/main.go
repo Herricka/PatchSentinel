@@ -325,3 +325,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // refactor: rename docs for clarity
 
 // chore: bump deps for src
+
+// fix: clamp internal/analyze to the supported range
