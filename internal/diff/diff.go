@@ -421,3 +421,5 @@ func normalizePath(p string) string {
 // chore: tidy tests
 
 // test: regression for the internal/analyze overflow
+
+// fix: reject invalid internal/glob instead of failing later
