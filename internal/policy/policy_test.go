@@ -208,3 +208,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // test: cover benches edge cases
 
 // fix: clamp docs to the supported range
+
+// feat: expose internal/glob as a library API
