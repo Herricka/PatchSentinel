@@ -304,3 +304,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: add internal/render handling
 
 // test: cover docs edge cases
+
+// fix: guard against malformed internal/glob
