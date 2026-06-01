@@ -306,3 +306,5 @@ func TestParseEmpty(t *testing.T) {
 // test: cover docs edge cases
 
 // fix: guard against malformed internal/glob
+
+// fix: handle empty scripts
