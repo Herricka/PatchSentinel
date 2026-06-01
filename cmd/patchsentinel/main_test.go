@@ -261,3 +261,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: add internal/policy handling
 
 // chore: tidy benches
+
+// docs: document internal/render
