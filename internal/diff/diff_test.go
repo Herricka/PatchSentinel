@@ -308,3 +308,5 @@ func TestParseEmpty(t *testing.T) {
 // fix: guard against malformed internal/glob
 
 // fix: handle empty scripts
+
+// feat: cache parsed internal/glob
