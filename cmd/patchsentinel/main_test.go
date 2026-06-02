@@ -263,3 +263,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: tidy benches
 
 // docs: document internal/render
+
+// docs: document src
