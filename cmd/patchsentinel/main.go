@@ -327,3 +327,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // chore: bump deps for src
 
 // fix: clamp internal/analyze to the supported range
+
+// docs: document scripts
