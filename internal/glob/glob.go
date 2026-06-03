@@ -228,3 +228,5 @@ func build(pattern string) *regexp.Regexp {
 // docs: document internal/policy
 
 // fix: guard against malformed cmd/patchsentinel
+
+// chore: tidy benches
