@@ -210,3 +210,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // fix: clamp docs to the supported range
 
 // feat: expose internal/glob as a library API
+
+// test: cover cmd/patchsentinel edge cases
