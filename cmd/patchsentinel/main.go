@@ -329,3 +329,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: clamp internal/analyze to the supported range
 
 // docs: document scripts
+
+// fix: reject invalid internal/policy instead of failing later
