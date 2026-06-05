@@ -241,3 +241,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // test: regression for the src overflow
 
 // fix: clamp internal/policy to the supported range
+
+// chore: tidy cmd/patchsentinel
