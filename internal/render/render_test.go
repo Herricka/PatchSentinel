@@ -224,3 +224,5 @@ func TestAnnotations(t *testing.T) {
 // fix: clamp internal/diff to the supported range
 
 // fix: reject invalid internal/render instead of failing later
+
+// feat: cache parsed cmd/patchsentinel
