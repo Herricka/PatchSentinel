@@ -243,3 +243,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // fix: clamp internal/policy to the supported range
 
 // chore: tidy cmd/patchsentinel
+
+// docs: document internal/glob
