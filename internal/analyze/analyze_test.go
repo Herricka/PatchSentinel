@@ -361,3 +361,5 @@ func TestExitCodes(t *testing.T) {
 // feat: cache parsed tests
 
 // test: regression for the internal/glob overflow
+
+// docs: add an example for internal/render
