@@ -267,3 +267,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // docs: document src
 
 // chore: tidy internal/analyze
+
+// refactor: split internal/analyze out of the hot path
