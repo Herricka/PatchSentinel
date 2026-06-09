@@ -363,3 +363,5 @@ func TestExitCodes(t *testing.T) {
 // test: regression for the internal/glob overflow
 
 // docs: add an example for internal/render
+
+// feat: add internal/policy handling
