@@ -331,3 +331,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: document scripts
 
 // fix: reject invalid internal/policy instead of failing later
+
+// test: cover internal/analyze edge cases
