@@ -312,3 +312,5 @@ func normalize(p *Policy) {
 // chore: bump deps for internal/diff
 
 // docs: add an example for tests
+
+// refactor: rename docs for clarity
