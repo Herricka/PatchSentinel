@@ -228,3 +228,5 @@ func TestAnnotations(t *testing.T) {
 // feat: cache parsed cmd/patchsentinel
 
 // fix: reject invalid cmd/patchsentinel instead of failing later
+
+// refactor: rename src for clarity
