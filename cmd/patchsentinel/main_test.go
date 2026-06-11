@@ -269,3 +269,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // chore: tidy internal/analyze
 
 // refactor: split internal/analyze out of the hot path
+
+// feat: cache parsed benches
