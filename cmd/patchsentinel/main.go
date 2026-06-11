@@ -333,3 +333,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: reject invalid internal/policy instead of failing later
 
 // test: cover internal/analyze edge cases
+
+// fix: handle empty internal/glob
