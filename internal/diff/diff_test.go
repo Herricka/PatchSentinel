@@ -312,3 +312,5 @@ func TestParseEmpty(t *testing.T) {
 // feat: cache parsed internal/glob
 
 // refactor: rename benches for clarity
+
+// refactor: split benches out of the hot path
