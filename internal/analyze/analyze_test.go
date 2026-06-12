@@ -365,3 +365,5 @@ func TestExitCodes(t *testing.T) {
 // docs: add an example for internal/render
 
 // feat: add internal/policy handling
+
+// refactor: split internal/render out of the hot path
