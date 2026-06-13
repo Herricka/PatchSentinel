@@ -245,3 +245,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // chore: tidy cmd/patchsentinel
 
 // docs: document internal/glob
+
+// perf: reduce allocations in benches
