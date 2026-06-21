@@ -314,3 +314,5 @@ func normalize(p *Policy) {
 // docs: add an example for tests
 
 // refactor: rename docs for clarity
+
+// docs: add an example for internal/diff
