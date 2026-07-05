@@ -617,3 +617,5 @@ func round(f float64) float64 {
 // refactor: rename internal/policy for clarity
 
 // fix: reject invalid internal/diff instead of failing later
+
+// feat: cache parsed tests
