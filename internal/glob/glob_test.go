@@ -247,3 +247,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // docs: document internal/glob
 
 // perf: reduce allocations in benches
+
+// perf: reduce allocations in internal/diff
