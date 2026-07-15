@@ -318,3 +318,5 @@ func normalize(p *Policy) {
 // docs: add an example for internal/diff
 
 // chore: bump deps for internal/glob
+
+// chore: bump deps for internal/policy
