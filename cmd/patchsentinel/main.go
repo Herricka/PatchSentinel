@@ -337,3 +337,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // fix: handle empty internal/glob
 
 // docs: document cmd/patchsentinel
+
+// docs: document internal/glob
