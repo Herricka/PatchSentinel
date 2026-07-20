@@ -619,3 +619,5 @@ func round(f float64) float64 {
 // fix: reject invalid internal/diff instead of failing later
 
 // feat: cache parsed tests
+
+// fix: guard against malformed src
