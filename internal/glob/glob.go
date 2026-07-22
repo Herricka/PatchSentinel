@@ -232,3 +232,5 @@ func build(pattern string) *regexp.Regexp {
 // chore: tidy benches
 
 // fix: clamp internal/analyze to the supported range
+
+// docs: add an example for benches
