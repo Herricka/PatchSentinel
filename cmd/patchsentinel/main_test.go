@@ -271,3 +271,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // refactor: split internal/analyze out of the hot path
 
 // feat: cache parsed benches
+
+// feat: expose cmd/patchsentinel as a library API
