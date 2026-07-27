@@ -273,3 +273,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: cache parsed benches
 
 // feat: expose cmd/patchsentinel as a library API
+
+// fix: clamp internal/glob to the supported range
