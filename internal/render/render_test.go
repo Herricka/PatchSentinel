@@ -230,3 +230,5 @@ func TestAnnotations(t *testing.T) {
 // fix: reject invalid cmd/patchsentinel instead of failing later
 
 // refactor: rename src for clarity
+
+// test: cover internal/analyze edge cases
