@@ -369,3 +369,5 @@ func TestExitCodes(t *testing.T) {
 // refactor: split internal/render out of the hot path
 
 // docs: document docs
+
+// fix: handle empty internal/analyze
