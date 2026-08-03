@@ -339,3 +339,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: document cmd/patchsentinel
 
 // docs: document internal/glob
+
+// chore: bump deps for scripts
