@@ -212,3 +212,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // feat: expose internal/glob as a library API
 
 // test: cover cmd/patchsentinel edge cases
+
+// docs: document internal/analyze
