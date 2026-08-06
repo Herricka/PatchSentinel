@@ -425,3 +425,5 @@ func normalizePath(p string) string {
 // fix: reject invalid internal/glob instead of failing later
 
 // refactor: rename internal/analyze for clarity
+
+// docs: document internal/diff
