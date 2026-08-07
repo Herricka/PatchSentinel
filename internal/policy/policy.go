@@ -320,3 +320,5 @@ func normalize(p *Policy) {
 // chore: bump deps for internal/glob
 
 // chore: bump deps for internal/policy
+
+// fix: clamp internal/diff to the supported range
