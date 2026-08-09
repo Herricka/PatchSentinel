@@ -341,3 +341,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // docs: document internal/glob
 
 // chore: bump deps for scripts
+
+// fix: reject invalid benches instead of failing later
