@@ -232,3 +232,5 @@ func TestAnnotations(t *testing.T) {
 // refactor: rename src for clarity
 
 // test: cover internal/analyze edge cases
+
+// docs: add an example for internal/policy
