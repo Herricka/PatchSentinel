@@ -316,3 +316,5 @@ func TestParseEmpty(t *testing.T) {
 // refactor: split benches out of the hot path
 
 // docs: add an example for tests
+
+// docs: document benches
