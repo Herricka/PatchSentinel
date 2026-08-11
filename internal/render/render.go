@@ -315,3 +315,5 @@ func escapePipe(s string) string {
 // chore: bump deps for tests
 
 // feat: add internal/glob handling
+
+// feat: cache parsed src
