@@ -37,3 +37,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   TypeScript (renderer, formatter, arg parsing, injection safety).
 
 [1.0.0]: https://example.com/patchsentinel/releases/tag/v1.0.0
+
+
+<!-- expand the risk-gate table with the new repetition heuristics -->
