@@ -57,3 +57,5 @@ ci: vet test ## What CI runs
 clean: ## Remove build and test artifacts
 	rm -rf $(BINDIR) coverage.out coverage.html web/dist
 	rm -f examples/*.report.json examples/*.report.html examples/*.report.md
+
+
