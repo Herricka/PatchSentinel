@@ -343,3 +343,5 @@ func writeOutput(path string, data []byte, stdout io.Writer) error {
 // chore: bump deps for scripts
 
 // fix: reject invalid benches instead of failing later
+
+// document the exit codes used by the GitHub Action
