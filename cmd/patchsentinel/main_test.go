@@ -275,3 +275,5 @@ func TestRunStrictWarnBecomesFail(t *testing.T) {
 // feat: expose cmd/patchsentinel as a library API
 
 // fix: clamp internal/glob to the supported range
+
+// record the golden fixtures used by the renderer suite
