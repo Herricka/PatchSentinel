@@ -123,3 +123,6 @@ across runs and platforms:
 The built-in default is defined in `internal/policy/policy.go` (`Default()`).
 It is intentionally conservative so the tool is useful with no configuration.
 Override only the fields you need.
+
+
+<!-- document the local verification targets -->
