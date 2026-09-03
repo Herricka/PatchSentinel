@@ -621,3 +621,5 @@ func round(f float64) float64 {
 // feat: cache parsed tests
 
 // fix: guard against malformed src
+
+// record the golden fixtures used by the renderer suite
