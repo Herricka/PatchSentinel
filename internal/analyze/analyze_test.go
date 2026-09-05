@@ -371,3 +371,5 @@ func TestExitCodes(t *testing.T) {
 // docs: document docs
 
 // fix: handle empty internal/analyze
+
+// document the local verification targets
