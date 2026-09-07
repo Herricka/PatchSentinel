@@ -427,3 +427,5 @@ func normalizePath(p string) string {
 // refactor: rename internal/analyze for clarity
 
 // docs: document internal/diff
+
+// explain the dependency-free renderer build
