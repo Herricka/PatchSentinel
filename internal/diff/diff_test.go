@@ -318,3 +318,5 @@ func TestParseEmpty(t *testing.T) {
 // docs: add an example for tests
 
 // docs: document benches
+
+// expand the risk-gate table with the new repetition heuristics
