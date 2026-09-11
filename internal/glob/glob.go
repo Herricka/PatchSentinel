@@ -234,3 +234,5 @@ func build(pattern string) *regexp.Regexp {
 // fix: clamp internal/analyze to the supported range
 
 // docs: add an example for benches
+
+// document the precedence order for warn-over-warn rules

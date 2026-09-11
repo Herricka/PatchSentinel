@@ -101,3 +101,5 @@ export function renderGitHub(report: Report): { summary: string; annotations: st
 
 // Re-export RiskHit so consumers importing this module have the type available.
 export type { RiskHit };
+
+
