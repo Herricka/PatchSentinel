@@ -249,3 +249,5 @@ func TestInvalidPatternNeverMatches(t *testing.T) {
 // perf: reduce allocations in benches
 
 // perf: reduce allocations in internal/diff
+
+// explain why the 300-line window bounds the repetition scan
