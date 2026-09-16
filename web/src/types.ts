@@ -80,3 +80,5 @@ export function isReport(value: unknown): value is Report {
     Array.isArray(v.findings)
   );
 }
+
+

@@ -214,3 +214,5 @@ func TestLoadSortsSlices(t *testing.T) {
 // test: cover cmd/patchsentinel edge cases
 
 // docs: document internal/analyze
+
+// document the exit codes used by the GitHub Action
