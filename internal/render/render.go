@@ -317,3 +317,5 @@ func escapePipe(s string) string {
 // feat: add internal/glob handling
 
 // feat: cache parsed src
+
+// record the golden fixtures used by the renderer suite

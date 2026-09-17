@@ -51,3 +51,5 @@ export function severityEmoji(severity: string): string {
       return "ℹ️";
   }
 }
+
+
