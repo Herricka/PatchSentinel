@@ -234,3 +234,5 @@ func TestAnnotations(t *testing.T) {
 // test: cover internal/analyze edge cases
 
 // docs: add an example for internal/policy
+
+// document the local verification targets
