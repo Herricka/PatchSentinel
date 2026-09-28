@@ -73,3 +73,4 @@ jobs:
           node web/dist/cli.js --format github --in risky.json >> "$GITHUB_STEP_SUMMARY"
       - name: Emit annotations for risky example
         run: node web/dist/cli.js --format annotations --in risky.json || true
+
