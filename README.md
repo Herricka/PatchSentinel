@@ -27,8 +27,8 @@ It does **not** claim to detect "AI-written code" — that claim isn't honest an
 ## The 60-second tour
 
 ```bash
-make build                                   # -> ./bin/patchsentinel
-git diff origin/main... | ./bin/patchsentinel -format text
+make build                                   # -> ./bin/PatchSentinel
+git diff origin/main... | ./bin/PatchSentinel -format text
 ```
 
 The core is a **Go CLI** built from the standard library alone: parse a unified diff (files or stdin), evaluate it against a policy, print evidence, exit with a code that mirrors the verdict. A separate dependency-free **TypeScript renderer** turns that JSON into a self-contained HTML page or GitHub check output. Two languages, one schema, zero runtime dependencies.
@@ -42,13 +42,13 @@ The core is a **Go CLI** built from the standard library alone: parse a unified 
 Requires **Go ≥ 1.24** and **Node ≥ 20** (Node only for HTML/GitHub rendering; the CLI stands alone).
 
 ```bash
-make build      # compile the Go CLI into ./bin/patchsentinel
+make build      # compile the Go CLI into ./bin/PatchSentinel
 make test       # run Go + TypeScript test suites
 make demo       # regenerate the example HTML + Markdown reports
 make help       # list every target
 
 # or raw:
-go build -o bin/patchsentinel ./cmd/patchsentinel
+go build -o bin/PatchSentinel ./cmd/PatchSentinel
 cd web && npm install && npm run build      # dev-only deps; runtime stays zero-dep
 ```
 
@@ -61,7 +61,7 @@ The `examples/` directory ships three diffs spanning the full spectrum. Output b
 A small helper plus its test. Balanced, mergeable.
 
 ```text
-$ patchsentinel -format text examples/clean.diff
+$ PatchSentinel -format text examples/clean.diff
 Verdict: PASS
 ------------------------------------------------------------
 Files changed      : 2
@@ -88,7 +88,7 @@ Files:
 Hardcoded secrets, `eval`, string-built SQL, wildcard CORS, a TODO, plus edits to an auth service and a CI workflow. Two hard gates trip.
 
 ```text
-$ patchsentinel -format text examples/risky.diff
+$ PatchSentinel -format text examples/risky.diff
 Verdict: FAIL
 ------------------------------------------------------------
 Files changed      : 2
@@ -125,7 +125,7 @@ Each signal line also prints the offending snippet (two shown above). The risk s
 A brand-new file of 33 added lines: getters/setters plus the *same* `validate()` stub repeated over and over. No dangerous patterns, no tests — just suspicious uniformity.
 
 ```text
-$ patchsentinel -format text examples/generated.diff
+$ PatchSentinel -format text examples/generated.diff
 Verdict: WARN
 ------------------------------------------------------------
 Files changed      : 1
@@ -189,7 +189,7 @@ Glob tokens: `*` = within a segment, `?` = one non-separator char, `**` = any nu
 A shipped `examples/policy.strict.json` tightens thresholds and flips `sensitivePathIsWarning` to `true`. Run it on the generated example and the lower `minProductionLinesForTestCheck` surfaces a *second* finding (review time rises to 16 min):
 
 ```text
-$ patchsentinel -policy examples/policy.strict.json -format text examples/generated.diff
+$ PatchSentinel -policy examples/policy.strict.json -format text examples/generated.diff
 Verdict: WARN
 Findings:
   [WARN] Insufficient test coverage for change size
@@ -229,7 +229,7 @@ Annotations for the risky example:
 The gate is stdin-friendly. Fail on `fail`, post a summary regardless, drop inline annotations:
 
 ```yaml
-name: patchsentinel
+name: PatchSentinel
 on: pull_request
 permissions: { contents: read, pull-requests: write }
 jobs:
@@ -244,16 +244,16 @@ jobs:
         with: { node-version: "20" }
       - name: Build tools
         run: |
-          go build -o bin/patchsentinel ./cmd/patchsentinel
+          go build -o bin/PatchSentinel ./cmd/PatchSentinel
           cd web && npm install --no-audit --no-fund && npm run build
       - name: Analyze + report
         run: |
           git diff origin/${{ github.base_ref }}... > pr.diff
-          ./bin/patchsentinel -format json pr.diff > report.json || true
+          ./bin/PatchSentinel -format json pr.diff > report.json || true
           node web/dist/cli.js --format github      --in report.json >> "$GITHUB_STEP_SUMMARY"
           node web/dist/cli.js --format annotations --in report.json
       - name: Enforce verdict           # non-zero exit fails the job
-        run: ./bin/patchsentinel -format text pr.diff
+        run: ./bin/PatchSentinel -format text pr.diff
 ```
 
 The `|| true` always renders the summary; `Enforce verdict` blocks the merge (add `-strict` to block on warnings too). This repo's [`.github/workflows/ci.yml`](.github/workflows/ci.yml) self-gates the examples the same way.
@@ -321,7 +321,7 @@ flowchart LR
     C -->|"exit 0 / 1 / 2"| K[CI gate]
 ```
 
-Layout: `cmd/patchsentinel` (CLI entrypoint) · `internal/{diff,policy,glob,analyze,render}` (stdlib-only engine) · `web/src` (zero-dep TypeScript renderer) · `examples/` (the three diffs + strict policy) · `docs/POLICY.md` + `docs/assets/` (the two local SVGs above) · `.github/workflows/` (Go + TS + self-gate CI).
+Layout: `cmd/PatchSentinel` (CLI entrypoint) · `internal/{diff,policy,glob,analyze,render}` (stdlib-only engine) · `web/src` (zero-dep TypeScript renderer) · `examples/` (the three diffs + strict policy) · `docs/POLICY.md` + `docs/assets/` (the two local SVGs above) · `.github/workflows/` (Go + TS + self-gate CI).
 
 ## Development
 
