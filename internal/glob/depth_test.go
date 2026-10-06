@@ -20,7 +20,7 @@ func TestValidatePatternAcceptsOrdinaryPatterns(t *testing.T) {
 }
 
 func TestDepthBoundary(t *testing.T) {
-	atLimit := strings.Repeat("a/", MaxDepth) + "b"
+	atLimit := strings.Repeat("a/", MaxDepth-1) + "b"
 	if d := Depth(atLimit); d != MaxDepth {
 		t.Fatalf("Depth = %d, want %d", d, MaxDepth)
 	}
@@ -28,7 +28,7 @@ func TestDepthBoundary(t *testing.T) {
 		t.Errorf("pattern at the limit rejected: %v", err)
 	}
 
-	overLimit := strings.Repeat("a/", MaxDepth+1) + "b"
+	overLimit := strings.Repeat("a/", MaxDepth) + "b"
 	if err := ValidatePattern(overLimit); err == nil {
 		t.Error("pattern past the limit was accepted")
 	}
