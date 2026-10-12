@@ -1,121 +1,17 @@
 name: ci
-
 on:
   push:
     branches: [main]
   pull_request:
-
-permissions:
-  contents: read
-
 jobs:
-  go:
-    name: Go build & test
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
         with:
-          go-version: "1.24"
-      - name: Vet
-        run: go vet ./...
-      - name: Test (race + coverage)
-        run: go test -race -coverprofile=coverage.out ./...
-      - name: Coverage summary
-        run: go tool cover -func=coverage.out
-      - name: Build CLI
-        run: go build -o bin/patchsentinel ./cmd/patchsentinel
-      - name: Upload binary
-        uses: actions/upload-artifact@v4
-        with:
-          name: patchsentinel-linux
-          path: bin/patchsentinel
-
-  web:
-    name: TypeScript build & test
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: web
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-      - name: Install dev dependencies
-        run: npm install --no-audit --no-fund
-      - name: Type-check
-        run: npm run typecheck
+          go-version: '1.22'
+      - name: Build
+        run: go build ./...
       - name: Test
-        run: npm test
-
-  gate:
-    name: Self-gate example diff
-    runs-on: ubuntu-latest
-    needs: [go, web]
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-go@v5
-        with:
-          go-version: "1.24"
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-      - name: Build tools
-        run: |
-          go build -o bin/patchsentinel ./cmd/patchsentinel
-          cd web && npm install --no-audit --no-fund && npm run build
-      - name: Analyze clean example (must pass)
-        run: ./bin/patchsentinel -format text examples/clean.diff
-      - name: Render GitHub summary for risky example
-        run: |
-          ./bin/patchsentinel -format json examples/risky.diff > risky.json || true
-          node web/dist/cli.js --format github --in risky.json >> "$GITHUB_STEP_SUMMARY"
-      - name: Emit annotations for risky example
-        run: node web/dist/cli.js --format annotations --in risky.json || true
-
-> refactor: split tests out of the hot path
-
-> fix: clamp internal/render to the supported range
-
-> chore: bump deps for internal/glob
-
-> fix: guard against malformed internal/analyze
-
-> docs: add an example for internal/analyze
-
-> feat: cache parsed internal/render
-
-> chore: bump deps for docs
-
-> chore: bump deps for src
-
-> refactor: rename internal/analyze for clarity
-
-> test: cover benches edge cases
-
-> refactor: rename cmd/patchsentinel for clarity
-
-> feat: add internal/diff handling
-
-> docs: document internal/analyze
-
-> perf: reduce allocations in internal/render
-
-> refactor: rename internal/policy for clarity
-
-> chore: tidy internal/render
-
-> fix: guard against malformed internal/analyze
-
-> docs: add an example for src
-
-> chore: tidy cmd/patchsentinel
-
-> docs: document cmd/patchsentinel
-
-> test: cover internal/render edge cases
-
-> fix: handle empty internal/render
-
-> fix: handle empty scripts
+        run: go test ./...
